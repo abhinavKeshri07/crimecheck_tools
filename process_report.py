@@ -102,8 +102,7 @@ def process(reportId:str, cin: str):
                     ws_data[f'Q{row}'] = caseDetail['caseStatus']
 
                     try:
-                        # judgementLink = caseDetail['judgementLink']
-                        judgementLink = "http://orders.getupforchange.com/getFile/2c46608990aba9455497b69ef589aa35d7b3800d09db589387465a1f1d2bc29c0ad88131b94c99d4276bcba78c1b9d0539391848a05558377d1d1b9bee497009"
+                        judgementLink = caseDetail['judgementLink']
                         r = requests.get(judgementLink, allow_redirects=True)
                         open(f'{judgement}/{caseDetail["slNo"]}.pdf', "wb").write(r.content)
                     except Exception as e:
