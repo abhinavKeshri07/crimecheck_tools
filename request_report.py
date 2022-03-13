@@ -68,9 +68,9 @@ def report(CIN:str, companyName: str, companyAddress: str):
 if __name__ == '__main__':
     orders = [
         {
-            "cin": "U72200KA2004PTC034093",
-            "companyName": "Attune Consulting India Private Limited",
-            "companyAddress": "No.21, Second Floor Sree Rama Deevena, Ulsoor Road Bangalore Karnataka 560042"
+            "cin": "U40104MH2014PTC259254",
+            "companyName": "ECHANDA URJA PRIVATE LIMITED",
+            "companyAddress": "618, Maker Chambers V Nariman Point Mumbai Mumbai City Maharashtra 400021"
         },
         # {
         #     "cin": "U74999HR2018PTC075474",
