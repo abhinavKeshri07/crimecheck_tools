@@ -60,27 +60,35 @@ def report(CIN:str, companyName: str, companyAddress: str):
                 loaded_memory['reports'] = []
 
         with open(f'{settings.base_data_path}/memory.yml', 'w') as memory:
-            loaded_memory['reports'].append(response_json['requestId']  + " " + CIN)
-            yaml.dump(loaded_memory, memory)
+            if "requestId" in response_json.keys():
+                loaded_memory['reports'].append(response_json['requestId']  + " " + CIN)
+                yaml.dump(loaded_memory, memory)
+            else:
+                print("request failed " + str(response_json) )
 
         json.dump(response_json, response_file, indent=4)
 
 if __name__ == '__main__':
     orders = [
         {
-            "cin": "U40104MH2014PTC259254",
-            "companyName": "ECHANDA URJA PRIVATE LIMITED",
-            "companyAddress": "618, Maker Chambers V Nariman Point Mumbai Mumbai City Maharashtra 400021"
+            "cin": "AAQ-1061",
+            "companyName": "IIPI GLOBAL LLP",
+            "companyAddress": "B18 DLF PHASE I Faridabad Haryana 121003"
         },
         # {
-        #     "cin": "U74999HR2018PTC075474",
-        #     "companyName": "R.J. WAREHOUSING PRIVATE LIMITED",
-        #     "companyAddress": "PLOT NO. 31P SECTOR-38 Gurgaon Haryana 122001"
+        #     "cin": "U36990RJ2022PTC079282",
+        #     "companyName": "ATSPACE INTERNATIONAL PRIVATE LIMITED",
+        #     "companyAddress": "B-165 KAMAL NEHRU NAGAR EXTENSION II JODHPUR Rajasthan 342008"
         # },
         # {
-        #     "cin": "U74999HR2018PTC076202",
-        #     "companyName": "P.R.J. WAREHOUSING PRIVATE LIMITED",
-        #     "companyAddress": "PLOT NO. 31P SECTOR-38 Gurgaon Haryana 122001"
+        #     "cin": "U51909DL2021PTC379420",
+        #     "companyName": "GENIEMODE GLOBAL PRIVATE LIMITED",
+        #     "companyAddress": "C-2/83, Himalayan CGHS Sec-22,Plot No.10 Dwarka, Opposite Police Station, Delhi New Delhi 110077"
+        # },
+        # {
+        #     "cin": "U72200TG2005PTC047831",
+        #     "companyName": "DATUM CYBERTECH INDIA PRIVATE LIMITED",
+        #     "companyAddress": "Flat No. 203 to 206, 1st Floor, KTC illumination, Image Hospital Lane, Madhapur. Hyderabad Telangana 500081"
         # }
     ]
     for order in orders :
