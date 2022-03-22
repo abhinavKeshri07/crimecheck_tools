@@ -72,9 +72,9 @@ def report(CIN:str, companyName: str, companyAddress: str):
 if __name__ == '__main__':
     orders = [
         # {
-        #     "cin": "U51909TG2019PTC134010",
-        #     "companyName": "TRUE BLUE ASSET SERVICES PRIVATE LIMITED",
-        #     "companyAddress": "GNR RV INSIGNIA, PLOT NO. 28 29 30 SILICON VALLEY LAYOUT, MADHAPUR Hyderabad Telangana 500034"
+        #     "cin": "L92199MH1999PLC353754",
+        #     "companyName": "INOX LEISURE LIMITED",
+        #     "companyAddress": "5th Floor, Viraj Towers, Next to Andheri Flyover, Western Express Highway, Andheri (East) Mumbai City Maharashtra 400093"
         # },
         # {
         #     "cin": "U50404TG2020PTC141082",

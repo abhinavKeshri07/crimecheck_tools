@@ -26,12 +26,15 @@ def process(reportId:str, cin: str):
         base_path = f'{settings.base_data_path}/output/{cin}_{reportId}'
         caseDetailDir = f'{base_path}/caseDetail'
         judgement = f'{base_path}/judgement'
+        caseFlow  = f'{base_path}/caseFlow'
         if( not os.path.exists(base_path)):
             os.makedirs(base_path)
         if(not os.path.exists(caseDetailDir)):
             os.makedirs(caseDetailDir)
         if(not os.path.exists(judgement)):
             os.makedirs(judgement)
+        if(not os.path.exists(caseFlow)):
+            os.makedirs(caseFlow)
 
 
         with open(json_path) as report:
@@ -109,6 +112,23 @@ def process(reportId:str, cin: str):
                         print(e)
                         pass
 
+                    caseFlows = caseDetail['caseFlow']
+                    if len(caseFlows) > 0:
+                        caseflow_dir = f'{caseFlow}/{caseDetail["slNo"]}'
+                        if (not os.path.exists(caseflow_dir)):
+                            os.makedirs(caseflow_dir)
+                        caseflow_file_no = 1
+                        for caseflow in caseFlows:
+                            orderLink = caseflow['orderLink']
+                            try:
+                                r = requests.get(orderLink, allow_redirects=True)
+                                open(f'{caseflow_dir}/{caseflow_file_no}_{caseflow["gfc_OrderType"]}_{caseflow["orderDate"]}.pdf', "wb").write(r.content)
+                            except Exception as e:
+                                print(e)
+                                pass
+                            print(caseflow)
+                            caseflow_file_no = caseflow_file_no + 1
+                        pass
 
                     ws_data[f"R{row}"] = caseDetail['firLink']
                     ws_data[f"S{row}"] = caseDetail['caseLink']
@@ -144,7 +164,7 @@ def process(reportId:str, cin: str):
     print("done", reportId, cin)
     pass
 
-# /Volumes/samsung_usb/code_data/chrimecheck/1643556523684.json
+# /Volumes/samsung_usb/code_data/chrimecheck/1647849476843.json
 
 
 if __name__ == "__main__":
@@ -155,6 +175,7 @@ if __name__ == "__main__":
             report_id, cin = entry.split(' ')
             print(report_id, cin)
             process(report_id, cin)
+            # process("1647849476843", "U45400MH2011PTC222160")
 
 
 
