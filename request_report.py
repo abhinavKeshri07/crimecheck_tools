@@ -3,6 +3,7 @@ from config.environment import settings
 import requests
 import yaml
 import os
+import time
 import urllib.parse
 api_key = settings.crimecheck_api_key
 
@@ -70,29 +71,35 @@ def report(CIN:str, companyName: str, companyAddress: str):
 
 if __name__ == '__main__':
     orders = [
-        {
-            "cin": "AAQ-1061",
-            "companyName": "IIPI GLOBAL LLP",
-            "companyAddress": "B18 DLF PHASE I Faridabad Haryana 121003"
-        },
         # {
-        #     "cin": "U36990RJ2022PTC079282",
-        #     "companyName": "ATSPACE INTERNATIONAL PRIVATE LIMITED",
-        #     "companyAddress": "B-165 KAMAL NEHRU NAGAR EXTENSION II JODHPUR Rajasthan 342008"
+        #     "cin": "U51909TG2019PTC134010",
+        #     "companyName": "TRUE BLUE ASSET SERVICES PRIVATE LIMITED",
+        #     "companyAddress": "GNR RV INSIGNIA, PLOT NO. 28 29 30 SILICON VALLEY LAYOUT, MADHAPUR Hyderabad Telangana 500034"
         # },
         # {
-        #     "cin": "U51909DL2021PTC379420",
-        #     "companyName": "GENIEMODE GLOBAL PRIVATE LIMITED",
-        #     "companyAddress": "C-2/83, Himalayan CGHS Sec-22,Plot No.10 Dwarka, Opposite Police Station, Delhi New Delhi 110077"
+        #     "cin": "U50404TG2020PTC141082",
+        #     "companyName": "TRUE BLUE M2M PRIVATE LIMITED",
+        #     "companyAddress": "GNR RV INSIGNIA, PLOT NO. 28 29 30 SILICON VALLEY LAYOUT, MADHAPUR Hyderabad Telangana 500034"
         # },
         # {
-        #     "cin": "U72200TG2005PTC047831",
-        #     "companyName": "DATUM CYBERTECH INDIA PRIVATE LIMITED",
-        #     "companyAddress": "Flat No. 203 to 206, 1st Floor, KTC illumination, Image Hospital Lane, Madhapur. Hyderabad Telangana 500081"
+        #     "cin": "U51909TG2021PTC153617",
+        #     "companyName": "HORNBILLE MACHINES AND RENTALS PRIVATE LIMITED",
+        #     "companyAddress": "PLOT NO 28 29 30, GNR RV INSIGNIA SILICON VALLEY LAYOUT,MADHAPUR Hyderabad Telangana 500034"
+        # },
+        # {
+        #     "cin": "U74999MH2015PTC266456",
+        #     "companyName": "FLIPSPACES TECHNOLOGY LABS PRIVATE LIMITED",
+        #     "companyAddress": "Unit Nos. 801B, 801C and 802A, 8th Floor, Eureka Tower,Mindspace , Link Road, Malad (West), Mumbai City Maharashtra 400064"
+        # },
+        # {
+        #     "cin": "U45400MH2011PTC222160",
+        #     "companyName": "GLOOB INTERIOR DESIGN PRIVATE LIMITED",
+        #     "companyAddress": "Unit Nos. 801B, 801C and 802A, 8th Floor, Eureka Tower,Mindspace , Link Road, Malad (West), Mumbai City Maharashtra 400064"
         # }
     ]
     for order in orders :
         report(order['cin'], order['companyName'], order['companyAddress'])
+        time.sleep(2)
 
 
 
