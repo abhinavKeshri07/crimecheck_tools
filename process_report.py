@@ -7,6 +7,8 @@ from aws.download_json import download_all_jsons
 import yaml
 import os
 import re
+ILLEGAL_CHARACTERS_RE = re.compile(r'[\000-\010]|[\013-\014]|[\016-\037]|[\x00-\x1f\x7f-\x9f]|[\uffff]')
+import re
 import openpyxl
 from openpyxl import  Workbook
 
@@ -88,7 +90,8 @@ def process(reportId:str, cin: str):
                 for caseDetail in load['caseDetails']:
                     ws_data[f'A{row}'] = caseDetail['slNo']
                     ws_data[f'B{row}'] = caseDetail['petitioner']
-                    ws_data[f"C{row}"] = caseDetail['respondent']
+                    ws_data[f'C{row}'] = ILLEGAL_CHARACTERS_RE.sub("", caseDetail['respondent'])
+                    # ws_data[f"C{row}"] = caseDetail['respondent'].encode("ascii",errors="ignore")
                     ws_data[f"D{row}"] = caseDetail['caseTypeName']
                     ws_data[f"E{row}"] = caseDetail['hearingDate']
                     ws_data[f"F{row}"] = caseDetail['courtNumberAndJudge']

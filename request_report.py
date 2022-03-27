@@ -72,14 +72,14 @@ def report(CIN:str, companyName: str, companyAddress: str):
 if __name__ == '__main__':
     orders = [
         # {
-        #     "cin": "L92199MH1999PLC353754",
-        #     "companyName": "INOX LEISURE LIMITED",
-        #     "companyAddress": "5th Floor, Viraj Towers, Next to Andheri Flyover, Western Express Highway, Andheri (East) Mumbai City Maharashtra 400093"
+        #     "cin": "U70100DL2001PTC166343",
+        #     "companyName": "LOGIX SOFT-TEL PRIVATE LIMITED",
+        #     "companyAddress": "DGL006, Ground Floor, DLF Galleria, Mayur Vihar, Phase-I New Delhi East Delhi 110091"
         # },
         # {
-        #     "cin": "U50404TG2020PTC141082",
-        #     "companyName": "TRUE BLUE M2M PRIVATE LIMITED",
-        #     "companyAddress": "GNR RV INSIGNIA, PLOT NO. 28 29 30 SILICON VALLEY LAYOUT, MADHAPUR Hyderabad Telangana 500034"
+        #     "cin": "U45400DL2002PTC114401",
+        #     "companyName": "IT ENFRASERVICES PRIVATE LIMITED",
+        #     "companyAddress": "DGL006, Ground Floor, DLF Galleria, Mayur Vihar, Phase-I New Delhi East Delhi 110091"
         # },
         # {
         #     "cin": "U51909TG2021PTC153617",
