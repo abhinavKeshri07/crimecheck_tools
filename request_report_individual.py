@@ -14,13 +14,16 @@ def request_report(query: dict) -> str:
         'content-type': 'application/x-www-form-urlencoded',
     }
 
-
-
-
     data = [
-        ('searchTearm', json.dumps(query)),
+        # ('searchTearm', json.dumps(query)),
+        ('name', query['name']),
+        ('fatherName', query['fatherName']),
+        ('address', query['address']),
+        ('panNumber', query['panNumber']),
+        ('apiKey', api_key),
+        ('callbackUrl', settings.callback_url) # this field is necessary for making callback
     ]
-    response = requests.post('https://crime.getupforchange.com/api/v3/records', headers=headers, data=data,auth=(api_key, ''))
+    response = requests.post('https://crime.getupforchange.com/api/v3/addReport', headers=headers, data=data,auth=(api_key, ''))
     print(response.status_code)
     return response.text
 
@@ -54,17 +57,20 @@ if __name__ == '__main__':
         {
             "name" : "Mayank Chawla",
             "fatherName" : "Rakesh Chawla",
-            "address" : "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034"
+            "address" : "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034",
+            "panNumber": "AFLPC2604L"
         },
         {
             "name" : "Rakesh Chawla",
             "fatherName": "Chaman Lal Chawla",
-            "address" : "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034"
+            "address" : "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034",
+            "panNumber": "AAFPC2698R"
         },
         {
             "name": "Anshu Nagpal",
             "fatherName" : "Kundal Lal",
-            "address" : "Mal Godam Road Moh - Shivpuri, Gajraula Dhanaura Amroha Uttar Pradesh 244235"
+            "address" : "Mal Godam Road Moh - Shivpuri, Gajraula Dhanaura Amroha Uttar Pradesh 244235",
+            "panNumber": "ABWPN2686E"
         }
     ]
     for order in orders :

@@ -154,7 +154,7 @@ def process(reportId:str, cin: str):
                         r = requests.post("http://127.0.0.1:8050/render.html",json={"url": caseDetailLink})
                         open(f'{caseDetailDir}/{caseDetail["slNo"]}.html', "wb").write(r.content)
                     except Exception as e:
-                        traceback.print_exec()
+                        traceback.print_exc()
                         pass
 
                     row = row +1
@@ -171,14 +171,43 @@ def process(reportId:str, cin: str):
 
 
 if __name__ == "__main__":
-    download_all_jsons()
+    # download_all_jsons()
     with open(f'{settings.base_data_path}/memory.yml', 'r') as memory:
         loaded_memory = yaml.safe_load(memory)
         for entry in loaded_memory['reports']:
             report_id, cin = entry.split(' ')
+            # try to fetch the report from crimecheck json report
+            # https://crime.getupforchange.com/api/v3/downloadJsonReport/1660197639671/AltInfo(Fintech)-sandbox-d2sCP
+            filename = report_id + ".json"
+            path = f"{settings.base_data_path}/chrimecheck"
+            if not os.path.isdir(path):
+                os.makedirs(path)
+            if not os.path.isfile(f'{path}/{filename}'):
+                url = f"https://crime.getupforchange.com/api/v3/downloadJsonReport/{report_id}/{settings.crimecheck_api_key}"
+                resp = requests.get(url)
+                if resp.status_code == 200:
+
+                    with open(f'{path}/{filename}', 'wb') as file_to_wirte:
+                        file_to_wirte.write(resp.content)
+
+
             print(report_id, cin)
             process(report_id, cin)
             # process("1647849476843", "U45400MH2011PTC222160")
+
+    with open(f'{settings.base_data_path}/memory_individual.yml', 'r') as memory:
+        loaded_memory = yaml.safe_load(memory)
+        for entry in loaded_memory['reports']:
+            # report_id, cin = entry.split(' ')
+            all = entry.split(' ')
+            report_id = all[0]
+            name = ""
+            for part_name in all[1:]:
+                name = name + part_name + "_"
+            name = name[0:-1]
+
+            print(report_id, name)
+            process(report_id, name)
 
 
 

@@ -35,7 +35,8 @@ def request_report(cin: str, companyName: str, compAddress: str, directors: list
         ('companyName', companyName),
         ('cinNumber', cin),
         ('callbackUrl',settings.callback_url),
-        ('companyAddress', compAddress)
+        ('companyAddress', compAddress),
+        ('apiKey', api_key)
     ]
     if directors:
         data.append(('directors', json.dumps(directors)))
@@ -110,15 +111,15 @@ if __name__ == '__main__':
         #     ]
         # },
         {
-            "cin": "L26940MH1936PLC002515",
-            "companyName": "ACC LIMITED",
-            "companyAddress": "CEMENT HOUSE 121MAHARSHI KARVE ROAD MUMBAI Maharashtra"
+            "cin": "U45200TG2019PTC133530",
+            "companyName": "PHOENIX IT HUB PRIVATE LIMITED",
+            "companyAddress": "Unit No.201 & 202, 2nd Floor, YS Viveka Enclave, Plot No.21-23, Survey Number 1, Khajaguda, Hyderabad Telangana 500032"
         },
-        {
-            "cin": "L26942GJ1981PLC004717",
-            "companyName": "AMBUJA CEMENTS LIMITED",
-            "companyAddress": "P O AMBUJA NAGAR, TALUKA KODINAR, AMRELI, DIST JUNAGADH Gujarat 362715"
-        },
+        # {
+        #     "cin": "L26942GJ1981PLC004717",
+        #     "companyName": "AMBUJA CEMENTS LIMITED",
+        #     "companyAddress": "P O AMBUJA NAGAR, TALUKA KODINAR, AMRELI, DIST JUNAGADH Gujarat 362715"
+        # },
         # {
         #     "cin": "U74999MH2015PTC266456",
         #     "companyName": "FLIPSPACES TECHNOLOGY LABS PRIVATE LIMITED",
@@ -134,7 +135,7 @@ if __name__ == '__main__':
         report(cin=order['cin'],
                companyName=order['companyName'],
                companyAddress=order['companyAddress'],
-               directors=None)
+               directors=order['directors'] if 'directors' in order.keys() else None)
         time.sleep(2)
 
 
