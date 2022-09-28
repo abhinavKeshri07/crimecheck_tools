@@ -111,9 +111,9 @@ if __name__ == '__main__':
         #     ]
         # },
         {
-            "cin": "U45200TG2019PTC133530",
-            "companyName": "PHOENIX IT HUB PRIVATE LIMITED",
-            "companyAddress": "Unit No.201 & 202, 2nd Floor, YS Viveka Enclave, Plot No.21-23, Survey Number 1, Khajaguda, Hyderabad Telangana 500032"
+            "cin": "U00500MH2005PTC281177",
+            "companyName": "CANDOR GURGAON ONE REALTY PROJECTS PRIVATE LIMITED",
+            "companyAddress": "F-83, Profit Centre, Gate No 1 Mahavir Ngr, Nr Pizza Hut, Kandivali (W) Mumbai City Maharashtra 400067"
         },
         # {
         #     "cin": "L26942GJ1981PLC004717",

@@ -185,6 +185,7 @@ if __name__ == "__main__":
             if not os.path.isfile(f'{path}/{filename}'):
                 url = f"https://crime.getupforchange.com/api/v3/downloadJsonReport/{report_id}/{settings.crimecheck_api_key}"
                 resp = requests.get(url)
+                print(resp)
                 if resp.status_code == 200:
 
                     with open(f'{path}/{filename}', 'wb') as file_to_wirte:
