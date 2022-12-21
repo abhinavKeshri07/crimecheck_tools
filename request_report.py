@@ -43,6 +43,7 @@ def request_report(cin: str, companyName: str, compAddress: str, directors: list
     # url_encoded_query = "searchTerm=" + urllib.parse.quote_plus(json.dumps(data2))+"&page=1&resultsPerPage=100&matchFlag=true&matchingCriteria=true&callbackUrl=http://api.altinfo.com/api/callback/crimecheck"
     response = requests.post('https://crime.getupforchange.com/api/v3/addReport', headers=headers, data=data,auth=(api_key, ''))
     print(response.status_code)
+    print(response.text)
     return response.text
 
 
@@ -71,7 +72,7 @@ def report(cin:str, companyName: str, companyAddress: str, directors: list = Non
             else:
                 print("request failed " + str(response_json) )
 
-        json.dump(response_json, response_file, indent=4)
+        json.dump(response_json, response_file, indent=2)
 
 if __name__ == '__main__':
     orders = [
@@ -111,9 +112,9 @@ if __name__ == '__main__':
         #     ]
         # },
         {
-            "cin": "U00500MH2005PTC281177",
-            "companyName": "CANDOR GURGAON ONE REALTY PROJECTS PRIVATE LIMITED",
-            "companyAddress": "F-83, Profit Centre, Gate No 1 Mahavir Ngr, Nr Pizza Hut, Kandivali (W) Mumbai City Maharashtra 400067"
+            "cin": "U74999MH1999PTC118476",
+            "companyName": "INTERNATIONAL GEMMOLOGICAL INSTITUTE (INDIA) PRIVATE LIMITED",
+            "companyAddress": "702, 7th Floor, The Capital Bandra Kurla Complex, Bandra (E) Mumbai City Maharashtra 400051"
         },
         # {
         #     "cin": "L26942GJ1981PLC004717",
