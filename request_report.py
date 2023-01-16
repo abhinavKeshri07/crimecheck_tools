@@ -112,25 +112,25 @@ if __name__ == '__main__':
         #     ]
         # },
         {
-            "cin": "U74999MH1999PTC118476",
-            "companyName": "INTERNATIONAL GEMMOLOGICAL INSTITUTE (INDIA) PRIVATE LIMITED",
-            "companyAddress": "702, 7th Floor, The Capital Bandra Kurla Complex, Bandra (E) Mumbai City Maharashtra 400051"
+            "cin": "U45200TN2009PTC071311",
+            "companyName": "FUTURA TECH PARK PRIVATE LIMITED",
+            "companyAddress": "334, Old Mahabalipuram Road, Sholingallanur Chennai Tamil Nadu 600119"
         },
-        # {
-        #     "cin": "L26942GJ1981PLC004717",
-        #     "companyName": "AMBUJA CEMENTS LIMITED",
-        #     "companyAddress": "P O AMBUJA NAGAR, TALUKA KODINAR, AMRELI, DIST JUNAGADH Gujarat 362715"
-        # },
-        # {
-        #     "cin": "U74999MH2015PTC266456",
-        #     "companyName": "FLIPSPACES TECHNOLOGY LABS PRIVATE LIMITED",
-        #     "companyAddress": "Unit Nos. 801B, 801C and 802A, 8th Floor, Eureka Tower,Mindspace , Link Road, Malad (West), Mumbai City Maharashtra 400064"
-        # },
-        # {
-        #     "cin": "U45200MH1982PTC028164",
-        #     "companyName": "GLOOB INTERIOR DESIGN PRIVATE LIMITED",
-        #     "companyAddress": "Unit Nos. 801B, 801C and 802A, 8th Floor, Eureka Tower,Mindspace , Link Road, Malad (West), Mumbai City Maharashtra 400064"
-        # }
+        {
+            "cin": "U70200DL2017PTC314477",
+            "companyName": "ELEANOR REALTY HOLDINGS INDIA PRIVATE LIMITED",
+            "companyAddress": "Flat No-588,Pocket -4,Sector-11, Dwarka New Delhi South West Delhi Delhi 110075"
+        },
+        {
+            "cin": "U70200MH2007PTC167590",
+            "companyName": "NV PROJECTS PRIVATE LIMITED",
+            "companyAddress": "GR/lst/FLR PRIM SAGAR CHSL, SAHANA ENCLAVE, PLOT 333/334, 21st ROAD BANDRA (W), MUMBAI Mumbai City Maharashtra 400050"
+        },
+        {
+            "cin": "U70200DL2011PTC228109",
+            "companyName": "NOIDA TOWERS PRIVATE LIMITED",
+            "companyAddress": "Flat No-588,Pocket -4,Sector-l 1, Dwarka New Delhi South West Delhi Delhi 110075"
+        }
     ]
     for order in orders :
         report(cin=order['cin'],
