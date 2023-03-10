@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Metropolitan Magistrate, Vile Parle, Mumbai, Maharashtra</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: Ss casess</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: </td><td>Filing Date</td><td class="dFilingDate">: </td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: </td><td>Registration Date</td><td class="dRegistrationDate">: </td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: MHMM250059882016</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: </td><td></td><td></td></tr><tr><td>Case Status </td><td class="dcaseStatusFromStage3">: Disposed</td><td></td><td></td></tr><tr><td>Nature of Disposal</td><td class="dnatureOfDisposal">: Uncontested--DISMISSED</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: </td><td></td><td></td></tr><tr class="ddecisionDateTr"><td class="dDecisionDateHeader">Decision Date</td><td class="ddecisionDate">: 23rd August 2017</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.<br><span style="margin-left:10px">MUMBAI</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORS<br><span style="margin-left:10px">1/3, SEEPZ ANDHERI EAST</span><br>2) MANECK MISTRY<br><span style="margin-left:10px">1/3, SEEPZ ANDHERI EAST</span><br>3) SHWETA DEVRUKHKAR<br><span style="margin-left:10px">1/3, SEEPZ ANDHERI EAST</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">&nbsp;Mumbai municipal corporation Act</td><td class="undersection"></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">FIR Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>Police Station</td><td class="dfirPoliceStation">: </td><td></td><td></td></tr><tr><td>FIR Number </td><td class="dfirNumber">: </td><td></td><td></td></tr><tr><td>Year</td><td class="dfirYear">: 2016</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2016","bench":"","crawledDate":"2022-03-15T18:30:31.000Z","judgementDate":"","judgementDescription":"","caseFlow":"","original_caseFlow":"[[],[3907111/2016,Metropolitan Magistrate, 39th Court,01-06-2016,10-08-2016,NOT HEARD CASES],[3907111/2016,Metropolitan Magistrate, 39th Court,10-08-2016,08-10-2016,NOT HEARD CASES],[3907111/2016,Metropolitan Magistrate, 39th Court,08-10-2016,12-11-2016,NOT HEARD CASES],[3907111/2016,Metropolitan Magistrate, 39th Court,12-11-2016,08-02-2017,NOT HEARD CASES],[3907111/2016,Metropolitan Magistrate, 39th Court,08-02-2017,31-05-2017,NOT HEARD CASES],[3907111/2016,Metropolitan Magistrate, 39th Court,31-05-2017,23-08-2017,NOT HEARD CASES]]","orderFlow":"","petitioner":"MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.","stateCode":"1","distCode":"23","courtNumber":"16","regNumber":"","filingNumber":"","filingDate":"","hearingDate":"","courtNumberAndJudge":"","score":36.035233,"id":"17821080","respondent":"M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORS","caseName":"Ss casess/3907111/2016","caseTypeName":"Ss casess","caseTypeNumber":"3","courtName":"Metropolitan Magistrate, Vile Parle, Mumbai","caseStatus":"Disposed","caseNo":"200339071112016","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Maharashtra","courtType":"District Court","district":"Mumbai Cmm Courts","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"18th June 2022","cinNumber":"MHMM250059882016","caseRegDate":"","petitionerAddress":"1) MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.    Address  - MUMBAI","respondentAddress":"1) M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORS    Address - 1/3, SEEPZ ANDHERI EAST2)  MANECK MISTRY    1/3, SEEPZ ANDHERI EAST        3)  SHWETA DEVRUKHKAR    1/3, SEEPZ ANDHERI EAST","underAct":" Mumbai municipal corporation Act","underSection":"","natureOfDisposal":"","elasticId":"17821080","gfc_respondents":[{"name":"M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORS","address":"1/3, SEEPZ ANDHERI EAST"},{"name":"MANECK MISTRY","address":"1/3, SEEPZ ANDHERI EAST"},{"name":"SHWETA DEVRUKHKAR","address":"1/3, SEEPZ ANDHERI EAST"}],"gfc_petitioners":[{"name":"MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.","address":"MUMBAI"}],"gfc_uniqueid":"DC_1_23_16_3_200339071112016_MHMM250059882016_2016","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=6e9076c6767d5b715eaf8e3db43c1314c2f3b866deab77d7633ae8179cf393803a51337eb2e81cf9d054f9ce80b75a7ecd57f27dce70b7fb17349bbf7464effb","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Criminal","position":1,"caseStatusFromStage3":"Disposed","natureOfDisposalFromStage3":"Uncontested--DISMISSED","decisionDate":"23rd August 2017","matchingAddressRespondent":"1) <strong>Name: </strong>M/S <em>INTERNATIONAL</em> <em>GEMMOLOGICAL</em> <em>INSTITUTE</em> <em>INDIA</em> <em>PVT</em> <em>LTD</em> AND 2 ORS<br><strong>Address: </strong>1/3, SEEPZ ANDHERI EAST<br>----------------------------<br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var caseStatusFromStage3 = result.caseStatusFromStage3 || result.caseStatus;
+	if(caseStatusFromStage3 == null || caseStatusFromStage3 == 'undefined'){
+		caseStatusFromStage3 = '';
+	}
+	var natureOfDisposal = result.natureOfDisposalFromStage3 || result.natureOfDisposal;
+	if(natureOfDisposal == null || natureOfDisposal == 'undefined'){
+		natureOfDisposal = '';
+	}
+	var firPoliceStation = result.firPoliceStationFromStage3 || result.policestation;
+	if(firPoliceStation == null || firPoliceStation == 'undefined'){
+		firPoliceStation = '';
+	}
+	var firNumber = result.firNumberFromStage3 || result.firnumber;
+	if(firNumber == null || firNumber == 'undefined'){
+		firNumber = '';
+	}
+	var firYear = result.firYearFromStage3 || result.year;
+	if(firYear == null || firYear == 'undefined'){
+		firYear = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcaseStatusFromStage3').empty().append(': '+caseStatusFromStage3);
+	$('.dnatureOfDisposal').empty().append(': '+natureOfDisposal);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	if (result.decisionDate) {
+		$('.ddecisionDate').text(': '+ result.decisionDate);
+	} else if (result.dismissedDate) {
+		$('.ddecisionDate').text(': '+ result.dismissedDate);
+		$('.dDecisionDateHeader').text('Dismissed Date');
+	} else {
+		$('.ddecisionDateTr').hide();
+	}
+	$('.dfirPoliceStation').empty().append(': '+ firPoliceStation);
+	$('.dfirNumber').empty().append(': '+ firNumber);
+	$('.dfirYear').empty().append(': '+ firYear);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681110631637,
+  "requestTime": "15/12/2022 02:41 pm",
+  "responseTime": "15/12/2022 02:42 pm",
+  "searchTerm": [
+    {
+      "companyName": "EMINE REALTY PRIVATE LIMITED",
+      "cinnumber": "U70109MH2022PTC380733",
+      "address": "Kamalistan, Mahakali Caves Road End, Andheri East, Mumbai Mumbai City Maharashtra 400058"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681110631637/69c71f277d5f19914bf91c6b1fe09127",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

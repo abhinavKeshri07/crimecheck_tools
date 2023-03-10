@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": "1665199692172",
+  "requestTime": "08/10/2022 08:58 am",
+  "responseTime": "08/10/2022 09:00 am",
+  "searchTerm": [
+    {
+      "companyName": "HGP Knowledge Private Limited",
+      "cinNumber": "U70100MH2016PTC274219",
+      "address": "401&402, 4th floor, Delphi A, Orchard Avenue Powai Mumbai City Maharashtra 400076"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1665199692172/594eb7051f6f735c191696f90f839bd4",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 21 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

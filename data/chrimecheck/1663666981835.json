@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": "1663666981835",
+  "requestTime": "20/09/2022 03:13 pm",
+  "responseTime": "20/09/2022 03:14 pm",
+  "searchTerm": [
+    {
+      "companyName": "PHOENIX IT HUB PRIVATE LIMITED",
+      "cinNumber": "U45200TG2019PTC133530",
+      "address": "Unit No.201 & 202, 2nd Floor, YS Viveka Enclave, Plot No.21-23, Survey Number 1, Khajaguda, Hyderabad Telangana 500032"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1663666981835/85cc7a55436219c40bed6f8b0713fdd5",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 21 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

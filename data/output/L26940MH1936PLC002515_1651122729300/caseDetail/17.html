@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Industrial Court, Mumbai, Maharashtra</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: Complaint ULP1</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 5000138/2008</td><td>Filing Date</td><td class="dFilingDate">: 28-03-2008</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 5000138/2008</td><td>Registration Date</td><td class="dRegistrationDate">: 28-03-2008</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: MHIC010003182008</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 12th November 2010</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: &nbsp;6-Member</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) The Associated Cement Staff Union<br><span style="margin-left:10px">Mumbai</span><br><br><b>Per Order / Judgement</b><br>1) Mumbai <br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) ACC Ltd.,<br><span style="margin-left:10px">Mumbai</span><br><br><b> Per Order / Judgement</b><br>1) 2 Sumit Banerjee, Managing Director,<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971</td><td class="undersection">U/s 28</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">12-11-2010</td><td <span="" style="text-align:center">14-12-2010</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">14-12-2010</td><td <span="" style="text-align:center">20-01-2011</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">20-01-2011</td><td <span="" style="text-align:center">24-02-2011</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">24-02-2011</td><td <span="" style="text-align:center">01-04-2011</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">01-04-2011</td><td <span="" style="text-align:center">05-05-2011</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">05-05-2011</td><td <span="" style="text-align:center">11-07-2011</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">11-07-2011</td><td <span="" style="text-align:center">12-08-2011</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">12-08-2011</td><td <span="" style="text-align:center">02-09-2011</td><td <span="" style="text-align:center">Say</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">02-09-2011</td><td <span="" style="text-align:center">16-09-2011</td><td <span="" style="text-align:center">Say</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">16-09-2011</td><td <span="" style="text-align:center">04-10-2011</td><td <span="" style="text-align:center">Say</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">04-10-2011</td><td <span="" style="text-align:center">11-11-2011</td><td <span="" style="text-align:center">Say</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">11-11-2011</td><td <span="" style="text-align:center">24-11-2011</td><td <span="" style="text-align:center">Amendement</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">24-11-2011</td><td <span="" style="text-align:center">06-01-2012</td><td <span="" style="text-align:center">Amendement</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">06-01-2012</td><td <span="" style="text-align:center">07-01-2012</td><td <span="" style="text-align:center">Amendement</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">07-01-2012</td><td <span="" style="text-align:center">17-01-2012</td><td <span="" style="text-align:center">Amendement</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">17-01-2012</td><td <span="" style="text-align:center">14-02-2012</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">14-02-2012</td><td <span="" style="text-align:center">13-03-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">13-03-2012</td><td <span="" style="text-align:center">19-04-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">19-04-2012</td><td <span="" style="text-align:center">26-06-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">26-06-2012</td><td <span="" style="text-align:center">07-08-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">07-08-2012</td><td <span="" style="text-align:center">13-09-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">13-09-2012</td><td <span="" style="text-align:center">04-10-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">04-10-2012</td><td <span="" style="text-align:center">23-10-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">23-10-2012</td><td <span="" style="text-align:center">22-11-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">22-11-2012</td><td <span="" style="text-align:center">07-12-2012</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">07-12-2012</td><td <span="" style="text-align:center">03-01-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">03-01-2013</td><td <span="" style="text-align:center">29-01-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">29-01-2013</td><td <span="" style="text-align:center">21-02-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">21-02-2013</td><td <span="" style="text-align:center">14-03-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">14-03-2013</td><td <span="" style="text-align:center">04-04-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">04-04-2013</td><td <span="" style="text-align:center">09-04-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">09-04-2013</td><td <span="" style="text-align:center">13-06-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">13-06-2013</td><td <span="" style="text-align:center">28-06-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">28-06-2013</td><td <span="" style="text-align:center">16-07-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">16-07-2013</td><td <span="" style="text-align:center">08-08-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">08-08-2013</td><td <span="" style="text-align:center">17-09-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">17-09-2013</td><td <span="" style="text-align:center">07-11-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">07-11-2013</td><td <span="" style="text-align:center">18-11-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">18-11-2013</td><td <span="" style="text-align:center">28-11-2013</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">28-11-2013</td><td <span="" style="text-align:center">19-12-2013</td><td <span="" style="text-align:center">Cross Examination</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">19-12-2013</td><td <span="" style="text-align:center">23-01-2014</td><td <span="" style="text-align:center">Cross Examination</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">23-01-2014</td><td <span="" style="text-align:center">30-01-2014</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">30-01-2014</td><td <span="" style="text-align:center">11-02-2014</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">11-02-2014</td><td <span="" style="text-align:center">06-03-2014</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">06-03-2014</td><td <span="" style="text-align:center">25-03-2014</td><td <span="" style="text-align:center">Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">25-03-2014</td><td <span="" style="text-align:center">16-04-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">16-04-2014</td><td <span="" style="text-align:center">10-06-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">10-06-2014</td><td <span="" style="text-align:center">26-06-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">26-06-2014</td><td <span="" style="text-align:center">24-07-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">24-07-2014</td><td <span="" style="text-align:center">25-08-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">25-08-2014</td><td <span="" style="text-align:center">02-09-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">02-09-2014</td><td <span="" style="text-align:center">22-09-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">22-09-2014</td><td <span="" style="text-align:center">10-10-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">10-10-2014</td><td <span="" style="text-align:center">03-11-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">03-11-2014</td><td <span="" style="text-align:center">17-11-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">17-11-2014</td><td <span="" style="text-align:center">25-11-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">25-11-2014</td><td <span="" style="text-align:center">08-12-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">08-12-2014</td><td <span="" style="text-align:center">09-12-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">09-12-2014</td><td <span="" style="text-align:center">15-12-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">15-12-2014</td><td <span="" style="text-align:center">23-12-2014</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">23-12-2014</td><td <span="" style="text-align:center">20-01-2015</td><td <span="" style="text-align:center">Respondent Evidence</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">20-01-2015</td><td <span="" style="text-align:center">29-01-2015</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">29-01-2015</td><td <span="" style="text-align:center">03-02-2015</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5000138/2008</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">03-02-2015</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":2,"page":1,"resultsPerPage":10,"details":[{"year":"2008","bench":"","crawledDate":"2018-06-10T00:06:47.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"Copy of Judgment","gfc_OrderType":"Judgement","orderDate":"03-02-2015","orderLink":"http://orders.getupforchange.com/getFile/22ed06ed8f10ad5710e57ff438d0eaa983cc30f94091effa69d083978a9ce60d415fc05c16e5166d337423a105fbf33d2b4799f383b76c91574738d9b15be0c7","elastic_id":"x6f-onoBGJuRUP3q5xvd","index":"co11_dc_mh_all"}],"original_caseFlow":"[[],[5000138/2008,I.C.MEMBER,12-11-2010,14-12-2010,Documents  Issues],[5000138/2008,I.C.MEMBER,14-12-2010,20-01-2011,Documents  Issues],[5000138/2008,I.C.MEMBER,20-01-2011,24-02-2011,Documents  Issues],[5000138/2008,I.C.MEMBER,24-02-2011,01-04-2011,Documents  Issues],[5000138/2008,I.C.MEMBER,01-04-2011,05-05-2011,Documents  Issues],[5000138/2008,I.C.MEMBER,05-05-2011,11-07-2011,Documents  Issues],[5000138/2008,I.C.MEMBER,11-07-2011,12-08-2011,Documents  Issues],[5000138/2008,I.C.MEMBER,12-08-2011,02-09-2011,Say],[5000138/2008,I.C.MEMBER,02-09-2011,16-09-2011,Say],[5000138/2008,,16-09-2011,04-10-2011,Say],[5000138/2008,I.C.MEMBER,04-10-2011,11-11-2011,Say],[5000138/2008,I.C.MEMBER,11-11-2011,24-11-2011,Amendement],[5000138/2008,,24-11-2011,06-01-2012,Amendement],[5000138/2008,,06-01-2012,07-01-2012,Amendement],[5000138/2008,,07-01-2012,17-01-2012,Amendement],[5000138/2008,,17-01-2012,14-02-2012,Reply],[5000138/2008,,14-02-2012,13-03-2012,Evidence],[5000138/2008,,13-03-2012,19-04-2012,Evidence],[5000138/2008,I.C.MEMBER,19-04-2012,26-06-2012,Evidence],[5000138/2008,I.C.MEMBER,26-06-2012,07-08-2012,Evidence],[5000138/2008,I.C.MEMBER,07-08-2012,13-09-2012,Evidence],[5000138/2008,I.C.MEMBER,13-09-2012,04-10-2012,Evidence],[5000138/2008,I.C.MEMBER,04-10-2012,23-10-2012,Evidence],[5000138/2008,I.C.MEMBER,23-10-2012,22-11-2012,Evidence],[5000138/2008,I.C.MEMBER,22-11-2012,07-12-2012,Evidence],[5000138/2008,I.C.MEMBER,07-12-2012,03-01-2013,Evidence],[5000138/2008,I.C.MEMBER,03-01-2013,29-01-2013,Evidence],[5000138/2008,I.C.MEMBER,29-01-2013,21-02-2013,Evidence],[5000138/2008,I.C.MEMBER,21-02-2013,14-03-2013,Evidence],[5000138/2008,I.C.MEMBER,14-03-2013,04-04-2013,Evidence],[5000138/2008,I.C.MEMBER,04-04-2013,09-04-2013,Evidence],[5000138/2008,I.C.MEMBER,09-04-2013,13-06-2013,Evidence],[5000138/2008,I.C.MEMBER,13-06-2013,28-06-2013,Evidence],[5000138/2008,I.C.MEMBER,28-06-2013,16-07-2013,Evidence],[5000138/2008,I.C.MEMBER,16-07-2013,08-08-2013,Evidence],[5000138/2008,I.C.MEMBER,08-08-2013,17-09-2013,Evidence],[5000138/2008,I.C.MEMBER,17-09-2013,07-11-2013,Evidence],[5000138/2008,I.C.MEMBER,07-11-2013,18-11-2013,Evidence],[5000138/2008,I.C.MEMBER,18-11-2013,28-11-2013,Evidence],[5000138/2008,I.C.MEMBER,28-11-2013,19-12-2013,Cross Examination],[5000138/2008,I.C.MEMBER,19-12-2013,23-01-2014,Cross Examination],[5000138/2008,I.C.MEMBER,23-01-2014,30-01-2014,Evidence],[5000138/2008,I.C.MEMBER,30-01-2014,11-02-2014,Evidence],[5000138/2008,I.C.MEMBER,11-02-2014,06-03-2014,Evidence],[5000138/2008,I.C.MEMBER,06-03-2014,25-03-2014,Evidence],[5000138/2008,I.C.MEMBER,25-03-2014,16-04-2014,Respondent Evidence],[5000138/2008,I.C.MEMBER,16-04-2014,10-06-2014,Respondent Evidence],[5000138/2008,I.C.MEMBER,10-06-2014,26-06-2014,Respondent Evidence],[5000138/2008,Member,26-06-2014,24-07-2014,Respondent Evidence],[5000138/2008,Member,24-07-2014,25-08-2014,Respondent Evidence],[5000138/2008,Member,25-08-2014,02-09-2014,Respondent Evidence],[5000138/2008,Member,02-09-2014,22-09-2014,Respondent Evidence],[5000138/2008,Member,22-09-2014,10-10-2014,Respondent Evidence],[5000138/2008,Member,10-10-2014,03-11-2014,Respondent Evidence],[5000138/2008,Member,03-11-2014,17-11-2014,Respondent Evidence],[5000138/2008,Member,17-11-2014,25-11-2014,Respondent Evidence],[5000138/2008,Member,25-11-2014,08-12-2014,Respondent Evidence],[5000138/2008,Member,08-12-2014,09-12-2014,Respondent Evidence],[5000138/2008,Member,09-12-2014,15-12-2014,Respondent Evidence],[5000138/2008,Member,15-12-2014,23-12-2014,Respondent Evidence],[5000138/2008,Member,23-12-2014,20-01-2015,Respondent Evidence],[5000138/2008,Member,20-01-2015,29-01-2015,Argument],[5000138/2008,Member,29-01-2015,03-02-2015,Argument],[5000138/2008,Member,03-02-2015,,Disposed],[Orders],[Order Number,Order Date,Order Details],[1,03-02-2015,Copy of Judgment]]","orderFlow":"","petitioner":"The Associated Cement Staff Union","stateCode":"1","distCode":"40","courtNumber":"4","regNumber":"5000138/2008","filingNumber":"5000138/2008","filingDate":"28-03-2008","hearingDate":"12th November 2010","courtNumberAndJudge":" 6-Member","score":34.70562,"id":"AWK5lJmdaQi7HkqiFycE","respondent":"ACC Ltd.,","caseName":"Complaint ULP1/5000138/2008","caseTypeName":"Complaint ULP1","caseTypeNumber":"301","courtName":"Industrial Court, Mumbai","caseStatus":"Disposed","caseNo":"230150001382008","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Maharashtra","courtType":"District Court","district":"Maharashtra Industrial And Lab","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"3rd October 2021","cinNumber":"MHIC010003182008","caseRegDate":"28-03-2008","petitionerAddress":"1) The Associated Cement Staff Union    Address  - Mumbai    Advocate- P. M. Patel,  Bhosle P.","respondentAddress":"1) ACC Ltd.,    Address - Mumbai    Advocate - B. G. GoyalS. Bhatia","underAct":"Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971","underSection":"U/s 28","natureOfDisposal":" Uncontested--Otherwise","elasticId":"AWK5lJmdaQi7HkqiFycE","gfc_respondents":[{"name":"ACC Ltd.,","address":"Mumbai"}],"gfc_petitioners":[{"name":"The Associated Cement Staff Union","address":"Mumbai"}],"gfc_uniqueid":"DC_1_40_4_301_230150001382008_MHIC010003182008_2008","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=d044407a06f88ffe0eba40f2659d5f5ff765100e8f3346c3a62b4d7da532eadce50da7f04830b86267a0225bc74f400b9cf88883bccb6f1beb1765d68ce24a50","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[{"pincode":"","localityname":"","address":"","subdistname":"","statename":"","lastname":"","districtname":"","name":"Mumbai ","id":1,"age":""}],"respondents":[{"pincode":"","localityname":"","address":"","subdistname":"","statename":"","lastname":"","districtname":"","name":"2 Sumit Banerjee, Managing Director,","id":1,"age":""}]},"caseType":"Criminal","position":1,"caseStatusFromStage3":"Disposed","matchingAddressRespondent":"1) <strong>Name: </strong><em>ACC</em> <em>Ltd</em>.,<br><strong>Address: </strong><mem>Mumbai</mem><br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

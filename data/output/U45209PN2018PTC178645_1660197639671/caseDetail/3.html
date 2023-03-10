@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Civil Court Senior Division ,Pune, Maharashtra</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: Spl.C.S.</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: </td><td>Filing Date</td><td class="dFilingDate">: </td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: </td><td>Registration Date</td><td class="dRegistrationDate">: </td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: MHPU020056272014</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: </td><td></td><td></td></tr><tr><td>Case Status </td><td class="dcaseStatusFromStage3">: Disposed</td><td></td><td></td></tr><tr><td>Nature of Disposal</td><td class="dnatureOfDisposal">: &nbsp;Uncontested--BY TRANSFER</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: </td><td></td><td></td></tr><tr class="ddecisionDateTr"><td class="dDecisionDateHeader">Decision Date</td><td class="ddecisionDate">: 19th October 2022</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) Goel Ganga Construction Represented by Power Of Attorney - Atul Jaiprakash Goel<br><span style="margin-left:10px">At San Mahu Commercial Complex, 3rd Floor, 5-Bund Garden Road, Pune 411 001.</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) Pune Municipal Corporation<br><span style="margin-left:10px">At PMC Building, Shivajinagar, Pune 411 005.</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">N/A</td><td class="undersection"></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">FIR Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>Police Station</td><td class="dfirPoliceStation">: </td><td></td><td></td></tr><tr><td>FIR Number </td><td class="dfirNumber">: </td><td></td><td></td></tr><tr><td>Year</td><td class="dfirYear">: </td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">3RD JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">08-11-2014</td><td <span="" style="text-align:center">10-12-2014</td><td <span="" style="text-align:center">Awaiting Summons</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">3RD JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">10-12-2014</td><td <span="" style="text-align:center">19-01-2015</td><td <span="" style="text-align:center">Awaiting Summons</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">3RD JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">19-01-2015</td><td <span="" style="text-align:center">09-02-2015</td><td <span="" style="text-align:center">Awaiting Summons</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">3RD JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">09-02-2015</td><td <span="" style="text-align:center">30-04-2015</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">30-04-2015</td><td <span="" style="text-align:center">31-08-2015</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">4TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">31-08-2015</td><td <span="" style="text-align:center">06-10-2015</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">4TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">06-10-2015</td><td <span="" style="text-align:center">28-11-2015</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">4TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">28-11-2015</td><td <span="" style="text-align:center">16-01-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">4TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">16-01-2016</td><td <span="" style="text-align:center">26-02-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">4TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">26-02-2016</td><td <span="" style="text-align:center">20-04-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">4TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">20-04-2016</td><td <span="" style="text-align:center">12-07-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">13TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">12-07-2016</td><td <span="" style="text-align:center">01-09-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">13TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">01-09-2016</td><td <span="" style="text-align:center">19-10-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">13TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">19-10-2016</td><td <span="" style="text-align:center">05-12-2016</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">13TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">05-12-2016</td><td <span="" style="text-align:center">19-01-2017</td><td <span="" style="text-align:center">Issues</td></tr><tr><td <span="" style="text-align:center">201483/2014</td><td <span="" style="text-align:center">13TH JOINT C.J.S.D AND ADDL C.J.M PUNE</td><td <span="" style="text-align:center">19-01-2017</td><td <span="" style="text-align:center">22-03-2017</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2014","bench":"","crawledDate":"2022-03-19T00:48:16.000Z","judgementDate":"","judgementDescription":"","caseFlow":"","original_caseFlow":"[[],[201483/2014,3RD JOINT C.J.S.D AND ADDL C.J.M PUNE,08-11-2014,10-12-2014,Awaiting Summons],[201483/2014,3RD JOINT C.J.S.D AND ADDL C.J.M PUNE,10-12-2014,19-01-2015,Awaiting Summons],[201483/2014,3RD JOINT C.J.S.D AND ADDL C.J.M PUNE,19-01-2015,09-02-2015,Awaiting Summons],[201483/2014,3RD JOINT C.J.S.D AND ADDL C.J.M PUNE,09-02-2015,30-04-2015,Issues],[201483/2014,,30-04-2015,31-08-2015,Issues],[201483/2014,4TH JOINT C.J.S.D AND ADDL C.J.M PUNE,31-08-2015,06-10-2015,Issues],[201483/2014,4TH JOINT C.J.S.D AND ADDL C.J.M PUNE,06-10-2015,28-11-2015,Issues],[201483/2014,4TH JOINT C.J.S.D AND ADDL C.J.M PUNE,28-11-2015,16-01-2016,Issues],[201483/2014,4TH JOINT C.J.S.D AND ADDL C.J.M PUNE,16-01-2016,26-02-2016,Issues],[201483/2014,4TH JOINT C.J.S.D AND ADDL C.J.M PUNE,26-02-2016,20-04-2016,Issues],[201483/2014,4TH JOINT C.J.S.D AND ADDL C.J.M PUNE,20-04-2016,12-07-2016,Issues],[201483/2014,13TH JOINT C.J.S.D AND ADDL C.J.M PUNE,12-07-2016,01-09-2016,Issues],[201483/2014,13TH JOINT C.J.S.D AND ADDL C.J.M PUNE,01-09-2016,19-10-2016,Issues],[201483/2014,13TH JOINT C.J.S.D AND ADDL C.J.M PUNE,19-10-2016,05-12-2016,Issues],[201483/2014,13TH JOINT C.J.S.D AND ADDL C.J.M PUNE,05-12-2016,19-01-2017,Issues],[201483/2014,13TH JOINT C.J.S.D AND ADDL C.J.M PUNE,19-01-2017,22-03-2017,Issues],[201483/2014,,22-03-2017,,Disposed]]","orderFlow":"","petitioner":"Goel Ganga Construction","stateCode":"1","distCode":"25","courtNumber":"2","regNumber":"","filingNumber":"","filingDate":"","hearingDate":"","courtNumberAndJudge":"","score":36.041718,"id":"4852847","respondent":"Pune Municipal Corporation","caseName":"Spl.C.S./201483/2014","caseTypeName":"Spl.C.S.","caseTypeNumber":"29","courtName":"Civil Court Senior Division ,Pune","caseStatus":"Pending","caseNo":"202902014832014","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Maharashtra","courtType":"District Court","district":"Pune","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"19th June 2022","cinNumber":"MHPU020056272014","caseRegDate":"","petitionerAddress":"1) Goel Ganga Construction Represented by Power Of Attorney - Atul Jaiprakash Goel    Address  - At San Mahu Commercial Complex, 3rd Floor, 5-Bund Garden Road, Pune 411 001.    Advocate- S.S. Bhalerao","respondentAddress":"1) Pune Municipal Corporation    Address - At PMC Building, Shivajinagar, Pune 411 005.","underAct":"N/A","underSection":"","natureOfDisposal":"","elasticId":"4852847","gfc_respondents":[{"name":"Pune Municipal Corporation","address":"At PMC Building, Shivajinagar, Pune 411 005."}],"gfc_petitioners":[{"name":"Goel Ganga Construction Represented by Power Of Attorney - Atul Jaiprakash Goel","address":"At San Mahu Commercial Complex, 3rd Floor, 5-Bund Garden Road, Pune 411 001."}],"gfc_uniqueid":"DC_1_25_2_29_202902014832014_MHPU020056272014_2014","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=0e438908cc6a4d73c42ed0c9b0d4ebf217d33e114c22ccfe5245b24156be8b508b15dd1a92bb71e4018c98e6e1d24f8e9a29f3eda343187d32bc45a1985ed302","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Civil","position":1,"caseStatusFromStage3":"Disposed","matchingAddressPetitioner":"1) <strong>Name: </strong><em>Goel</em> <em>Ganga</em> <em>Construction</em> Represented by Power Of Attorney - Atul Jaiprakash <em>Goel</em><br><strong>Address: </strong>At <mem>San</mem> <mem>Mahu</mem> <mem>Commercial</mem> <mem>Complex</mem>, <mem>3rd</mem> <mem>Floor</mem>, 5-<mem>Bund</mem> <mem>Garden</mem> <mem>Road</mem>, <mem>Pune</mem> 411 001.<br>","addressIndexPetitioner":0,"matchField":"Petitioner","natureOfDisposalFromStage3":" Uncontested--BY TRANSFER","decisionDate":"19th October 2022"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var caseStatusFromStage3 = result.caseStatusFromStage3;
+	if(caseStatusFromStage3 == null || caseStatusFromStage3 == 'undefined'){
+		caseStatusFromStage3 = '';
+	}
+	var natureOfDisposal = result.natureOfDisposalFromStage3;
+	if(natureOfDisposal == null || natureOfDisposal == 'undefined'){
+		natureOfDisposal = '';
+	}
+	var firPoliceStation = result.firPoliceStationFromStage3;
+	if(firPoliceStation == null || firPoliceStation == 'undefined'){
+		firPoliceStation = '';
+	}
+	var firNumber = result.firNumberFromStage3;
+	if(firNumber == null || firNumber == 'undefined'){
+		firNumber = '';
+	}
+	var firYear = result.firYearFromStage3;
+	if(firYear == null || firYear == 'undefined'){
+		firYear = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcaseStatusFromStage3').empty().append(': '+caseStatusFromStage3);
+	$('.dnatureOfDisposal').empty().append(': '+natureOfDisposal);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	if (result.decisionDate) {
+		$('.ddecisionDate').text(': '+ result.decisionDate);
+	} else if (result.dismissedDate) {
+		$('.ddecisionDate').text(': '+ result.dismissedDate);
+		$('.dDecisionDateHeader').text('Dismissed Date');
+	} else {
+		$('.ddecisionDateTr').hide();
+	}
+	$('.dfirPoliceStation').empty().append(': '+ firPoliceStation);
+	$('.dfirNumber').empty().append(': '+ firNumber);
+	$('.dfirYear').empty().append(': '+ firYear);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

@@ -1,0 +1,75 @@
+{
+  "status": "OK",
+  "requestId": 1681110991739,
+  "requestTime": "26/01/2023 07:14 pm",
+  "responseTime": "27/01/2023 04:21 pm",
+  "searchTerm": [
+    {
+      "companyName": "ONE BOAT CLUB CONSTRUCTIONS AND REAL ESTATE PRIVATE LIMITED",
+      "cinnumber": "U45209PN2018PTC178645",
+      "address": "3RD FLOOR, SAN MAHU COMMERCIAL COMPLEX, 5 BUND GARDEN ROAD, OPP. POONA CLUB, PUNE MAHARASHTRA 411001"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681110991739/24a9f4a649edb53cb8066ff5c88cdc45",
+  "riskType": "Average Risk",
+  "riskSummary": "ONE BOAT CLUB CONSTRUCTIONS AND REAL ESTATE PRIVATE LIMITED has 1 Civil case registered ",
+  "numberOfCases": 1,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "Marvel Asta Constructions LLP Through Vishwajeet Subhash Jhavar",
+      "respondent": "One Boat Club Constructions and Real Estate Private Ltd through Director Atul Jaiprakash Goel",
+      "cinNumber": "MHPU020068222022",
+      "caseTypeName": "Spl.C.S.",
+      "hearingDate": "29th September 2022",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Marvel Asta Constructions LLP Through Vishwajeet Subhash Jhavar",
+      "respondentAddress": "1) Name: One Boat Club Constructions and Real Estate Private Ltd through Director Atul Jaiprakash Goel",
+      "caseNumber": "202900015442022",
+      "caseNo": "202900015442022",
+      "caseYear": "2022",
+      "underAct": "Specific Relief Act",
+      "section": "34,38,21,",
+      "underSection": "34,38,21,",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_2_29_202900015442022_MHPU020068222022_2022",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Uncontested--COMPROMISE BEFORE EVIDENCE",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Specific relief in a civil matter.\n",
+      "severity": "Specific relief in a civil matter.",
+      "judgementSummary": "Nature of disposal is: The case has been settled between the parties",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>One</em> <em>Boat</em> <em>Club</em> <em>Constructions</em> <em>and</em> <em>Real</em> <em>Estate</em> <em>Private</em> <em>Ltd</em> through Director Atul Jaiprakash Goel"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Marvel Asta <em>Constructions</em> LLP Through Vishwajeet Subhash Jhavar"
+        }
+      ],
+      "matchingAddress": "1) Name: One Boat Club Constructions and Real Estate Private Ltd through Director Atul Jaiprakash Goel",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0e438908cc6a4d73c42ed0c9b0d4ebf20f58fa713d3e7dfcdd9bc5a3750ca9dc890245f84d13b4ceb2ce855675ca603843c4028d7553b7ee6975dbbfe5cfbaaa"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

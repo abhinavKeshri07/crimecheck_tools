@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Chief Judicial Magistrate, Uttar Pradesh</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: Complaint Cases</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: </td><td>Filing Date</td><td class="dFilingDate">: 15-03-2012</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 1500236/2012</td><td>Registration Date</td><td class="dRegistrationDate">: 15-03-2012</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: UPGB040076712012</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 30th January 2013</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: &nbsp;15-ACJM-III</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) MS ELCOMPONICS PVT. LTD.<br><span style="margin-left:10px">C-24 , PHASE 2 NOIDA GBN</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) MS VIMAL PLAST INDIA PVT. LTD.<br><span style="margin-left:10px">PLOT NO. 3 UDYOG VIHAR GR. NOIDA GBN. ( PROPTR. SA</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Negotiable Instruments Act</td><td class="undersection">U/s 138</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">30-01-2013</td><td <span="" style="text-align:center">28-02-2013</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">28-02-2013</td><td <span="" style="text-align:center">10-03-2015</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">ACJM-III</td><td <span="" style="text-align:center">10-03-2015</td><td <span="" style="text-align:center">14-04-2015</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">ACJM-III</td><td <span="" style="text-align:center">14-04-2015</td><td <span="" style="text-align:center">27-07-2015</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">ACJM-III</td><td <span="" style="text-align:center">27-07-2015</td><td <span="" style="text-align:center">10-11-2015</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">ACJM-III</td><td <span="" style="text-align:center">10-11-2015</td><td <span="" style="text-align:center">23-12-2015</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">ACJM-III</td><td <span="" style="text-align:center">23-12-2015</td><td <span="" style="text-align:center">09-02-2016</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">ACJM-III</td><td <span="" style="text-align:center">09-02-2016</td><td <span="" style="text-align:center">23-05-2016</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">Judicial Magistrate</td><td <span="" style="text-align:center">23-05-2016</td><td <span="" style="text-align:center">05-08-2016</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">Judicial Magistrate</td><td <span="" style="text-align:center">05-08-2016</td><td <span="" style="text-align:center">12-12-2016</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">Judicial Magistrate</td><td <span="" style="text-align:center">12-12-2016</td><td <span="" style="text-align:center">06-03-2017</td><td <span="" style="text-align:center">Bailable Warrant</td></tr><tr><td <span="" style="text-align:center">1500236/2012</td><td <span="" style="text-align:center">Judicial Magistrate</td><td <span="" style="text-align:center">06-03-2017</td><td <span="" style="text-align:center">08-05-2017</td><td <span="" style="text-align:center">Pending</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2012","bench":"","crawledDate":"2017-02-10T21:55:39.000Z","judgementDate":"","judgementDescription":"","caseFlow":"","original_caseFlow":"[[],[1500236/2012,,30-01-2013,28-02-2013,Bailable Warrant],[1500236/2012,,28-02-2013,10-03-2015,Bailable Warrant],[1500236/2012,ACJM-III,10-03-2015,14-04-2015,Bailable Warrant],[1500236/2012,ACJM-III,14-04-2015,27-07-2015,Bailable Warrant],[1500236/2012,ACJM-III,27-07-2015,10-11-2015,Bailable Warrant],[1500236/2012,ACJM-III,10-11-2015,23-12-2015,Bailable Warrant],[1500236/2012,ACJM-III,23-12-2015,09-02-2016,Bailable Warrant],[1500236/2012,ACJM-III,09-02-2016,23-05-2016,Bailable Warrant],[1500236/2012,Judicial Magistrate,23-05-2016,05-08-2016,Bailable Warrant],[1500236/2012,Judicial Magistrate,05-08-2016,12-12-2016,Bailable Warrant],[1500236/2012,Judicial Magistrate,12-12-2016,06-03-2017,Bailable Warrant],[1500236/2012,Judicial Magistrate,06-03-2017,08-05-2017,Bailable Warrant]]","orderFlow":"","petitioner":"MS ELCOMPONICS PVT. LTD.","stateCode":"13","distCode":"20","courtNumber":"4","regNumber":"1500236/2012","filingNumber":"","filingDate":"15-03-2012","hearingDate":"30th January 2013","courtNumberAndJudge":" 15-ACJM-III","score":35.552773,"id":"AWK74av5aQi7HkqilHP4","respondent":"MS VIMAL PLAST INDIA PVT. LTD.","caseName":"Complaint Cases/1500236/2012","caseTypeName":"Complaint Cases","caseTypeNumber":"35","courtName":"Chief Judicial Magistrate","caseStatus":"Pending","caseNo":"203515002362012","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Uttar Pradesh","courtType":"District Court","district":"Gautam Buddha Nagar","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"12th October 2021","cinNumber":"UPGB040076712012","caseRegDate":"15-03-2012","petitionerAddress":"1) MS ELCOMPONICS PVT. LTD.    Address  - C-24 , PHASE 2 NOIDA GBN","respondentAddress":"1) MS VIMAL PLAST INDIA PVT. LTD.    Address - PLOT NO. 3 UDYOG VIHAR GR. NOIDA GBN. ( PROPTR. SA","underAct":"Negotiable Instruments Act","underSection":"U/s 138","natureOfDisposal":"","elasticId":"AWK74av5aQi7HkqilHP4","gfc_respondents":[{"name":"MS VIMAL PLAST INDIA PVT. LTD.","address":"PLOT NO. 3 UDYOG VIHAR GR. NOIDA GBN. ( PROPTR. SA"}],"gfc_petitioners":[{"name":"MS ELCOMPONICS PVT. LTD.","address":"C-24 , PHASE 2 NOIDA GBN"}],"gfc_uniqueid":"DC_13_20_4_35_203515002362012_UPGB040076712012_2012","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=79c5571bc27346b5aae5c2b9ab5ab9c737f4c5e9c080540c60ce3b43821a02864a80d241c15c5d4c26d547bc2f5f19b50c87b083a95ba402fed886320e5309c5","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Criminal","position":1,"caseStatusFromStage3":"Pending","matchingAddressRespondent":"1) <strong>Name: </strong>MS <em>VIMAL</em> <em>PLAST</em> <em>INDIA</em> <em>PVT</em>. <em>LTD</em>.<br><strong>Address: </strong>PLOT <mem>NO</mem>. 3 UDYOG <mem>VIHAR</mem> GR. <mem>NO</mem>IDA GBN. ( PROPTR. SA<br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

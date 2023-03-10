@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">District and Sessions Court, Gurgram, Haryana</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: ARB</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 8470/2021</td><td>Filing Date</td><td class="dFilingDate">: 10-11-2021</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 128/2021</td><td>Registration Date</td><td class="dRegistrationDate">: 10-11-2021</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: HRGR010160872021</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 10th November 2021</td><td></td><td></td></tr><tr><td>Case Status </td><td class="dcaseStatusFromStage3">: Pending</td><td></td><td></td></tr><tr><td>Nature of Disposal</td><td class="dnatureOfDisposal">: </td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: 32-Special Jugde Commercial Court</td><td></td><td></td></tr><tr class="ddecisionDateTr" style="display: none;"><td class="dDecisionDateHeader">Decision Date</td><td class="ddecisionDate"></td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) CANDOR GURGAON ONE REALTY PROJECTS PVT LTD<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) KAYAAN MARKETING AND DISTRIBUTION PVT LTD<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Code of Civil Procedure</td><td class="undersection">ARB</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">FIR Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>Police Station</td><td class="dfirPoliceStation">: </td><td></td><td></td></tr><tr><td>FIR Number </td><td class="dfirNumber">: </td><td></td><td></td></tr><tr><td>Year</td><td class="dfirYear">: </td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">10-11-2021</td><td <span="" style="text-align:center">30-11-2021</td><td <span="" style="text-align:center">NOTICE</td></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">30-11-2021</td><td <span="" style="text-align:center">16-12-2021</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">16-12-2021</td><td <span="" style="text-align:center">24-12-2021</td><td <span="" style="text-align:center">Arguments</td></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">24-12-2021</td><td <span="" style="text-align:center">12-01-2022</td><td <span="" style="text-align:center">Arguments</td></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">12-01-2022</td><td <span="" style="text-align:center">23-02-2022</td><td <span="" style="text-align:center">Arguments</td></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">23-02-2022</td><td <span="" style="text-align:center">09-03-2022</td><td <span="" style="text-align:center">NOTICE</td></tr><tr><td <span="" style="text-align:center">Special Jugde Commercial Court</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">09-03-2022</td><td <span="" style="text-align:center">06-04-2022</td><td <span="" style="text-align:center">Pending</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2021","bench":"","crawledDate":"2022-01-04T17:56:16.000Z","judgementDate":"","judgementDescription":"","caseFlow":"","original_caseFlow":"[[],[Special Jugde Commercial Court,10-11-2021,30-11-2021,NOTICE],[Special Jugde Commercial Court,30-11-2021,16-12-2021,Reply],[Special Jugde Commercial Court,16-12-2021,24-12-2021,Arguments],[Special Jugde Commercial Court,24-12-2021,12-01-2022,Arguments],[Special Jugde Commercial Court,12-01-2022,23-02-2022,Arguments],[Special Jugde Commercial Court,23-02-2022,09-03-2022,NOTICE],[Special Jugde Commercial Court,09-03-2022,06-04-2022,Arguments]]","orderFlow":"","petitioner":"CANDOR GURGAON ONE REALTY PROJECTS PVT LTD","stateCode":"14","distCode":"6","courtNumber":"1","regNumber":"128/2021","filingNumber":"8470/2021","filingDate":"10-11-2021","hearingDate":"10th November 2021","courtNumberAndJudge":"32-Special Jugde Commercial Court","score":36.32396,"id":"17922398","respondent":"KAYAAN MARKETING AND DISTRIBUTION PVT LTD","caseName":"ARB/128/2021","caseTypeName":"ARB","caseTypeNumber":"13","courtName":"District and Sessions Court, Gurgram","caseStatus":"Pending","caseNo":"201300001282021","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Haryana","courtType":"District Court","district":"Gurgaon","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"17th June 2022","cinNumber":"HRGR010160872021","caseRegDate":"10-11-2021","petitionerAddress":"1) CANDOR GURGAON ONE REALTY PROJECTS PVT LTD   Advocate- Jagmohan Krishan Dang","respondentAddress":"1) KAYAAN MARKETING AND DISTRIBUTION PVT LTD","underAct":"Code of Civil Procedure","underSection":"ARB","natureOfDisposal":"","elasticId":"17922398","gfc_respondents":[{"name":"KAYAAN MARKETING AND DISTRIBUTION PVT LTD"}],"gfc_petitioners":[{"name":"CANDOR GURGAON ONE REALTY PROJECTS PVT LTD"}],"gfc_uniqueid":"DC_14_6_1_13_201300001282021_HRGR010160872021_2021","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=9a62d28fa9909be5a5c5406facab5d51812b3c520c205601b5600bc20064700cc1e5bef864135ed3d2d99fd868bdfa29df79ff6a087264cefdfb60242012a29e","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Civil","position":1,"caseStatusFromStage3":"Pending","matchingAddressPetitioner":"1) <strong>Name: </strong><em>CANDOR</em> <em>GURGAON</em> <em>ONE</em> <em>REALTY</em> <em>PROJECTS</em> <em>PVT</em> <em>LTD</em><br>","addressIndexPetitioner":0,"matchField":"Petitioner"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var caseStatusFromStage3 = result.caseStatusFromStage3;
+	if(caseStatusFromStage3 == null || caseStatusFromStage3 == 'undefined'){
+		caseStatusFromStage3 = '';
+	}
+	var natureOfDisposal = result.natureOfDisposalFromStage3;
+	if(natureOfDisposal == null || natureOfDisposal == 'undefined'){
+		natureOfDisposal = '';
+	}
+	var firPoliceStation = result.firPoliceStationFromStage3;
+	if(firPoliceStation == null || firPoliceStation == 'undefined'){
+		firPoliceStation = '';
+	}
+	var firNumber = result.firNumberFromStage3;
+	if(firNumber == null || firNumber == 'undefined'){
+		firNumber = '';
+	}
+	var firYear = result.firYearFromStage3;
+	if(firYear == null || firYear == 'undefined'){
+		firYear = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcaseStatusFromStage3').empty().append(': '+caseStatusFromStage3);
+	$('.dnatureOfDisposal').empty().append(': '+natureOfDisposal);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	if (result.decisionDate) {
+		$('.ddecisionDate').text(': '+ result.decisionDate);
+	} else if (result.dismissedDate) {
+		$('.ddecisionDate').text(': '+ result.dismissedDate);
+		$('.dDecisionDateHeader').text('Dismissed Date');
+	} else {
+		$('.ddecisionDateTr').hide();
+	}
+	$('.dfirPoliceStation').empty().append(': '+ firPoliceStation);
+	$('.dfirNumber').empty().append(': '+ firNumber);
+	$('.dfirYear').empty().append(': '+ firYear);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

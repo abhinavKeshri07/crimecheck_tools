@@ -55,22 +55,28 @@ def report_individual(query: dict):
 if __name__ == '__main__':
     orders = [
         {
-            "name" : "Mayank Chawla",
-            "fatherName" : "Rakesh Chawla",
-            "address" : "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034",
-            "panNumber": "AFLPC2604L"
+            "name": "Rajesh Verma",
+            "fatherName": "SURESHCHANDRA VERMA",
+            "address": "1504 Elecia Bldg, Dosti Imperia, Godhbandar Road,Manpada, Thane West, opp R mall, Sandozbaugh, Maharashtra 400607",
+            "panNumber": "ABQPV4771N"
         },
         {
-            "name" : "Rakesh Chawla",
-            "fatherName": "Chaman Lal Chawla",
-            "address" : "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034",
-            "panNumber": "AAFPC2698R"
+            "name": "FIROZ KARUMANNIL",
+            "fatherName": "ABDULLAKUTTY",
+            "address": "FLT NO 713, AL NAKHEEL, DUBAI 030930",
+            "panNumber": "ASHPK1802B"
         },
         {
-            "name": "Anshu Nagpal",
-            "fatherName" : "Kundal Lal",
-            "address" : "Mal Godam Road Moh - Shivpuri, Gajraula Dhanaura Amroha Uttar Pradesh 244235",
-            "panNumber": "ABWPN2686E"
+            "name": "VYOMESH RAMESHCHANDRAN THAKKER",
+            "fatherName": "RAMESHCHANDRA THAKKER",
+            "address": "709, Burj Al Nahda Building, Al Nahda First, DUBAI 78029",
+            "panNumber": "AAIPV3121D"
+        },
+        {
+            "name": "ZAMEER AKHTAR",
+            "fatherName": "ZAMEER AHMED SHARIFF",
+            "address": "Flat no 113, Zakhir Towers 1 ,Near Al Twaun Mall , PO Box UAE, Sharjah 0000",
+            "panNumber":"CRXPA6044A"
         }
     ]
     for order in orders :

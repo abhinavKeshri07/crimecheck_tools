@@ -1,0 +1,1737 @@
+{
+  "status": "OK",
+  "requestId": 1681110668873,
+  "requestTime": "21/12/2022 05:09 am",
+  "responseTime": "21/12/2022 02:10 pm",
+  "searchTerm": [
+    {
+      "companyName": "INTERNATIONAL GEMMOLOGICAL INSTITUTE (INDIA) PRIVATE LIMITED",
+      "cinnumber": "U74999MH1999PTC118476",
+      "address": "702, 7th Floor, The Capital Bandra Kurla Complex, Bandra (E) Mumbai City Maharashtra 400051"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681110668873/07a0bbbb2bc040027315e25acad3ed76",
+  "riskType": "High Risk",
+  "riskSummary": "INTERNATIONAL GEMMOLOGICAL INSTITUTE (INDIA) PRIVATE LIMITED has 58 cases registered, but here we are providing top 20 critical cases, 1 ITAT case, 14 criminal matters (Magistrate Court), 1 CESTAT case, 4 civil matters in the High Court",
+  "numberOfCases": 20,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "DCIT 3(2), MUMBAI",
+      "respondent": "INTERNATIONAL GEMOLOGICAL INSTITUTE (I) P.LTD, MUMBAI",
+      "cinNumber": "ITA 6992/MUM/2013",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 6992/MUM/2013",
+      "caseNo": "ITA 6992/MUM/2013",
+      "caseYear": "2013",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Final Tribunal Order",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2015-09-29",
+          "orderLink": "http://orders.getupforchange.com/getFile/68520324ac3a9cce0c66a8e954d700d2b97d2b80ca7ee01001a9ce8c5afc3b5d447bde0babad6cfe4e57a3a765f98b5c",
+          "elastic_id": "C9MUO3sB7nuTtk1V59bt",
+          "index": "co11_tc_ita_all"
+        }
+      ],
+      "gfc_uniqueid": "TC_0_0_ITA_MUMBAI_NA_INCOMETAXAPPEAL_ITA6992_MUM_2013_2013",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=MTE2NjA1",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "29/11/2013",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "INTERNATIONAL GEMOLOGICAL INSTITUTE (I) P.LTD, MUMBAI\n\n",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=04279e0d4814985327d5b0100d49d5a73953ee7830d81a17c529c3507f2c84185566d30ba53d0b4168757f940c4c30c41bac67fb97963c2490eaa91b042c86c0"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.",
+      "respondent": "M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORS",
+      "cinNumber": "MHMM250059882016",
+      "caseTypeName": "Ss casess",
+      "hearingDate": "23rd August 2017",
+      "courtNumberAndJudge": "",
+      "courtName": "Metropolitan Magistrate, Vile Parle, Mumbai",
+      "state": "Maharashtra",
+      "district": "Mumbai Cmm Courts",
+      "petitionerAddress": "1) Name: MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.Address: MUMBAI",
+      "respondentAddress": "1) Name: M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORSAddress: 1/3, SEEPZ ANDHERI EAST----------------------------2) Name: MANECK MISTRYAddress: 1/3, SEEPZ ANDHERI EAST----------------------------3) Name: SHWETA DEVRUKHKARAddress: 1/3, SEEPZ ANDHERI EAST----------------------------",
+      "caseNumber": "200339071112016",
+      "caseNo": "200339071112016",
+      "caseYear": "2016",
+      "underAct": " Mumbai municipal corporation Act",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_23_16_3_200339071112016_MHMM250059882016_2016",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "Uncontested--DISMISSED",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for violation under  Mumbai municipal corporation Act",
+      "severity": " violation under  Mumbai municipal corporation Act",
+      "judgementSummary": "Uncontested--DISMISSED",
+      "caseRegDate": "20-05-2016",
+      "regNumber": "3907111/2016",
+      "filingDate": "02-05-2016",
+      "filingNumber": "1507382/2016",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/S <em>INTERNATIONAL</em> <em>GEMMOLOGICAL</em> <em>INSTITUTE</em> <em>INDIA</em> <em>PVT</em> <em>LTD</em> AND 2 ORS",
+          "address": "1/3, SEEPZ ANDHERI EAST"
+        },
+        {
+          "name": "MANECK MISTRY",
+          "address": "1/3, SEEPZ ANDHERI EAST"
+        },
+        {
+          "name": "SHWETA DEVRUKHKAR",
+          "address": "1/3, SEEPZ ANDHERI EAST"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "MUNICIPAL CORPORATION  K / EAST  WARD, MUMBAI.",
+          "address": "<mem><mem>MUMBAI</mem></mem>"
+        }
+      ],
+      "matchingAddress": "1) Name: M/S INTERNATIONAL GEMMOLOGICAL INSTITUTE INDIA PVT LTD AND 2 ORSAddress: 1/3, SEEPZ ANDHERI EAST----------------------------",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=6e9076c6767d5b715eaf8e3db43c1314c2f3b866deab77d7633ae8179cf393803a51337eb2e81cf9d054f9ce80b75a7ecd57f27dce70b7fb17349bbf7464effb"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "Shri Rohit Agarwal",
+      "respondent": "Ms. International Gemological Institute India Pvt. Ltd.",
+      "cinNumber": "MHIC010007562015",
+      "caseTypeName": "Tran. Appln. ULP",
+      "hearingDate": "19th October 2015",
+      "courtNumberAndJudge": "",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Shri Rohit AgarwalAddress: B-408, RidhiSidhiRatna, Kanti Nagar, Adheri E, Mumbai 400059",
+      "respondentAddress": "1) Name: Ms. International Gemological Institute India Pvt. Ltd.Address: 404, Mani Mahal, 1121, Mathew Rd., Opera House, Mumbai 400 004.",
+      "caseNumber": "230850000192015",
+      "caseNo": "230850000192015",
+      "caseYear": "2015",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "45",
+      "underSection": "45",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Copy of Judgment",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "19-10-2015",
+          "orderLink": "http://orders.getupforchange.com/getFile/22ed06ed8f10ad5710e57ff438d0eaa97abbd315bcd027e62151949575d6bfae0503127caffd2ac8f9d5cfb4bffc6e4d197ee2127387d987d95794bf7898a230",
+          "elastic_id": "kqf-onoBGJuRUP3q6CEM",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_308_230850000192015_MHIC010007562015_2015",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "Contested--OTHERWISE",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for unfair labour practices",
+      "severity": "unfair labour practices",
+      "judgementSummary": "Contested--OTHERWISE",
+      "caseRegDate": "08-10-2015",
+      "regNumber": "5000019/2015",
+      "filingDate": "06-10-2015",
+      "filingNumber": "5000805/2015",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "1",
+            "address": "PRESIDENT. Transfer Application ULPNo.19 of 2015.",
+            "districtname": "",
+            "lastname": "",
+            "name": "IN THE INDUSTRIAL COURT, MAHARASHTRA, AT MUMBAI.",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "MAHARASHTRA",
+            "age": "",
+            "localityname": "mumbai j.b. nagar",
+            "id": "2",
+            "address": "Nagar,AndheriE, <mem>Mumbai</mem>400 059. ... Applicant.",
+            "districtname": "MUMBAI",
+            "lastname": "",
+            "name": "Shri Rohit Agarwal, B ,Ridhi Sidhi Ratna, Kanta",
+            "subdistname": "MUMBAI",
+            "pincode": "400059"
+          }
+        ],
+        "respondents": [
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "1",
+            "address": "",
+            "districtname": "",
+            "lastname": "",
+            "name": "Ms. <em>International</em> <em>Gemological</em> <em>Institute</em> <em>India</em> <em>Pvt</em>. <em>Ltd</em>., 404, Mani Mahal, 1121, Mathew Road, Opera House, Mumbai400 004",
+            "subdistname": "",
+            "pincode": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "Ms. <em>International</em> <em>Gemological</em> <em>Institute</em> India <em>Pvt</em>. <em>Ltd</em>.",
+          "address": "404, Mani Mahal, 1121, Mathew Rd., Opera House, <mem>Mumbai</mem> 400 004."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Shri Rohit Agarwal",
+          "address": "B-408, RidhiSidhiRatna, Kanti Nagar, Adheri E, <mem>Mumbai</mem> 400059"
+        }
+      ],
+      "matchingAddress": "1) Name: Ms. International Gemological Institute India Pvt. Ltd.Address: 404, Mani Mahal, 1121, Mathew Rd., Opera House, Mumbai 400 004.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=3eff1ce06c231fd9f05952c6010244204514d5837fa1d729c3cf80b14034d0866b6e0bc07a8804ec6d26b37b033103408d7e2a33cc9bd90c66ddcfcbc98ca29a"
+    },
+    {
+      "slNo": 4,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "MS.International Gemological Institute pvt.ltd.,",
+      "cinNumber": "MHLC010007422012",
+      "caseTypeName": "MCC ULP",
+      "hearingDate": "12th December 2017",
+      "courtNumberAndJudge": "2-Judge",
+      "courtName": "Labour, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Mumbai",
+      "respondentAddress": "1) Name: MS.International Gemological Institute pvt.ltd.,Address: Mumbai",
+      "caseNumber": "235751000302012",
+      "caseNo": "235751000302012",
+      "caseYear": "2012",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Copy of Judgment",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "12-12-2017",
+          "orderLink": "http://orders.getupforchange.com/getFile/b16eed2b1c6075a8b538c633222c34fb7e5cc7db291b0c34aa5fc13f519c6d836aed964677727d5072036adf8b114894ff848ea83cfd7a5141e3179b04e92f7b",
+          "elastic_id": "66f-onoBGJuRUP3q5w1u",
+          "index": "co11_dc_mh_all"
+        },
+        {
+          "Order": "Order below Exh ------",
+          "gfc_OrderType": "Order",
+          "orderDate": "07-01-2017",
+          "orderLink": "http://orders.getupforchange.com/getFile/b16eed2b1c6075a8b538c633222c34fb7e5cc7db291b0c34aa5fc13f519c6d8319fb3015bc8ba8b74c335f5aa6fc439872c8c78a77719f2bc1bc8f19991a0208",
+          "elastic_id": "-qb-onoBGJuRUP3q5v3l",
+          "index": "co11_dc_mh_all"
+        },
+        {
+          "Order": "Order below Exh ------",
+          "gfc_OrderType": "Order",
+          "orderDate": "24-05-2016",
+          "orderLink": "http://orders.getupforchange.com/getFile/3a50783db741b3bea7ca81dcdfe29b2ad9a8f60a4fcc8ff21327f1101a9bb1417c8fd9e8612f0f77b4c0f57f6dc943f86de464fef9cd8f940a37ee4f1540d3cf",
+          "elastic_id": "q6f-onoBGJuRUP3q5xKT",
+          "index": "co11_dc_mh_all"
+        },
+        {
+          "Order": "Order below Exh ------",
+          "gfc_OrderType": "Order",
+          "orderDate": "29-04-2014",
+          "orderLink": "http://orders.getupforchange.com/getFile/4a9acccac853112643e715c9360ce1370aee849de28c1afa0bf61ad09db348487cf607e25b70e79e3505214efbda335ffe0a08a8ab7bf61c54f79bfb690f9422",
+          "elastic_id": "maf-onoBGJuRUP3q6CZF",
+          "index": "co11_dc_mh_all"
+        },
+        {
+          "Order": "Order below Exh ------",
+          "gfc_OrderType": "Order",
+          "orderDate": "29-04-2014",
+          "orderLink": "http://orders.getupforchange.com/getFile/4a9acccac853112643e715c9360ce1370aee849de28c1afa0bf61ad09db348482086acb6b7ea3017fc5692b434b3662a5f2601063bfc22fbd6e62e269cb45999",
+          "elastic_id": "mKf-onoBGJuRUP3q6CZF",
+          "index": "co11_dc_mh_all"
+        },
+        {
+          "Order": "Order Number 1",
+          "gfc_OrderType": "Order",
+          "orderDate": "23-12-2013",
+          "orderLink": "http://orders.getupforchange.com/getFile/d20dec9b633240ae899933e6eeaa401b06981998950ccb53725828dd7df9d255107c1d4bb3c819ee9bbaea408d510482a9d5015dfcc383964c72208cc75860c1",
+          "elastic_id": "fKf-onoBGJuRUP3q6Duv",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_5_357_235751000302012_MHLC010007422012_2012",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for unfair labour practices",
+      "severity": " unfair labour practices",
+      "judgementSummary": "Nature of Disposal - The order has been passed by the court and case is dismissed",
+      "caseRegDate": "22-05-2012",
+      "regNumber": "5100030/2012",
+      "filingDate": "22-05-2012",
+      "filingNumber": "",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "districtname": "",
+            "statename": "",
+            "pincode": "",
+            "subdistname": "",
+            "address": "",
+            "age": "",
+            "name": "Revn. Appl. of and of Honble Industrial Court dtd. Th February In",
+            "localityname": "",
+            "lastname": "",
+            "id": "1"
+          },
+          {
+            "districtname": "",
+            "statename": "",
+            "pincode": "",
+            "subdistname": "",
+            "address": "",
+            "age": "",
+            "name": "In Original Complaint ULP of Honble Ic. Nd Labour Court dtd. Th February th",
+            "localityname": "",
+            "lastname": "",
+            "id": "2"
+          }
+        ],
+        "respondents": [
+          {
+            "districtname": "",
+            "statename": "",
+            "pincode": "",
+            "subdistname": "",
+            "address": "",
+            "age": "",
+            "name": "Honble 2 Labour Court Order dtd. 10Th August 2007 nd",
+            "localityname": "",
+            "lastname": "",
+            "id": "1"
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "MS.<em>International</em> <em>Gemological</em> <em>Institute</em> <em>pvt</em>.<em>ltd</em>.,",
+          "address": "<mem>Mumbai</mem>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "<mem>Mumbai</mem>"
+        }
+      ],
+      "matchingAddress": "1) Name: MS.International Gemological Institute pvt.ltd.,Address: Mumbai",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=27667c66eb321e1fd6966f1656a5501977b6d4f9e4eb7308215ee81ca8c6c6335e383d266f60f0e069abd3e223d584fd0336b9160663169e88c2d897b2cf7e97"
+    },
+    {
+      "slNo": 5,
+      "petitioner": "Rohit Rajan Agarwal",
+      "respondent": "Ms. International Gemological Institute India Pvt. Ltd.",
+      "cinNumber": "MHIC010007972015",
+      "caseTypeName": "Tran. Appln. ULP",
+      "hearingDate": "",
+      "courtNumberAndJudge": "1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit Rajan AgarwalAddress: B-408, RidhisidhiRatna, Kanti Nagar, Andheri East, Mumbai 59",
+      "respondentAddress": "1) Name: Ms. International Gemological Institute India Pvt. Ltd.Address: 404, Mani Mahal, 1121, Mathew Rd. Opera House, Mumbai 04",
+      "caseNumber": "230850000202015",
+      "caseNo": "230850000202015",
+      "caseYear": "2015",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "U/s 45",
+      "underSection": "U/s 45",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Copy of Judgment",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "19-01-2016",
+          "orderLink": "http://orders.getupforchange.com/getFile/3a50783db741b3bea7ca81dcdfe29b2a668be48be8ab636b7c0c956203ee100c7bfb37726e572e644622f08ccd1598de43a78fa52c6fdc232739ec9e55983ad1",
+          "elastic_id": "L6f-onoBGJuRUP3q5wxm",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_308_230850000202015_MHIC010007972015_2015",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "Contested--Judgement",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for unfair labour practices",
+      "severity": "unfair labour practices",
+      "judgementSummary": "Nature of Disposal - The order has been passed by the court and case is dismissed",
+      "caseRegDate": "23-10-2015",
+      "regNumber": "5000020/2015",
+      "filingDate": "21-10-2015",
+      "filingNumber": "5000848/2015",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "1",
+            "address": "PRESIDENT,",
+            "districtname": "",
+            "lastname": "",
+            "name": "BEFORE HONBLE SHRI. A.R.MAHAJAN,",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "2",
+            "address": "residing at B408, RidhiSidhiRatna, Kanti Nagar, Andheri East, <mem>Mumbai</mem>400 059, Mobile 9820023457 ( Original in",
+            "districtname": "",
+            "lastname": "",
+            "name": "Rohit Rajan Agarwal, Adult,",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "3",
+            "address": "",
+            "districtname": "",
+            "lastname": "",
+            "name": "Complaint(ULP)No.15/2003)",
+            "subdistname": "",
+            "pincode": ""
+          }
+        ],
+        "respondents": [
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "1",
+            "address": "",
+            "districtname": "",
+            "lastname": "",
+            "name": "1) M/s.<em>International</em> <em>Gemological</em> <em>Institute</em> <em>India</em> <em>Pvt</em>.<em>Ltd</em>.,",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "2",
+            "address": "",
+            "districtname": "",
+            "lastname": "",
+            "name": "2) Mr.Tehmasp Printer,",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "3",
+            "address": "",
+            "districtname": "",
+            "lastname": "",
+            "name": "3) Ms Sindhu Loyal,",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "4",
+            "address": "",
+            "districtname": "",
+            "lastname": "dara mistry",
+            "name": "4) Mr.Dara Mistry,",
+            "subdistname": "",
+            "pincode": ""
+          },
+          {
+            "statename": "",
+            "age": "",
+            "localityname": "",
+            "id": "5",
+            "address": "",
+            "districtname": "",
+            "lastname": "",
+            "name": "5) Mr.Manek Mistry, Having their address at 404 Mani Mahal, 11/21, Mathew Road, Opera House, Mumbai 400 004.",
+            "subdistname": "",
+            "pincode": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "Ms. <em>International</em> <em>Gemological</em> <em>Institute</em> India <em>Pvt</em>. <em>Ltd</em>.",
+          "address": "404, Mani Mahal, 1121, Mathew Rd. Opera House, <mem>Mumbai</mem> 04"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Rajan Agarwal",
+          "address": "B-408, RidhisidhiRatna, Kanti Nagar, Andheri East, <mem>Mumbai</mem> 59"
+        }
+      ],
+      "matchingAddress": "1) Name: Ms. International Gemological Institute India Pvt. Ltd.Address: 404, Mani Mahal, 1121, Mathew Rd. Opera House, Mumbai 04",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=3eff1ce06c231fd9f05952c60102442055bff333547929ee4574030e43dd8fcf3b6d7ed2ba5aa521a91bf556a462a20339f8f9023fd5c60f0d7edf6a04ce6428"
+    },
+    {
+      "slNo": 6,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute Pvt. Ltd. and Ors.",
+      "cinNumber": "MHLC010013772017",
+      "caseTypeName": "MCC ULP",
+      "hearingDate": "12th December 2017",
+      "courtNumberAndJudge": "",
+      "courtName": "Labour, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agrawal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute Pvt. Ltd. and Ors.",
+      "caseNumber": "235700000452017",
+      "caseNo": "235700000452017",
+      "caseYear": "2017",
+      "underAct": "Maharashtra Recognition of Trade Union and Prevention of Unfair Labour Practices Act, 1971.",
+      "section": "48",
+      "underSection": "48",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Copy of Judgment",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "12-12-2017",
+          "orderLink": "http://orders.getupforchange.com/getFile/b16eed2b1c6075a8b538c633222c34fb7e5cc7db291b0c34aa5fc13f519c6d8386c973efa19804cda1137e8f4da1a072ee1a03c642a33e977146483582fcb52b",
+          "elastic_id": "6af-onoBGJuRUP3q5w1u",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_5_357_235700000452017_MHLC010013772017_2017",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for unfair labour practices",
+      "severity": " unfair labour practices",
+      "judgementSummary": "Contested--JUDGMENT",
+      "caseRegDate": "25-10-2017",
+      "regNumber": ": 45/2017",
+      "filingDate": "12-10-2017",
+      "filingNumber": "1378/2017",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "Shri. Rohit Agarwal B , Ridhi Sidhi Ratna, Kanti Nagar, Andheri East,",
+            "pincode": "",
+            "id": 1
+          },
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "Mumbai .",
+            "pincode": "",
+            "id": 2
+          }
+        ],
+        "respondents": [
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "1. Ms. <em>International</em> <em>Gemological</em> <em>Institute</em><em>Pvt</em> <em>Ltd</em>., Situated at 404, Mani Mahal, 1121 Mathew Road, Mumbai400 004. no.1",
+            "pincode": "",
+            "id": 1
+          },
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "2. Shri. Tehmasp Printer 404, Mani Mahal, 1121 Mathew Road, Mumbai400 004. no.2",
+            "pincode": "",
+            "id": 2
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> <em>Pvt</em>. <em>Ltd</em>. and Ors."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agrawal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute Pvt. Ltd. and Ors.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=27667c66eb321e1fd6966f1656a550198737b71b9323dd7c951f2781a14e93bd27e6d3e4cf733f067c2bb150c5fedf8edcc44d58b99cc06f7b6fb980ce6beead"
+    },
+    {
+      "slNo": 7,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institue Pvt. Ltd. and Ors.",
+      "cinNumber": "MHLC010013782017",
+      "caseTypeName": "MCC ULP",
+      "hearingDate": "12th December 2017",
+      "courtNumberAndJudge": "",
+      "courtName": "Labour, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agrawal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institue Pvt. Ltd. and Ors.",
+      "caseNumber": "235700000462017",
+      "caseNo": "235700000462017",
+      "caseYear": "2017",
+      "underAct": "Maharashtra Recognition of Trade Union and Prevention of Unfair Labour Practices Act, 1971.",
+      "section": "48",
+      "underSection": "48",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Copy of Judgment",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "12-12-2017",
+          "orderLink": "http://orders.getupforchange.com/getFile/b16eed2b1c6075a8b538c633222c34fb7e5cc7db291b0c34aa5fc13f519c6d8326ca562d85f572d420568b02f2e37e8167f03b49988d269f4bd2f37133c81833",
+          "elastic_id": "6qf-onoBGJuRUP3q5w1u",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_5_357_235700000462017_MHLC010013782017_2017",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for unfair labour practices",
+      "severity": "unfair labour practices",
+      "judgementSummary": "Contested--JUDGMENT",
+      "caseRegDate": "25-10-2017",
+      "regNumber": ": 46/2017",
+      "filingDate": "12-10-2017",
+      "filingNumber": "1379/2017",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "Shri. Rohit Agarwal B , Ridhi Sidhi Ratna, Kanti Nagar, Andheri East,",
+            "pincode": "",
+            "id": 1
+          },
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "Mumbai .",
+            "pincode": "",
+            "id": 2
+          }
+        ],
+        "respondents": [
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "1. Ms. <em>International</em> <em>Gemological</em> Institute<em>Pvt</em> <em>Ltd</em>., Situated at 404, Mani Mahal, 1121 Mathew Road, Mumbai400 004. no.1",
+            "pincode": "",
+            "id": 1
+          },
+          {
+            "localityname": "",
+            "lastname": "",
+            "statename": "",
+            "districtname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "name": "2. Shri. Tehmasp Printer 404, Mani Mahal, 1121 Mathew Road, Mumbai400 004. no.2",
+            "pincode": "",
+            "id": 2
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institue</em> <em>Pvt</em>. <em>Ltd</em>. and Ors."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agrawal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institue Pvt. Ltd. and Ors.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=27667c66eb321e1fd6966f1656a550193645071f57f058fec4bcb0b29091d8a5302c1cb6c3dadb1137e17130221fb3e46117a6a8a2c29b7b4bbb353c73638bad"
+    },
+    {
+      "slNo": 8,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute P. Ltd. and Ors.4",
+      "cinNumber": "MHIC010000252018",
+      "caseTypeName": "Appeal ULP",
+      "hearingDate": "07th April 2018",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agrawal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "caseNumber": "231000000042018",
+      "caseNo": "231000000042018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "42",
+      "underSection": "42",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_40_4_310_231000000042018_MHIC010000252018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for appeal in unfair labour practices",
+      "severity": "appeal in unfair labour practices",
+      "judgementSummary": " Contested--JUDGMENT",
+      "caseRegDate": "06-01-2018",
+      "regNumber": "4/2018",
+      "filingDate": "05-01-2018",
+      "filingNumber": "25/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> P. <em>Ltd</em>. and Ors.4",
+          "address": "Advocate - TIWARI USHA RAMSINGAR"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agrawal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=af7b18853424739c853bfb5575218173c908e3043565d0153d12e1f62300642e9ae15d57840c5393c8946d6f28c9b73fbb08a2e77a176758cb5e42bbf36ab96a"
+    },
+    {
+      "slNo": 9,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute P. Ltd. and Ors.",
+      "cinNumber": "MHIC010000142018",
+      "caseTypeName": "Revn. Appln. ULP",
+      "hearingDate": "05th January 2018",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agarwal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.",
+      "caseNumber": "230200000022018",
+      "caseNo": "230200000022018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "44",
+      "underSection": "44",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order below Exh---",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-01-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/f3bf8d218fd4b3ebaf6e77ccb0919edcf6ed211b5488923527c730b158c71f661a756b33e6ecffa3e996099edd6d3bd2aa17fc70881a47445810dcb885e82258",
+          "elastic_id": "zL4Bo3oBGJuRUP3quspc",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_302_230200000022018_MHIC010000142018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Uncontested--OTHERWISE",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for revision in unfair labour practice",
+      "severity": "revision in unfair labour practice",
+      "judgementSummary": "Nature of Disposal is : The case is dismissed in favour of petitioner",
+      "caseRegDate": "04-01-2018",
+      "regNumber": "2/2018",
+      "filingDate": "30-12-2017",
+      "filingNumber": "14/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "Original Complaint ULP No. of Rohit Agarwal B , Ridhi Sidhi Ratna, Kanti Nagar, Andheri East, Mumbai . Applicant in person",
+            "id": 1,
+            "lastname": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "1. Ms. <em>International</em> <em>Gemological</em> <em>Institute</em> Pvt Limited, Situated at 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004. No.1",
+            "id": 1,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "2. Shri Tehmasp Printer 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004. No.2",
+            "id": 2,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "3. Shrimati Sindhu Loyal 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004 No.3",
+            "id": 3,
+            "lastname": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> P. <em>Ltd</em>. and Ors."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agarwal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f32b749bad2b8c84cc5605e496738323dad3ea01cef74b38e6f91cff5c8777b1dcb0455a64c0b0d0082e212b60740d0c4389b10c0b551c5b10196f76ce8276a"
+    },
+    {
+      "slNo": 10,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute P. Ltd. and Ors.",
+      "cinNumber": "MHIC010000152018",
+      "caseTypeName": "Revn. Appln. ULP",
+      "hearingDate": "",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agarwal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.",
+      "caseNumber": "230200000032018",
+      "caseNo": "230200000032018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "U/s 44",
+      "underSection": "U/s 44",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order below Exh---",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-01-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/f3bf8d218fd4b3ebaf6e77ccb0919edcf6ed211b5488923527c730b158c71f668183c17f556cce49026c26fac412417b63548af6e923083cab4ececdc5cd468b",
+          "elastic_id": "zb4Bo3oBGJuRUP3quspc",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_302_230200000032018_MHIC010000152018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Uncontested--OTHERWISE",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for revision in unfair labour practice",
+      "severity": "revision in unfair labour practice",
+      "judgementSummary": "Nature of Disposal is : The case is dismissed in favour of petitioner",
+      "caseRegDate": "04-01-2018",
+      "regNumber": "3/2018",
+      "filingDate": "30-12-2017",
+      "filingNumber": "15/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "Original Complaint ULP No. of Rohit Agarwal B , Ridhi Sidhi Ratna, Kanti Nagar, Andheri East, Mumbai . Applicant in person",
+            "id": 1,
+            "lastname": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "1. Ms. <em>International</em> <em>Gemological</em> <em>Institute</em> Pvt Limited, Situated at 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004. No.1",
+            "id": 1,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "2. Shri Tehmasp Printer 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004. No.2",
+            "id": 2,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "3. Shrimati Sindhu Loyal 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004 No.3",
+            "id": 3,
+            "lastname": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> P. <em>Ltd</em>. and Ors."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agarwal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f32b749bad2b8c84cc5605e496738324dba2ac995bb011183ca326fc865d641c0de51bb29107330c7fa73cb387546c9688415ff434efbce9b1c66c847a68b6a"
+    },
+    {
+      "slNo": 11,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute P. Ltd.and Ors.",
+      "cinNumber": "MHIC010000132018",
+      "caseTypeName": "Revn. Appln. ULP",
+      "hearingDate": "",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agarwal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute P. Ltd.and Ors.",
+      "caseNumber": "230200000012018",
+      "caseNo": "230200000012018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "U/s 44",
+      "underSection": "U/s 44",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order below Exh---",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-01-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/f3bf8d218fd4b3ebaf6e77ccb0919edcf6ed211b5488923527c730b158c71f660745e97333536e573ac0b1a528d3a967ff41a57f89053050009a5c955a6894cb",
+          "elastic_id": "y74Bo3oBGJuRUP3quspc",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_302_230200000012018_MHIC010000132018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Uncontested--OTHERWISE",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for revision in unfair labour practice",
+      "severity": "revision in unfair labour practice",
+      "judgementSummary": "Nature of Disposal is : The case is dismissed in favour of petitioner",
+      "caseRegDate": "04-01-2018",
+      "regNumber": "1/2018",
+      "filingDate": "30-12-2017",
+      "filingNumber": "13/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "Original Complaint ULP No. of Rohit Agarwal B , Ridhi Sidhi Ratna, Kanti Nagar, Andheri East, Mumbai . Applicant in person",
+            "id": 1,
+            "lastname": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "1. Ms. <em>International</em> <em>Gemological</em> <em>Institute</em> Pvt Limited, Situated at 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004. No.1",
+            "id": 1,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "2. Shri Tehmasp Printer 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004. No.2",
+            "id": 2,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "3. Shrimati Sindhu Loyal 404, Mani Mahal, 1121, Mathew Road, Mumbai 400 004 No.3",
+            "id": 3,
+            "lastname": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> P. <em>Ltd</em>.and Ors."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agarwal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute P. Ltd.and Ors.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f32b749bad2b8c84cc5605e49673832319751a4fc8e3005bd7f33a28d6804701c7ee1df04661fa36aea6c8de9f67e887d43c54885424282c0337385f1e4ae78"
+    },
+    {
+      "slNo": 12,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute P. Ltd. and Ors.4",
+      "cinNumber": "MHIC010000232018",
+      "caseTypeName": "Appeal ULP",
+      "hearingDate": "07th April 2018",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agrawal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "caseNumber": "231000000022018",
+      "caseNo": "231000000022018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "42",
+      "underSection": "42",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order below Exh---",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-03-22",
+          "orderLink": "http://orders.getupforchange.com/getFile/f3bf8d218fd4b3ebaf6e77ccb0919edc05b27344b65aa4329280e4c7d312b20f64659cf252b18b83d7371650948f7ac32ff9a1e0a8f29e9b278e042cc851dc72",
+          "elastic_id": "Yr4Bo3oBGJuRUP3qus51",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_310_231000000022018_MHIC010000232018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for appeal in unfair labour practice",
+      "severity": "appeal in unfair labour practice",
+      "judgementSummary": " Contested--JUDGMENT",
+      "caseRegDate": "06-01-2018",
+      "regNumber": "2/2018",
+      "filingDate": "05-01-2018",
+      "filingNumber": "23/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> P. <em>Ltd</em>. and Ors.4",
+          "address": "Advocate - TIWARI USHA RAMSINGAR"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agrawal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=af7b18853424739c853bfb55752181738f734d0f206eef82ab1ee6673b88a87a930fce957540206a73ad166451c0436ec0af24e07a0fa65744e09c3782cb72bb"
+    },
+    {
+      "slNo": 13,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institute P. Ltd. and Ors.4",
+      "cinNumber": "MHIC010000242018",
+      "caseTypeName": "Appeal ULP",
+      "hearingDate": "07th April 2018",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agrawal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "caseNumber": "231000000032018",
+      "caseNo": "231000000032018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "42",
+      "underSection": "42",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_40_4_310_231000000032018_MHIC010000242018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for appeal in unfair labour practice",
+      "severity": "appeal in unfair labour practice",
+      "judgementSummary": "Nature of Disposal - The order has been passed by the court and case is dismissed",
+      "caseRegDate": "06-01-2018",
+      "regNumber": "3/2018",
+      "filingDate": "05-01-2018",
+      "filingNumber": "24/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institute</em> P. <em>Ltd</em>. and Ors.4",
+          "address": "Advocate - TIWARI USHA RAMSINGAR"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agrawal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=af7b18853424739c853bfb5575218173aae27c59262f8b0003615d6233427a6307dbdc27b6074ac893726a819203f229d3226b1221f2ce75e64cad051a5a5c67"
+    },
+    {
+      "slNo": 14,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Institure Pvt. Ltd. and Ors.",
+      "cinNumber": "MHIC010000162018",
+      "caseTypeName": "Revn. Appln. ULP",
+      "hearingDate": "05th January 2018",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agarwal",
+      "respondentAddress": "1) Name: M/s. International Gemological Institure Pvt. Ltd. and Ors.",
+      "caseNumber": "230200000042018",
+      "caseNo": "230200000042018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "44",
+      "underSection": "44",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order below Exh---",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-01-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/f3bf8d218fd4b3ebaf6e77ccb0919edcf6ed211b5488923527c730b158c71f66f8ce35be892e3d2229cec9d9caf10f516506d68e67cdf4f26d25834ba95d7194",
+          "elastic_id": "zr4Bo3oBGJuRUP3quspc",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_40_4_302_230200000042018_MHIC010000162018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Uncontested--OTHERWISE",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for revision in unfair labour practice",
+      "severity": "revision in unfair labour practice",
+      "judgementSummary": " Uncontested--OTHERWISE",
+      "caseRegDate": "04-01-2018",
+      "regNumber": "4/2018",
+      "filingDate": "30-12-2017",
+      "filingNumber": "16/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "Kurla West, Mumbai No. .",
+            "id": 1,
+            "lastname": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "1 India United Mills No.5 Unit of N. T. C. Western Region, A. G Pawar Lane, Byculla East, Mumbai 400 027. No.1",
+            "id": 1,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "2 The General Manager, Unit of N. T. C. Western Region, A. G Pawar Lane, Byculla East, Mumbai 400 027. No.2",
+            "id": 2,
+            "lastname": ""
+          },
+          {
+            "pincode": "",
+            "statename": "",
+            "address": "",
+            "subdistname": "",
+            "districtname": "",
+            "localityname": "",
+            "age": "",
+            "name": "1 Complaint stand dispose off as in view of Exh.U10 for want of",
+            "id": 3,
+            "lastname": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Institure</em> <em>Pvt</em>. <em>Ltd</em>. and Ors."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agarwal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Institure Pvt. Ltd. and Ors.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f32b749bad2b8c84cc5605e4967383222fa9a70dfcabf7ed5e6c9d914e5fc808b210958af4d4001d93912d65e295dcaddfc8d329084b9126e1eb9e93bd192c1"
+    },
+    {
+      "slNo": 15,
+      "petitioner": "Rohit Agarwal",
+      "respondent": "M/s. International Gemological Instutute P. Ltd. and Ors.4",
+      "cinNumber": "MHIC010000222018",
+      "caseTypeName": "Appeal ULP",
+      "hearingDate": "07th April 2018",
+      "courtNumberAndJudge": ": 1-PRESIDENT",
+      "courtName": "Industrial Court, Mumbai",
+      "state": "Maharashtra",
+      "district": "Maharashtra Industrial And Lab",
+      "petitionerAddress": "1) Name: Rohit AgarwalAddress: Advocate- Rohit Agrawal",
+      "respondentAddress": "1) Name: M/s. International Gemological Instutute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "caseNumber": "231000000012018",
+      "caseNo": "231000000012018",
+      "caseYear": "2018",
+      "underAct": "Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971",
+      "section": "42",
+      "underSection": "42",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_40_4_310_231000000012018_MHIC010000222018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": " Contested--JUDGMENT",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for appeal in unfair labour practice",
+      "severity": "appeal in unfair labour practice",
+      "judgementSummary": " Contested--JUDGMENT",
+      "caseRegDate": "06-01-2018",
+      "regNumber": "1/2018",
+      "filingDate": "05-01-2018",
+      "filingNumber": "22/2018",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/s. <em>International</em> <em>Gemological</em> <em>Instutute</em> P. <em>Ltd</em>. and Ors.4",
+          "address": "Advocate - TIWARI USHA RAMSINGAR"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rohit Agarwal",
+          "address": "Advocate- Rohit Agrawal"
+        }
+      ],
+      "matchingAddress": "1) Name: M/s. International Gemological Instutute P. Ltd. and Ors.4Address: Advocate - TIWARI USHA RAMSINGAR",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=af7b18853424739c853bfb55752181731a199baa626b213cbd5224452df892bc8c15c82f99f40b739c1be3eb4ecfa597ead08282dec3f4144c60dbba0c615827"
+    },
+    {
+      "slNo": 16,
+      "petitioner": "COMMISSIONER OF SERVICE TAX MUMBAI-I",
+      "respondent": "INTERNATIONAL GEMOLOGICAL INSTITUTE",
+      "cinNumber": "ST/87922/2013",
+      "caseTypeName": "",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Customs, Excise and Service Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ST/87922/2013",
+      "caseNo": "ST/87922/2013",
+      "caseYear": "2018",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Not Available",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2018-08-31",
+          "orderLink": "http://orders.getupforchange.com/getFile/3b24af0ac528dfe1637a63ee06eceed278923c6f062769bd0347f4ee0bcbb6fae2cea6474d4c06cb7a4ca4f34c8b31e46ba19f322a569ce99762c59587bf097e",
+          "elastic_id": "3B6pPXsB7nuTtk1VEJff",
+          "index": "co11_tc_cestat_all"
+        }
+      ],
+      "gfc_uniqueid": "TC_0_0_CESTAT_MUMBAI_NA_ST_87922_2013_2018",
+      "caseLink": "https://cestatnew.gov.in/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Service Tax violation",
+      "severity": "CESTAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "cestat",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "INTERNATIONAL GEMOLOGICAL INSTITUTE\n\n",
+      "matchSummary": "95% match with Name partial match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=460970077e19a845e0d757075db0e81d0ac1209bf0a0c9ed00b4ee814355f884cc0929ff006c849b153f8be56e55010a"
+    },
+    {
+      "slNo": 17,
+      "petitioner": "ROHIT R AGARWAL",
+      "respondent": "INTERNATIONAL GEMOLOGICAL INSTITUTE INDIA (P) LTD AND 13 ORS",
+      "cinNumber": "WPL/4249/2018",
+      "caseTypeName": "WRIT PETITION(OS)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: ROHIT R AGARWAL ",
+      "respondentAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE INDIA (P) LTD AND 13 ORS ",
+      "caseNumber": "WPL/4249/2018",
+      "caseNo": "WPL/4249/2018",
+      "caseYear": "2018",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORGINAL_WRITPETITIONOS_WPL_4249_2018_NA_2018_ROHITRAGARW_INTERNATION",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a case filed against the subject, the case is filed for Writ petition in the High Court of Bombay",
+      "severity": "Writ petition- HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>INTERNATIONAL</em> <em>GEMOLOGICAL</em> <em>INSTITUTE</em> INDIA (P) <em>LTD</em> AND 13 ORS "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "ROHIT R AGARWAL "
+        }
+      ],
+      "matchingAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE INDIA (P) LTD AND 13 ORS ",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcfceee776422c3308dba69703ab8f5d4c82a178dba4c26ffa040927a34c30d8608635dfae368fde1b9233069ed6437f5fd6224cbfb0a3242d5b46dd85fcf62084c490a85eef3d91d935ba32b7326bf331d"
+    },
+    {
+      "slNo": 18,
+      "petitioner": "ROHIT RAJAN AGARWAL",
+      "respondent": "INTERNATIONAL GEMOLOGICAL INSTITUTE (INDIA) PVT LTD AND 2 OTHERS",
+      "cinNumber": "IPA/129/2017",
+      "caseTypeName": "In Person Application",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: ROHIT RAJAN AGARWAL ",
+      "respondentAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE (INDIA) PVT LTD AND 2 OTHERS ",
+      "caseNumber": "IPA/129/2017",
+      "caseNo": "IPA/129/2017",
+      "caseYear": "2017",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORIGINAL_INPERSONAPPLICATION_IPA_129_2017_NA_2017_ROHITRAJANA_INTERNATION",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a case filed against the subject, the case is filed for In Person Application in the High Court of Bombay",
+      "severity": "In Person Application(civil)- HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>INTERNATIONAL</em> <em>GEMOLOGICAL</em> <em>INSTITUTE</em> (INDIA) <em>PVT</em> <em>LTD</em> AND 2 OTHERS "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "ROHIT RAJAN AGARWAL "
+        }
+      ],
+      "matchingAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE (INDIA) PVT LTD AND 2 OTHERS ",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcf0d806abbe531f6dad073d65c56bed9f04980d94a95f8f07168202c117e38f0f77295e92dfc604924f6cdf6f8c72eea3e52b0248563037c2b5b1a15cb439a26dcb78354fdf0c46b49198d1e1e3e1d23bd"
+    },
+    {
+      "slNo": 19,
+      "petitioner": "ROHIT R. AGARWAL",
+      "respondent": "INTERNATIONAL GEMOLOGICAL INSTITUTE INDIA (P) LTD. AND 13 ORS.",
+      "cinNumber": "WPL/4248/2018",
+      "caseTypeName": "WRIT PETITION(OS)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: ROHIT R. AGARWAL ",
+      "respondentAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE INDIA (P) LTD. AND 13 ORS. ",
+      "caseNumber": "WPL/4248/2018",
+      "caseNo": "WPL/4248/2018",
+      "caseYear": "2018",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORGINAL_WRITPETITIONOS_WPL_4248_2018_NA_2018_ROHITRAGARW_INTERNATION",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a case filed against the subject, the case is filed for writ petition in the High Court of Bombay",
+      "severity": " writ petition- HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>INTERNATIONAL</em> <em>GEMOLOGICAL</em> <em>INSTITUTE</em> INDIA (P) <em>LTD</em>. AND 13 ORS. "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "ROHIT R. AGARWAL "
+        }
+      ],
+      "matchingAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE INDIA (P) LTD. AND 13 ORS. ",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcfceee776422c3308dba69703ab8f5d4c840218882e21e494fa80a4778f8f0e5b97907621e1e06f82bbe4a9b399e499854722109d0dbe8425500aa4e42c221004aa49f03aa8fe269a7fcaafc629732bbaa"
+    },
+    {
+      "slNo": 20,
+      "petitioner": "ROHIT RAJAN AGARWAL",
+      "respondent": "INTERNATIONAL GEMOLOGICAL INSTITUTE (INDIA) PVT LTD AND 2 OTHERS",
+      "cinNumber": "WP/1480/2017",
+      "caseTypeName": "WRIT PETITION(OS)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: ROHIT RAJAN AGARWAL ",
+      "respondentAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE (INDIA) PVT LTD AND 2 OTHERS ",
+      "caseNumber": "WP/1480/2017",
+      "caseNo": "WP/1480/2017",
+      "caseYear": "2017",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORIGINAL_WRITPETITIONOS_WP_1480_2017_NA_2017_ROHITRAJANA_INTERNATION",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Writ petition in the High Court of Bombay",
+      "severity": "Writ petition- HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>INTERNATIONAL</em> <em>GEMOLOGICAL</em> <em>INSTITUTE</em> (INDIA) <em>PVT</em> <em>LTD</em> AND 2 OTHERS "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "ROHIT RAJAN AGARWAL "
+        }
+      ],
+      "matchingAddress": "1) Name: INTERNATIONAL GEMOLOGICAL INSTITUTE (INDIA) PVT LTD AND 2 OTHERS ",
+      "matchSummary": "100% match with Name full match\nDisclaimer: There are 38 more cases found on the subject.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcf00cfbac91e5ab58e8cdb4b312b99f557c001b95bbad765d4dd05a2ccecbd8a1435b8f52272d2c254619b5566a4b1f4a05ee651f35a44951585291928345d38164346c7c69ad657d91602c8054eb6722a"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">High Court of Bombay, Maharashtra</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: First Appeal</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: </td><td>Filing Date</td><td class="dFilingDate">: 09/05/2014</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: </td><td>Registration Date</td><td class="dRegistrationDate">: 03/07/2014</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: FA/754/2014</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: </td><td></td><td></td></tr><tr><td>Case Status </td><td class="dcaseStatusFromStage3">: Pending</td><td></td><td></td></tr><tr><td>Nature of Disposal</td><td class="dnatureOfDisposal">: </td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: </td><td></td><td></td></tr><tr class="ddecisionDateTr" style="display: none;"><td class="dDecisionDateHeader">Decision Date</td><td class="ddecisionDate"></td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1)  GOEL GANGA CONSTURCTIONS <br><span style="margin-left:10px">, THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. </span><br>2)  SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS) <br><span style="margin-left:10px"></span><br><br><b>Per Order / Judgement</b><br>1) 1.shri. Atul Jaiparakash Goel And Anr.<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1)  MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.  <br><span style="margin-left:10px"></span><br>2)  COMMISSIONER <br><span style="margin-left:10px">, MUNICIPAL CORPORATION FOR PIMPRI </span><br>3)  CHINCHWAD <br><span style="margin-left:10px">,</span><br><br><b> Per Order / Judgement</b><br>1) Municipal Corporation For Pimpri Chinchwad<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Mah. Muncipalties Act</td><td class="undersection">U/s order 43,</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">FIR Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>Police Station</td><td class="dfirPoliceStation">: </td><td></td><td></td></tr><tr><td>FIR Number </td><td class="dfirNumber">: </td><td></td><td></td></tr><tr><td>Year</td><td class="dfirYear">: 2014</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">-</td><td <span="" style="text-align:center">-</td><td <span="" style="text-align:center">-</td><td <span="" style="text-align:center">-</td><td <span="" style="text-align:center">Pending</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2014","bench":"Bombay","crawledDate":"2017-09-30T16:09:20.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"Order","gfc_OrderType":"Order","orderDate":"2019-11-21","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc956b82227717b214147d4350915475b5b16edf9ca46e0f554a0157d60650879b","elastic_id":"oEERCH0BI5CBVdmq1WnI","index":"co12_hc_mh_all"},{"Order":"Order","gfc_OrderType":"Order","orderDate":"2019-05-02","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc02b1efc8f8bebe069a8729af23d2cb77be45b1ff5c2c07f05af1f1afc2a8b56d","elastic_id":"2DgRCH0BI5CBVdmqBFaI","index":"co12_hc_mh_all"},{"Order":"Order","gfc_OrderType":"Order","orderDate":"2014-12-03","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6","elastic_id":"Ff8NCH0BI5CBVdmqNitc","index":"co12_hc_mh_all"},{"Order":"Order","gfc_OrderType":"Order","orderDate":"2014-11-05","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6","elastic_id":"ZP8NCH0BI5CBVdmqNilI","index":"co12_hc_mh_all"},{"Order":"Order","gfc_OrderType":"Order","orderDate":"2014-09-05","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6","elastic_id":"vf8NCH0BI5CBVdmqN1yo","index":"co12_hc_mh_all"},{"Order":"Order","gfc_OrderType":"Order","orderDate":"2014-08-19","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6","elastic_id":"NQENCH0BI5CBVdmqW34B","index":"co12_hc_mh_all"},{"Order":"Order","gfc_OrderType":"Order","orderDate":"2014-07-15","orderLink":"http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6","elastic_id":"bv8NCH0BI5CBVdmqNj3V","index":"co12_hc_mh_all"}],"original_caseFlow":"","orderFlow":"","petitioner":"GOEL GANGA CONSTURCTIONS, THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR.","stateCode":"1","distCode":"0","courtNumber":"0","regNumber":"","filingNumber":"","filingDate":"09/05/2014","hearingDate":"","courtNumberAndJudge":"","score":34.679928,"id":"2952458","respondent":"MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.","caseName":"","caseTypeName":"First Appeal","courtName":"High Court of Bombay","caseStatus":"Pending","caseNo":"FA/754/2014","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Maharashtra","courtType":"High Court","district":"","caseLink":"https://bombayhighcourt.nic.in/index.php#","side":"Civil","type":"Register","fromDate":"01-05-2014","toDate":"01-06-2014","gfc_updated_at":"19th January 2022","cinNumber":"FA/754/2014","caseRegDate":"03/07/2014","petitionerAddress":"1) GOEL GANGA CONSTURCTIONS, THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. 2) SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS)","respondentAddress":"1) MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR. 2) COMMISSIONER, MUNICIPAL CORPORATION FOR PIMPRI 3) CHINCHWAD,","underAct":"Mah. Muncipalties Act","underSection":"U/s order 43,","natureOfDisposal":"","elasticId":"2952458","gfc_respondents":[{"name":" MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.  "},{"name":" COMMISSIONER ","address":", MUNICIPAL CORPORATION FOR PIMPRI "},{"name":" CHINCHWAD ","address":","}],"gfc_petitioners":[{"name":" GOEL GANGA CONSTURCTIONS ","address":", THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. "},{"name":" SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS) "}],"gfc_uniqueid":"HC_1_0_BOMBAY_CIVIL_FIRSTAPPEAL_FA_754_2014_NA_2014_GOELGANGACO_MUNICIPALCO","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=ad70a8793021c0550046e6a72a9eca59ee3a04db20f9ad69f8b3b371756b694f14f2d8c04e8f7c60da0980dbefc82e6792258062addccc0787669497fc38d6b0b95e8b00d92cbe882a3f1b698dca87ed","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[{"name":"1.shri. Atul Jaiparakash Goel And Anr.","pincode":"","statename":"","localityname":"","districtname":"","lastname":"","subdistname":"","age":"","address":"","id":1}],"respondents":[{"name":"Municipal Corporation For Pimpri Chinchwad","pincode":"","statename":"","localityname":"","districtname":"","lastname":"","subdistname":"","age":"","address":"","id":1}]},"caseType":"Civil","position":1,"caseStatusFromStage3":"Pending","matchingAddressPetitioner":"1) <strong>Name: </strong> <em>GOEL</em> <em>GANGA</em> CONSTURCTIONS <br><strong>Address: </strong>, THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. <br>----------------------------<br>2) <strong>Name: </strong> SHRI AMIT JAIPRAKASH <em>GOEL</em> (PARTNERS OF <em>GOEL</em> <em>GANGA</em> <em>CONSTRUCTIONS</em>) <br>----------------------------<br>","addressIndexPetitioner":0,"matchField":"Petitioner"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var caseStatusFromStage3 = result.caseStatusFromStage3 || result.caseStatus;
+	if(caseStatusFromStage3 == null || caseStatusFromStage3 == 'undefined'){
+		caseStatusFromStage3 = '';
+	}
+	var natureOfDisposal = result.natureOfDisposalFromStage3 || result.natureOfDisposal;
+	if(natureOfDisposal == null || natureOfDisposal == 'undefined'){
+		natureOfDisposal = '';
+	}
+	var firPoliceStation = result.firPoliceStationFromStage3 || result.policestation;
+	if(firPoliceStation == null || firPoliceStation == 'undefined'){
+		firPoliceStation = '';
+	}
+	var firNumber = result.firNumberFromStage3 || result.firnumber;
+	if(firNumber == null || firNumber == 'undefined'){
+		firNumber = '';
+	}
+	var firYear = result.firYearFromStage3 || result.year;
+	if(firYear == null || firYear == 'undefined'){
+		firYear = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcaseStatusFromStage3').empty().append(': '+caseStatusFromStage3);
+	$('.dnatureOfDisposal').empty().append(': '+natureOfDisposal);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	if (result.decisionDate) {
+		$('.ddecisionDate').text(': '+ result.decisionDate);
+	} else if (result.dismissedDate) {
+		$('.ddecisionDate').text(': '+ result.dismissedDate);
+		$('.dDecisionDateHeader').text('Dismissed Date');
+	} else {
+		$('.ddecisionDateTr').hide();
+	}
+	$('.dfirPoliceStation').empty().append(': '+ firPoliceStation);
+	$('.dfirNumber').empty().append(': '+ firNumber);
+	$('.dfirYear').empty().append(': '+ firYear);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">District and Sessions Judge,New Delhi, PHC, Delhi</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: CS</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 3327/2018</td><td>Filing Date</td><td class="dFilingDate">: 17-05-2018</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 480/2018</td><td>Registration Date</td><td class="dRegistrationDate">: 18-05-2018</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: DLND010045762018</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">:  18th May 2018</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: 13-Additional District Judge(ADJ)</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) OVN TRADING ENGINEERS PVT LTD<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) IT ENFRASERVICES PRIVATE LIMITED / LOGIX GROUP<br><span style="margin-left:10px"></span><br>2) SHAKTI NATH<br><span style="margin-left:10px">office at 301-a world trade tower barakhamba lane connaught place new delhi 110001</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Civil Cases</td><td class="undersection">U/s 136</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">Additional District Judge(ADJ)</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">18-05-2018</td><td <span="" style="text-align:center">29-05-2018</td><td <span="" style="text-align:center">Misc. cases</td></tr><tr><td <span="" style="text-align:center">Additional District Judge(ADJ)</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">29-05-2018</td><td <span="" style="text-align:center">01-08-2018</td><td <span="" style="text-align:center">Misc. cases</td></tr><tr><td <span="" style="text-align:center">Additional District Judge(ADJ)</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">01-08-2018</td><td <span="" style="text-align:center">01-12-2018</td><td <span="" style="text-align:center">Misc. cases</td></tr><tr><td <span="" style="text-align:center">Additional District Judge(ADJ)</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">01-12-2018</td><td <span="" style="text-align:center">22-02-2019</td><td <span="" style="text-align:center">Misc. Arguments</td></tr><tr><td <span="" style="text-align:center">Additional District Judge(ADJ)</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">22-02-2019</td><td <span="" style="text-align:center">11-07-2019</td><td <span="" style="text-align:center">Misc. Arguments</td></tr><tr><td <span="" style="text-align:center">Additional District Judge(ADJ)</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">11-07-2019</td><td <span="" style="text-align:center">18-12-2019</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":2,"page":1,"resultsPerPage":10,"details":[{"year":"2018","bench":"","crawledDate":"2019-11-24T14:58:06.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2020-03-11","orderLink":"http://orders.getupforchange.com/getFile/d72a3fac5110119c40dbe9b679db87f314d7f31a7a5f2bfa828862c7e06789ab35dde569aaf61047031c8b82c7961bbfa6a37b18172fa43f990626f1c9f52c9e","elastic_id":"jZGUVHwBySMXICs4zpcb","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2019-07-11","orderLink":"http://orders.getupforchange.com/getFile/15b762c3771214ecd3a542cec97e526e7388f496c488f65e81a25b9189dd3fe9549d61554dab8cbf95c9c53bfbb1b223141c90104b2e38db9447e27cd5dea4fb","elastic_id":"x3-RVHwBySMXICs4Jx-j","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-12-01","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c584f5dc6875cb2cd2f4e15327f2ef6f27721764b8c543cb18979ee844248257b30","elastic_id":"32iNVHwBySMXICs4KXy8","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-12-01","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c584f5dc6875cb2cd2f4e15327f2ef6f27721764b8c543cb18979ee844248257b30","elastic_id":"82iNVHwBySMXICs4JzOr","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-08-01","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c58ba9ee05390fd1ac2e24d1b912feea80559dab67a7f33c91f7fe4c05a327d1453","elastic_id":"wVSKVHwBySMXICs4BjgW","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-08-01","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c58ba9ee05390fd1ac2e24d1b912feea80559dab67a7f33c91f7fe4c05a327d1453","elastic_id":"61OKVHwBySMXICs4A9JF","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-05-29","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c58151d512c9409cbaa8c0235a624e70ad1f275a46feb4223be81fd03d27d160cab","elastic_id":"L1OJVHwBySMXICs47UhF","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-05-18","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c58df1715376461f81aa8d816afcc221e070a4fb301a9d651a662e8ec2ac8fd957f","elastic_id":"PFOJVHwBySMXICs47VB_","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2018-05-18","orderLink":"http://orders.getupforchange.com/getFile/9d5ee6735c0f57f4102fc001657de11e93277e3ec0df16ab7ea698ebf3e52c58ce33490a726d208510cf2c527ae65f2d5a199ea4c22063ca4c562bd93164b321","elastic_id":"1FOJVHwBySMXICs47U19","index":"co12_dc_dl"}],"original_caseFlow":"[[],[Additional District Judge(ADJ),18-05-2018,29-05-2018,Misc. cases],[Additional District Judge(ADJ),29-05-2018,01-08-2018,Misc. cases],[Additional District Judge(ADJ),01-08-2018,01-12-2018,Misc. cases],[Additional District Judge(ADJ),01-12-2018,22-02-2019,Misc. Arguments],[Additional District Judge(ADJ),22-02-2019,11-07-2019,Misc. Arguments],[Additional District Judge(ADJ),11-07-2019,18-12-2019,Misc. Arguments]]","orderFlow":"","petitioner":"OVN TRADING ENGINEERS PVT LTD","stateCode":"26","distCode":"7","courtNumber":"1","regNumber":"480/2018","filingNumber":"3327/2018","filingDate":"17-05-2018","hearingDate":" 18th May 2018","courtNumberAndJudge":"13-Additional District Judge(ADJ)","score":35.81516,"id":"Re5VKmkBioZDG4Oe9u4H","respondent":"IT ENFRASERVICES PRIVATE LIMITED / LOGIX GROUP","caseName":"CS/480/2018","caseTypeName":"CS","caseTypeNumber":"17","courtName":"District and Sessions Judge,New Delhi, PHC","caseStatus":"Disposed","caseNo":"201700004802018","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Delhi","courtType":"District Court","district":"New Delhi","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"6th October 2021","cinNumber":"DLND010045762018","caseRegDate":"18-05-2018","petitionerAddress":"1) OVN TRADING ENGINEERS PVT LTD   Advocate- DHANESH RELHAAN","respondentAddress":"1) IT ENFRASERVICES PRIVATE LIMITED / LOGIX GROUP2)  SHAKTI NATH    OFFICE AT 301-A WORLD TRADE TOWER BARAKHAMBA LANE CONNAUGHT PLACE NEW DELHI 110001","underAct":"Civil Cases","underSection":"U/s 136","natureOfDisposal":"","elasticId":"Re5VKmkBioZDG4Oe9u4H","gfc_respondents":[{"name":"IT ENFRASERVICES PRIVATE LIMITED / LOGIX GROUP"},{"name":"SHAKTI NATH","address":"office at 301-a world trade tower barakhamba lane connaught place new delhi 110001"}],"gfc_petitioners":[{"name":"OVN TRADING ENGINEERS PVT LTD"}],"gfc_uniqueid":"DC_26_7_1_17_201700004802018_DLND010045762018_2018","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=421e82cdf0f38d6201bb575a1a571cd890207bb5df5068b002b3a3a3469eb8d03b280496ed35113ab0ac02ff678e8a705b539034e021fcf3df76ac7ad4d383e1","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Civil","position":1,"caseStatusFromStage3":"Disposed","matchingAddressRespondent":"1) <strong>Name: </strong><em>IT</em> <em>ENFRASERVICES</em> <em>PRIVATE</em> LIM<em>IT</em>ED / LOGIX GROUP<br>----------------------------<br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

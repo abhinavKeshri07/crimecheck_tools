@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">District and Sessions Judge, West, THC, Delhi</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: CS (COMM)</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 2449/2019</td><td>Filing Date</td><td class="dFilingDate">: 04-07-2019</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 229/2019</td><td>Registration Date</td><td class="dRegistrationDate">: 05-07-2019</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: DLWT010051012019</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">:  05th July 2019</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: 790-DISTRICT JUDGE (COMMERCIAL COURT) - 02, WEST, THC</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) OM LOGISTICS LTD<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) HECTOR BEVERAGES PRIVATE LTD<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Recovery of Money</td><td class="undersection">U/s 580241</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">District and Sessions Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">05-07-2019</td><td <span="" style="text-align:center">06-07-2019</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr><td <span="" style="text-align:center">Additional District Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">06-07-2019</td><td <span="" style="text-align:center">26-07-2019</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr><td <span="" style="text-align:center">Additional District Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">26-07-2019</td><td <span="" style="text-align:center">26-09-2019</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr><td <span="" style="text-align:center">Additional District Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">26-09-2019</td><td <span="" style="text-align:center">06-11-2019</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr><td <span="" style="text-align:center">Additional District Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">06-11-2019</td><td <span="" style="text-align:center">04-02-2020</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr><td <span="" style="text-align:center">Additional District Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">04-02-2020</td><td <span="" style="text-align:center">06-02-2020</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr><td <span="" style="text-align:center">Additional District Judge</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">06-02-2020</td><td <span="" style="text-align:center">11-02-2020</td><td <span="" style="text-align:center">Misc. cases/purpose</td></tr><tr></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2019","bench":"","crawledDate":"2020-01-12T00:24:43.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"COPY OF JUDICIAL PROCEEDINGS","gfc_OrderType":"Unknown","orderDate":"2021-03-23","orderLink":"","elastic_id":"366bVHwBySMXICs4Wui0","index":"co12_dc_dl"},{"Order":"COPY OF JUDICIAL PROCEEDINGS","gfc_OrderType":"Unknown","orderDate":"2021-01-07","orderLink":"","elastic_id":"na6bVHwBySMXICs4Kx49","index":"co12_dc_dl"},{"Order":"COPY OF JUDICIAL PROCEEDINGS","gfc_OrderType":"Unknown","orderDate":"2020-10-09","orderLink":"http://orders.getupforchange.com/getFile/d72a3fac5110119c40dbe9b679db87f3790baa62dd6226397f531cd8911fa443ea0d820b565d6a4ca46bfa55fa22f416f93d333ec69171d2d926a14d9160a498","elastic_id":"XaKYVHwBySMXICs4b6zd","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2020-02-04","orderLink":"http://orders.getupforchange.com/getFile/d72a3fac5110119c40dbe9b679db87f3790baa62dd6226397f531cd8911fa443505b2814f86b57f1eff95e08cf42ee87f5da792838ad08bc822b5225177fe9d0","elastic_id":"BpCUVHwBySMXICs4f0Ft","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2019-11-06","orderLink":"http://orders.getupforchange.com/getFile/15b762c3771214ecd3a542cec97e526eb14237d36e9af6e85504e56ecb9fcc8a20cdf73af88990b490b28de0793a5faf0f90799f927368d3ef06db05ceb7bfa8","elastic_id":"X4iSVHwBySMXICs4-dSR","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2019-09-26","orderLink":"http://orders.getupforchange.com/getFile/15b762c3771214ecd3a542cec97e526eb14237d36e9af6e85504e56ecb9fcc8a38980178dcdde83bbb3679f420415fd2ad9d0644e2cdd63c005566a384b54514","elastic_id":"cIiSVHwBySMXICs40yD-","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2019-07-26","orderLink":"http://orders.getupforchange.com/getFile/15b762c3771214ecd3a542cec97e526eb14237d36e9af6e85504e56ecb9fcc8a0b271920d4c15170355105261e84876c5fcd59587673f9ebc8e52fbc3f628a79","elastic_id":"kYeSVHwBySMXICs4rVo_","index":"co12_dc_dl"},{"Order":"COPY OF ORDER","gfc_OrderType":"Order","orderDate":"2019-07-05","orderLink":"http://orders.getupforchange.com/getFile/15b762c3771214ecd3a542cec97e526eb14237d36e9af6e85504e56ecb9fcc8aa2e4e63fcd22bac878d4a29892bc5d1183e376474b66accc0eb9009dee592a82","elastic_id":"YYeSVHwBySMXICs4rXDR","index":"co12_dc_dl"}],"original_caseFlow":"[[],[District and Sessions Judge,05-07-2019,06-07-2019,Misc. cases/purpose],[Additional District Judge,06-07-2019,26-07-2019,Misc. cases/purpose],[Additional District Judge,26-07-2019,26-09-2019,Misc. cases/purpose],[Additional District Judge,26-09-2019,06-11-2019,Misc. cases/purpose],[Additional District Judge,06-11-2019,04-02-2020,Misc. cases/purpose],[Additional District Judge,04-02-2020,06-02-2020,Misc. cases/purpose],[Additional District Judge,06-02-2020,11-02-2020,Misc. cases/purpose],[DISTRICT JUDGE (COMMERCIAL COURT) - 02, WEST, THC,11-02-2020,06-03-2020,Misc. cases/purpose]]","orderFlow":"","petitioner":"OM LOGISTICS LTD","stateCode":"26","distCode":"9","courtNumber":"1","regNumber":"229/2019","filingNumber":"2449/2019","filingDate":"04-07-2019","hearingDate":" 05th July 2019","courtNumberAndJudge":"790-DISTRICT JUDGE (COMMERCIAL COURT) - 02, WEST, THC","score":36.27099,"id":"wB3D8G8BRVNAOn7QQWUl","respondent":"HECTOR BEVERAGES PRIVATE LTD","caseName":"CS (COMM)/229/2019","caseTypeName":"CS (COMM)","caseTypeNumber":"75","courtName":"District and Sessions Judge, West, THC","caseStatus":"Pending","caseNo":"207500002292019","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Delhi","courtType":"District Court","district":"West","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"18th March 2022","cinNumber":"DLWT010051012019","caseRegDate":"05-07-2019","petitionerAddress":"1) OM LOGISTICS LTD   Advocate- ARUN AGGARWAL","respondentAddress":"1) HECTOR BEVERAGES PRIVATE LTD ","underAct":"Recovery of Money","underSection":"U/s 580241","natureOfDisposal":"","elasticId":"wB3D8G8BRVNAOn7QQWUl","gfc_respondents":[{"name":"HECTOR BEVERAGES PRIVATE LTD"}],"gfc_petitioners":[{"name":"OM LOGISTICS LTD"}],"gfc_uniqueid":"DC_26_9_1_75_207500002292019_DLWT010051012019_2019","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=240075344ee4d820cb4553efb24630e3be5dc314f50f09857418cda5f18f3378c5405e37e6d0ba840fbbe5774e344827636ba7ff6d8f6d62c4f0be1e6b1b3b76","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Civil","position":1,"caseStatusFromStage3":"Pending","matchingAddressRespondent":"1) <strong>Name: </strong><em>HECTOR</em> <em>BEVERAGES</em> <em>PRIVATE</em> <em>LTD</em><br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

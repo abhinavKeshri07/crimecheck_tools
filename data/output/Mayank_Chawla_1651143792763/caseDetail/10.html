@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Chief judicial Magistrate, Rohtak, Haryana</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: COMI</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 197/2017</td><td>Filing Date</td><td class="dFilingDate">: 03-01-2017</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 2/2017</td><td>Registration Date</td><td class="dRegistrationDate">: 03-01-2017</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: HRRH030001972017</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 13th February 2017</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: :&nbsp;6-Additional Chief Judicial Magistrate</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) Vijender Singh Malik S/o Balwant Singh<br><span style="margin-left:10px"></span><br>2) pyari devi<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) M/s Skytech Estates Pvt. Ltd.<br><span style="margin-left:10px"></span><br>2) Renu Chawla w/o Rakesh<br><span style="margin-left:10px"></span><br>3) Rakesh Chawla<br><span style="margin-left:10px"></span><br>4) Mayank S/o Rakesh chawla<br><span style="margin-left:10px"></span><br>5) Nank chand<br><span style="margin-left:10px"></span><br>6) Anshu Nagpal<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Indian Penal Code</td><td class="undersection">U/s 323,415,419,420,467,468,506,120B,34</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">2/2017</td><td <span="" style="text-align:center">Additional Chief Judicial Magistrate</td><td <span="" style="text-align:center">13-02-2017</td><td <span="" style="text-align:center">05-06-2017</td><td <span="" style="text-align:center">Appereance</td></tr><tr><td <span="" style="text-align:center">2/2017</td><td <span="" style="text-align:center">Additional Chief Judicial Magistrate</td><td <span="" style="text-align:center">05-06-2017</td><td <span="" style="text-align:center">11-09-2017</td><td <span="" style="text-align:center">Procecution Evidence</td></tr><tr><td <span="" style="text-align:center">2/2017</td><td <span="" style="text-align:center">Additional Chief Judicial Magistrate</td><td <span="" style="text-align:center">11-09-2017</td><td <span="" style="text-align:center">20-11-2017</td><td <span="" style="text-align:center">Procecution Evidence</td></tr><tr><td <span="" style="text-align:center">2/2017</td><td <span="" style="text-align:center">Additional Chief Judicial Magistrate</td><td <span="" style="text-align:center">20-11-2017</td><td <span="" style="text-align:center">06-02-2018</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2017","bench":"","crawledDate":"2018-01-03T22:36:06.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-10-26","orderLink":"","elastic_id":"wjr5UnsB7nuTtk1VO6x5","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-10-19","orderLink":"","elastic_id":"Njr5UnsB7nuTtk1VO7ep","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-10-15","orderLink":"","elastic_id":"_Dr5UnsB7nuTtk1VPLyY","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-09-10","orderLink":"","elastic_id":"Gzr5UnsB7nuTtk1VOmwK","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-07-16","orderLink":"","elastic_id":"pDn4UnsB7nuTtk1V_aVI","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-04-16","orderLink":"","elastic_id":"yzn4UnsB7nuTtk1V-Qc4","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-02-06","orderLink":"","elastic_id":"4Tj4UnsB7nuTtk1VvVSl","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2017-11-20","orderLink":"","elastic_id":"B7LmUnsB7nuTtk1VxRYC","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2017-09-11","orderLink":"","elastic_id":"KrHmUnsB7nuTtk1VwXq-","index":"co11_dc_hr_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2017-02-13","orderLink":"","elastic_id":"8a_mUnsB7nuTtk1VmzZ5","index":"co11_dc_hr_all"}],"original_caseFlow":"[[],[2/2017,Additional Chief Judicial Magistrate,13-02-2017,05-06-2017,Appereance],[2/2017,Additional Chief Judicial Magistrate,05-06-2017,11-09-2017,Procecution Evidence],[2/2017,Additional Chief Judicial Magistrate,11-09-2017,20-11-2017,Procecution Evidence],[2/2017,Additional Chief Judicial Magistrate,20-11-2017,06-02-2018,Appereance]]","orderFlow":"","petitioner":"Vijender Singh Malik S/o Balwant Singh","stateCode":"14","distCode":"12","courtNumber":"4","regNumber":"2/2017","filingNumber":"197/2017","filingDate":"03-01-2017","hearingDate":"13th February 2017","courtNumberAndJudge":": 6-Additional Chief Judicial Magistrate","score":36.111206,"id":"MTX5yH4BVARep3kBWAWa","respondent":"M/s Skytech Estates Pvt. Ltd.","caseName":"COMI/2/2017","caseTypeName":"COMI","caseTypeNumber":"38","courtName":"Chief judicial Magistrate, Rohtak","caseStatus":"Disposed","caseNo":"203800000022017","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Haryana","courtType":"District Court","district":"Rohtak","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"30th March 2022","cinNumber":"HRRH030001972017","caseRegDate":"03-01-2017","petitionerAddress":"1) Vijender Singh Malik S/o Balwant Singh    Advocate- Satvir Singh Hooda2)  pyari devi        ","respondentAddress":"1) M/s Skytech Estates Pvt. Ltd.2)  Renu Chawla w/o Rakesh        3)  Rakesh Chawla        4)  Mayank S/o Rakesh chawla        5)  Nank chand        6)  Anshu Nagpal        ","underAct":"Indian Penal Code","underSection":"U/s 323,415,419,420,467,468,506,120B,34","natureOfDisposal":"","elasticId":"MTX5yH4BVARep3kBWAWa","gfc_respondents":[{"name":"M/s Skytech Estates Pvt. Ltd."},{"name":"Renu Chawla w/o Rakesh"},{"name":"Rakesh Chawla"},{"name":"Mayank S/o Rakesh chawla"},{"name":"Nank chand"},{"name":"Anshu Nagpal"}],"gfc_petitioners":[{"name":"Vijender Singh Malik S/o Balwant Singh"},{"name":"pyari devi"}],"gfc_uniqueid":"DC_14_12_4_38_203800000022017_HRRH030001972017_2017","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=441497ad45c0ae70e3bd67f3bef5b861a85d41d5e9827ed43201ce568926f9a13acf850196fcba1526fc8ee11598dd6d95db911f79432e990ecd3213a7a82bc1","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Criminal","position":1,"caseStatusFromStage3":"Disposed","matchingAddressRespondent":"2) <strong>Name: </strong>Renu <em><em>Chawla</em></em> w/o <em><em><em>Rakesh</em></em></em><br>----------------------------<br>3) <strong>Name: </strong><em><em><em>Rakesh</em></em></em> <em><em>Chawla</em></em><br>----------------------------<br>4) <strong>Name: </strong><em>Mayank</em> S/o <em><em><em>Rakesh</em></em></em> <em>chawla</em><br>----------------------------<br>","addressIndexRespondent":1,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

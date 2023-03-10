@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681111524393,
+  "requestTime": "09/03/2023 02:46 pm",
+  "responseTime": "09/03/2023 02:50 pm",
+  "searchTerm": [
+    {
+      "companyName": "DLF INFO CITY HYDERABAD LIMITED",
+      "cinnumber": "U70200HR2017PLC106791",
+      "address": "2nd Floor, DLF Gateway Tower, R Block, DLF City Phase-III Gurugram Gurgaon Haryana 122002 India"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111524393/96e3a17f75f427e72ec4fb0174bdbfcd",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

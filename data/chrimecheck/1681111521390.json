@@ -1,0 +1,76 @@
+{
+  "status": "OK",
+  "requestId": 1681111521390,
+  "requestTime": "09/03/2023 12:19 pm",
+  "responseTime": "09/03/2023 04:10 pm",
+  "searchTerm": [
+    {
+      "name": "VYOMESH RAMESHCHANDRAN THAKKER",
+      "fatherName": "RAMESHCHANDRA THAKKER",
+      "dob": "",
+      "address": "709, Burj Al Nahda Building, Al Nahda First, DUBAI 78029"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111521390/d97a380a276e1ba8f5c43bf1c47ba29e",
+  "riskType": "High Risk",
+  "riskSummary": "VYOMESH RAMESHCHANDRAN THAKKER has 1 Criminal case(Magistrate) registered ",
+  "numberOfCases": 1,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "MUNCIPAL CORPORATION RS WARD, MUMBAI",
+      "respondent": "THAKKAR VYOMESH R",
+      "cinNumber": "MHMM250027942015",
+      "caseTypeName": "Ss casess",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Metropolitan Magistrate, Vile Parle, Mumbai",
+      "state": "Maharashtra",
+      "district": "Mumbai Cmm Courts",
+      "petitionerAddress": "1) Name: MUNCIPAL CORPORATION RS WARD, MUMBAI",
+      "respondentAddress": "1) Name: THAKKAR VYOMESH R",
+      "caseNumber": "200355182662015",
+      "caseNo": "200355182662015",
+      "caseYear": "2015",
+      "underAct": "MMC Act ",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "http://judgements.getupforchange.com/MHMM250027942015.pdf",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_23_16_3_200355182662015_MHMM250027942015_2015",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for violations under Mumbai municipal corporation act\n",
+      "severity": " violations under Mumbai municipal corporation act\n",
+      "judgementSummary": "The   accused   is   acquitted   of   the   offence   under\nSection 347C punishable under Section 471 of The\nMumbai   Municipal   Corporation   Act,   1888   vide\nSection   255   (1)   of   the   Code   of   Criminal\nProcedure, 1973.",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Magistrate Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>THAKKAR</em> <em>VYOMESH</em> R"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "MUNCIPAL CORPORATION RS WARD, MUMBAI"
+        }
+      ],
+      "matchingAddress": "Mr. Vyomesh Rameshchandra Thakkar\nAge : 47 Yrs.     Occ :­ Service\nR/o   :­   Flat   No.C­802,   Panchsheel\nHeights Co­operative Housing Society,\nMahavir   Nagar,   Kandivali(W),\nMumbai",
+      "matchSummary": "80% match with Name full match + Father name full match\nNote: The provided input is VYOMESH RAMESHCHANDRAN THAKKER and found case on Vyomesh Rameshchandra Thakkar\nNote: The matching  name seems to be unique hence considering as possible match case.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=6e9076c6767d5b715eaf8e3db43c131455edeb4cd229979bbb4adf6a271bcd0ed661b1cdd4f5e2eb56e6e9f97b6a808bd81e746cbeb089c211b4eeafb39b58cd"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

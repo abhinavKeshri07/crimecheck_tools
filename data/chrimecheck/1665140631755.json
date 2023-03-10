@@ -1,0 +1,121 @@
+{
+  "status": "OK",
+  "requestId": 1665140631755,
+  "requestTime": "07/10/2022 04:33 pm",
+  "responseTime": "10/10/2022 08:13 am",
+  "searchTerm": [
+    {
+      "companyName": "Vrihis Properties Private Limited",
+      "cinnumber": "U70100MH2016PTC274219",
+      "address": "401&402, 4th floor, Delphi A, Orchard Avenue Powai Mumbai City Maharashtra 400076"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1665140631755/fe5133c90a404656b02813209ba0ff27",
+  "riskType": "No Risk",
+  "riskSummary": "Vrihis Properties Private Limited has 2 cases registered, 1 NCLT case and 1 Civil matters in the High Court. ",
+  "numberOfCases": 2,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "M/s. Vrihis Properties Pvt.Ltd.",
+      "respondent": "",
+      "cinNumber": "NCLT case",
+      "caseTypeName": "",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "National Company Law Tribunal - Old",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "",
+      "caseNo": "",
+      "caseYear": "2017",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "TC_0_0_CLT_MUMBAI_M_SVRIHISPROPERTIESP_2018_03_22T172212000Z_2017",
+      "caseLink": "http://164.100.158.181/interim_orders/mumbai/07.06.2017/43.pdf",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a case filed by the subject,the case is filed for company matters in NCLT",
+      "severity": "NCLT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "NCLT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=c289ba06ca2b031bd87aa9efc766138f293d0e887f414185000836227bac1d0f1611cf21854918aa5076022bd29fbf4eef8deddca7445b6ea4dce7138ded9eb1497ae91c68b06f6c28ee188c1156559a"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "VRIHIS PROPERITIES PVT LTD",
+      "respondent": "--",
+      "cinNumber": "CSDL/1090/2016",
+      "caseTypeName": "COMPANY SUMMONS FOR DIRECTION",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: VRIHIS PROPERITIES PVT LTD ",
+      "respondentAddress": "1) Name: -- ",
+      "caseNumber": "CSDL/1090/2016",
+      "caseNo": "CSDL/1090/2016",
+      "caseYear": "2016",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORIGINAL_COMPANYSUMMONSFORDIRECTION_CSDL_1090_2016_NA_2016_VRIHISPROPE_",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject,  the case is filed for Company  Summons for Direction in the High Court of Bombay.\n",
+      "severity": " Company  Summons for Direction-HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "-- "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>VRIHIS</em> <em>PROPERITIES</em> <em>PVT</em> <em>LTD</em> "
+        }
+      ],
+      "matchingAddress": "1) Name: VRIHIS PROPERITIES PVT LTD ",
+      "matchSummary": "100% match with Name full match + Address state match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcfc273abc342615fac6c2d404d2482f80c4ffff63a4ecfe3c49117e77b05c211d9b1eac74b6c88918e4aa7b17f1c895f15c7a8d2063843a779c629dede16e623a86b32b7830550dd8b1c96cfab7be32ba1"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

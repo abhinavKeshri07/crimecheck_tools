@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Industrial Court, Mumbai, Maharashtra</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: Complaint ULP</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 5000133/2013</td><td>Filing Date</td><td class="dFilingDate">: 08-04-2013</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 5000133/2013</td><td>Registration Date</td><td class="dRegistrationDate">: 08-04-2013</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: MHIC010002882013</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 08th April 2013</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: &nbsp;4-Member</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) Associated Cement Staff Union.<br><span style="margin-left:10px">At Cement House Maharshi Karve Rd Opp. Churchgate Mumbai-400020</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) ACC Ltd. and Ors.<br><span style="margin-left:10px">At Cement House Maharshi Karve Rd Opp. Churchgate Mumbai-400020</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971</td><td class="undersection">U/s 28Item-9shedule-IV</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">08-04-2013</td><td <span="" style="text-align:center">18-04-2013</td><td <span="" style="text-align:center">Service Report</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">18-04-2013</td><td <span="" style="text-align:center">13-06-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">13-06-2013</td><td <span="" style="text-align:center">12-07-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">12-07-2013</td><td <span="" style="text-align:center">01-08-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">01-08-2013</td><td <span="" style="text-align:center">29-08-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">29-08-2013</td><td <span="" style="text-align:center">12-09-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">12-09-2013</td><td <span="" style="text-align:center">01-10-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">01-10-2013</td><td <span="" style="text-align:center">24-10-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">24-10-2013</td><td <span="" style="text-align:center">15-11-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">15-11-2013</td><td <span="" style="text-align:center">06-12-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">06-12-2013</td><td <span="" style="text-align:center">16-01-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">16-01-2014</td><td <span="" style="text-align:center">14-02-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">14-02-2014</td><td <span="" style="text-align:center">25-03-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">25-03-2014</td><td <span="" style="text-align:center">28-04-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">28-04-2014</td><td <span="" style="text-align:center">12-06-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">12-06-2014</td><td <span="" style="text-align:center">08-07-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">08-07-2014</td><td <span="" style="text-align:center">07-08-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">07-08-2014</td><td <span="" style="text-align:center">25-09-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">25-09-2014</td><td <span="" style="text-align:center">20-11-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">20-11-2014</td><td <span="" style="text-align:center">06-01-2015</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">06-01-2015</td><td <span="" style="text-align:center">10-02-2015</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">10-02-2015</td><td <span="" style="text-align:center">26-03-2015</td><td <span="" style="text-align:center">Ex Party Evidence</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">I.C.MEMBER</td><td <span="" style="text-align:center">26-03-2015</td><td <span="" style="text-align:center">23-04-2015</td><td <span="" style="text-align:center">Ex Party Evidence</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">23-04-2015</td><td <span="" style="text-align:center">11-06-2015</td><td <span="" style="text-align:center">Ex Party Evidence</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">11-06-2015</td><td <span="" style="text-align:center">25-06-2015</td><td <span="" style="text-align:center">Ex Party Evidence</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">25-06-2015</td><td <span="" style="text-align:center">06-08-2015</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">06-08-2015</td><td <span="" style="text-align:center">22-12-2015</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">22-12-2015</td><td <span="" style="text-align:center">20-04-2016</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">20-04-2016</td><td <span="" style="text-align:center">07-07-2016</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">07-07-2016</td><td <span="" style="text-align:center">03-12-2016</td><td <span="" style="text-align:center">Documents  Issues</td></tr><tr><td <span="" style="text-align:center">5000133/2013</td><td <span="" style="text-align:center">Member</td><td <span="" style="text-align:center">03-12-2016</td><td <span="" style="text-align:center">29-04-2017</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":2,"page":1,"resultsPerPage":10,"details":[{"year":"2013","bench":"","crawledDate":"2017-02-06T10:29:11.000Z","judgementDate":"","judgementDescription":"","caseFlow":"","original_caseFlow":"[[],[5000133/2013,I.C.MEMBER,08-04-2013,18-04-2013,Service Report],[5000133/2013,I.C.MEMBER,18-04-2013,13-06-2013,Written Statement],[5000133/2013,I.C.MEMBER,13-06-2013,12-07-2013,Written Statement],[5000133/2013,I.C.MEMBER,12-07-2013,01-08-2013,Written Statement],[5000133/2013,I.C.MEMBER,01-08-2013,29-08-2013,Written Statement],[5000133/2013,I.C.MEMBER,29-08-2013,12-09-2013,Written Statement],[5000133/2013,I.C.MEMBER,12-09-2013,01-10-2013,Written Statement],[5000133/2013,I.C.MEMBER,01-10-2013,24-10-2013,Written Statement],[5000133/2013,I.C.MEMBER,24-10-2013,15-11-2013,Written Statement],[5000133/2013,I.C.MEMBER,15-11-2013,06-12-2013,Written Statement],[5000133/2013,I.C.MEMBER,06-12-2013,16-01-2014,Written Statement],[5000133/2013,I.C.MEMBER,16-01-2014,14-02-2014,Written Statement],[5000133/2013,Member,14-02-2014,25-03-2014,Written Statement],[5000133/2013,Member,25-03-2014,28-04-2014,Written Statement],[5000133/2013,Member,28-04-2014,12-06-2014,Written Statement],[5000133/2013,Member,12-06-2014,08-07-2014,Written Statement],[5000133/2013,Member,08-07-2014,07-08-2014,Written Statement],[5000133/2013,Member,07-08-2014,25-09-2014,Written Statement],[5000133/2013,Member,25-09-2014,20-11-2014,Written Statement],[5000133/2013,Member,20-11-2014,06-01-2015,Written Statement],[5000133/2013,Member,06-01-2015,10-02-2015,Written Statement],[5000133/2013,Member,10-02-2015,26-03-2015,Ex Party Evidence],[5000133/2013,I.C.MEMBER,26-03-2015,23-04-2015,Ex Party Evidence],[5000133/2013,Member,23-04-2015,11-06-2015,Ex Party Evidence],[5000133/2013,Member,11-06-2015,25-06-2015,Ex Party Evidence],[5000133/2013,Member,25-06-2015,06-08-2015,Documents  Issues],[5000133/2013,Member,06-08-2015,22-12-2015,Documents  Issues],[5000133/2013,Member,22-12-2015,20-04-2016,Documents  Issues],[5000133/2013,Member,20-04-2016,07-07-2016,Documents  Issues],[5000133/2013,Member,07-07-2016,03-12-2016,Documents  Issues],[5000133/2013,Member,03-12-2016,29-04-2017,Documents  Issues]]","orderFlow":"","petitioner":"Associated Cement Staff Union.","stateCode":"1","distCode":"40","courtNumber":"4","regNumber":"5000133/2013","filingNumber":"5000133/2013","filingDate":"08-04-2013","hearingDate":"08th April 2013","courtNumberAndJudge":" 4-Member","score":35.84559,"id":"AWK5m3cOaQi7HkqiIqXw","respondent":"ACC Ltd. and Ors.","caseName":"Complaint ULP/5000133/2013","caseTypeName":"Complaint ULP","caseTypeNumber":"301","courtName":"Industrial Court, Mumbai","caseStatus":"Disposed","caseNo":"230150001332013","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Maharashtra","courtType":"District Court","district":"Maharashtra Industrial And Lab","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"12th October 2021","cinNumber":"MHIC010002882013","caseRegDate":"08-04-2013","petitionerAddress":"1) Associated Cement Staff Union.    Address  - At Cement House Maharshi Karve Rd Opp. Churchgate Mumbai-400020    Advocate- P.M.Patel","respondentAddress":"1) ACC Ltd. and Ors.    Address - At Cement House Maharshi Karve Rd Opp. Churchgate Mumbai-400020    Advocate - B.G.Goyal","underAct":"Maharashtra Recognition of Trade Union And Prevention of Unfair Labour Practices Act, 1971","underSection":"U/s 28Item-9shedule-IV","natureOfDisposal":"","elasticId":"AWK5m3cOaQi7HkqiIqXw","gfc_respondents":[{"name":"ACC Ltd. and Ors.","address":"At Cement House Maharshi Karve Rd Opp. Churchgate Mumbai-400020"}],"gfc_petitioners":[{"name":"Associated Cement Staff Union.","address":"At Cement House Maharshi Karve Rd Opp. Churchgate Mumbai-400020"}],"gfc_uniqueid":"DC_1_40_4_301_230150001332013_MHIC010002882013_2013","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=d044407a06f88ffe0eba40f2659d5f5f49c7293d04fde75324c4b8027250bde46db2a7697f2a5d94615eb9274c540129c2c63d78480854d32f7ee0b210f3371c","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[],"respondents":[]},"caseType":"Criminal","position":1,"caseStatusFromStage3":"Disposed","matchingAddressRespondent":"1) <strong>Name: </strong><em>ACC</em> <em>Ltd</em>. and Ors.<br><strong>Address: </strong>At <mem>Cement</mem> <mem>House</mem> Maharshi <mem>Karve</mem> Rd Opp. Churchgate <mem>Mumbai</mem>-400020<br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

@@ -168,7 +168,16 @@ def process(reportId:str, cin: str):
     pass
 
 # /Volumes/samsung_usb/code_data/chrimecheck/1647849476843.json
-
+def download(path, filename, report_id):
+    if not os.path.isdir(path):
+        os.makedirs(path)
+    if not os.path.isfile(f'{path}/{filename}'):
+        url = f"https://crime.getupforchange.com/api/v3/downloadJsonReport/{report_id}/{settings.crimecheck_api_key}"
+        resp = requests.get(url)
+        print(resp)
+        if resp.status_code == 200:
+            with open(f'{path}/{filename}', 'wb') as file_to_wirte:
+                file_to_wirte.write(resp.content)
 
 if __name__ == "__main__":
     # download_all_jsons()
@@ -180,16 +189,7 @@ if __name__ == "__main__":
             # https://crime.getupforchange.com/api/v3/downloadJsonReport/1660197639671/AltInfo(Fintech)-sandbox-d2sCP
             filename = report_id + ".json"
             path = f"{settings.base_data_path}/chrimecheck"
-            if not os.path.isdir(path):
-                os.makedirs(path)
-            if not os.path.isfile(f'{path}/{filename}'):
-                url = f"https://crime.getupforchange.com/api/v3/downloadJsonReport/{report_id}/{settings.crimecheck_api_key}"
-                resp = requests.get(url)
-                print(resp)
-                if resp.status_code == 200:
-
-                    with open(f'{path}/{filename}', 'wb') as file_to_wirte:
-                        file_to_wirte.write(resp.content)
+            download(path, filename, report_id)
 
 
             print(report_id, cin)
@@ -199,15 +199,16 @@ if __name__ == "__main__":
     with open(f'{settings.base_data_path}/memory_individual.yml', 'r') as memory:
         loaded_memory = yaml.safe_load(memory)
         for entry in loaded_memory['reports']:
-            # report_id, cin = entry.split(' ')
             all = entry.split(' ')
             report_id = all[0]
             name = ""
             for part_name in all[1:]:
                 name = name + part_name + "_"
             name = name[0:-1]
-
+            filename = report_id + ".json"
+            path = f"{settings.base_data_path}/chrimecheck"
             print(report_id, name)
+            download(path, filename, report_id)
             process(report_id, name)
 
 

@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Labour, Mumbai, Maharashtra</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: MCC ULP</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: </td><td>Filing Date</td><td class="dFilingDate">: 22-05-2012</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 5100030/2012</td><td>Registration Date</td><td class="dRegistrationDate">: 22-05-2012</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: MHLC010007422012</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 24th August 2012</td><td></td><td></td></tr><tr><td>Case Status </td><td class="dcaseStatusFromStage3">: Disposed</td><td></td><td></td></tr><tr><td>Nature of Disposal</td><td class="dnatureOfDisposal">: Contested--JUDGMENT</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: 2-Judge</td><td></td><td></td></tr><tr class="ddecisionDateTr"><td class="dDecisionDateHeader">Decision Date</td><td class="ddecisionDate">: 12th December 2017</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) Rohit Agarwal<br><span style="margin-left:10px">Mumbai</span><br><br><b>Per Order / Judgement</b><br>1) Revn. Appl. of and of Honble Industrial Court dtd. Th February In<br><span style="margin-left:10px"></span><br>2) In Original Complaint ULP of Honble Ic. Nd Labour Court dtd. Th February th<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) MS.International Gemological Institute pvt.ltd.,<br><span style="margin-left:10px">Mumbai</span><br><br><b> Per Order / Judgement</b><br>1) Honble 2 Labour Court Order dtd. 10Th August 2007 nd<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">N/A</td><td class="undersection"></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">FIR Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>Police Station</td><td class="dfirPoliceStation">: </td><td></td><td></td></tr><tr><td>FIR Number </td><td class="dfirNumber">: </td><td></td><td></td></tr><tr><td>Year</td><td class="dfirYear">: 2012</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">24-08-2012</td><td <span="" style="text-align:center">07-09-2012</td><td <span="" style="text-align:center">Verification</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">07-09-2012</td><td <span="" style="text-align:center">05-10-2012</td><td <span="" style="text-align:center">Verification</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">05-10-2012</td><td <span="" style="text-align:center">20-10-2012</td><td <span="" style="text-align:center">Verification</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">20-10-2012</td><td <span="" style="text-align:center">09-11-2012</td><td <span="" style="text-align:center">Verification</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">09-11-2012</td><td <span="" style="text-align:center">15-01-2013</td><td <span="" style="text-align:center">Verification</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">15-01-2013</td><td <span="" style="text-align:center">20-02-2013</td><td <span="" style="text-align:center">Verification</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">20-02-2013</td><td <span="" style="text-align:center">20-03-2013</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">20-03-2013</td><td <span="" style="text-align:center">03-04-2013</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">03-04-2013</td><td <span="" style="text-align:center">10-06-2013</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">10-06-2013</td><td <span="" style="text-align:center">25-06-2013</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">25-06-2013</td><td <span="" style="text-align:center">19-07-2013</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">19-07-2013</td><td <span="" style="text-align:center">05-09-2013</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">05-09-2013</td><td <span="" style="text-align:center">27-09-2013</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">27-09-2013</td><td <span="" style="text-align:center">28-10-2013</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">28-10-2013</td><td <span="" style="text-align:center">13-11-2013</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">13-11-2013</td><td <span="" style="text-align:center">23-12-2013</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">23-12-2013</td><td <span="" style="text-align:center">04-02-2014</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">04-02-2014</td><td <span="" style="text-align:center">29-03-2014</td><td <span="" style="text-align:center">R  P Sent</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">29-03-2014</td><td <span="" style="text-align:center">19-04-2014</td><td <span="" style="text-align:center">R  P Sent</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">19-04-2014</td><td <span="" style="text-align:center">25-04-2014</td><td <span="" style="text-align:center">R  P Sent</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">25-04-2014</td><td <span="" style="text-align:center">29-04-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">29-04-2014</td><td <span="" style="text-align:center">09-05-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">09-05-2014</td><td <span="" style="text-align:center">11-06-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">11-06-2014</td><td <span="" style="text-align:center">30-07-2014</td><td <span="" style="text-align:center">R  P Sent</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">30-07-2014</td><td <span="" style="text-align:center">11-08-2014</td><td <span="" style="text-align:center">R  P Sent</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">11-08-2014</td><td <span="" style="text-align:center">20-08-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">20-08-2014</td><td <span="" style="text-align:center">27-08-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">27-08-2014</td><td <span="" style="text-align:center">18-09-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">18-09-2014</td><td <span="" style="text-align:center">29-11-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">29-11-2014</td><td <span="" style="text-align:center">08-12-2014</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">08-12-2014</td><td <span="" style="text-align:center">09-01-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">09-01-2015</td><td <span="" style="text-align:center">25-02-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">25-02-2015</td><td <span="" style="text-align:center">12-03-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">12-03-2015</td><td <span="" style="text-align:center">16-03-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">16-03-2015</td><td <span="" style="text-align:center">17-03-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">17-03-2015</td><td <span="" style="text-align:center">24-03-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">24-03-2015</td><td <span="" style="text-align:center">07-04-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">07-04-2015</td><td <span="" style="text-align:center">21-04-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">21-04-2015</td><td <span="" style="text-align:center">19-06-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">19-06-2015</td><td <span="" style="text-align:center">24-06-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">24-06-2015</td><td <span="" style="text-align:center">29-07-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">29-07-2015</td><td <span="" style="text-align:center">26-08-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">26-08-2015</td><td <span="" style="text-align:center">19-09-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">19-09-2015</td><td <span="" style="text-align:center">17-10-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">17-10-2015</td><td <span="" style="text-align:center">23-10-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">23-10-2015</td><td <span="" style="text-align:center">06-11-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">06-11-2015</td><td <span="" style="text-align:center">26-11-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">26-11-2015</td><td <span="" style="text-align:center">02-12-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">02-12-2015</td><td <span="" style="text-align:center">19-12-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">19-12-2015</td><td <span="" style="text-align:center">22-12-2015</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">22-12-2015</td><td <span="" style="text-align:center">06-01-2016</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">06-01-2016</td><td <span="" style="text-align:center">11-01-2016</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">11-01-2016</td><td <span="" style="text-align:center">13-01-2016</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">13-01-2016</td><td <span="" style="text-align:center">14-01-2016</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">14-01-2016</td><td <span="" style="text-align:center">19-01-2016</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">19-01-2016</td><td <span="" style="text-align:center">05-02-2016</td><td <span="" style="text-align:center">Hearing</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">05-02-2016</td><td <span="" style="text-align:center">10-02-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">10-02-2016</td><td <span="" style="text-align:center">12-02-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">12-02-2016</td><td <span="" style="text-align:center">18-02-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">18-02-2016</td><td <span="" style="text-align:center">29-02-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">29-02-2016</td><td <span="" style="text-align:center">16-03-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">16-03-2016</td><td <span="" style="text-align:center">30-03-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">30-03-2016</td><td <span="" style="text-align:center">22-04-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">22-04-2016</td><td <span="" style="text-align:center">06-05-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">06-05-2016</td><td <span="" style="text-align:center">20-05-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">20-05-2016</td><td <span="" style="text-align:center">24-05-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">24-05-2016</td><td <span="" style="text-align:center">17-06-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">17-06-2016</td><td <span="" style="text-align:center">01-07-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">01-07-2016</td><td <span="" style="text-align:center">08-07-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">08-07-2016</td><td <span="" style="text-align:center">22-07-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">22-07-2016</td><td <span="" style="text-align:center">06-08-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">06-08-2016</td><td <span="" style="text-align:center">16-08-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">I.C.Judge</td><td <span="" style="text-align:center">16-08-2016</td><td <span="" style="text-align:center">14-09-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">14-09-2016</td><td <span="" style="text-align:center">24-09-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">24-09-2016</td><td <span="" style="text-align:center">30-09-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">30-09-2016</td><td <span="" style="text-align:center">11-11-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">11-11-2016</td><td <span="" style="text-align:center">15-11-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">15-11-2016</td><td <span="" style="text-align:center">03-12-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">03-12-2016</td><td <span="" style="text-align:center">09-12-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">09-12-2016</td><td <span="" style="text-align:center">23-12-2016</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">23-12-2016</td><td <span="" style="text-align:center">07-01-2017</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">07-01-2017</td><td <span="" style="text-align:center">03-02-2017</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">03-02-2017</td><td <span="" style="text-align:center">16-02-2017</td><td <span="" style="text-align:center">Argument</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">16-02-2017</td><td <span="" style="text-align:center">27-02-2017</td><td <span="" style="text-align:center">Order</td></tr><tr><td <span="" style="text-align:center">5100030/2012</td><td <span="" style="text-align:center">Judge</td><td <span="" style="text-align:center">27-02-2017</td><td <span="" style="text-align:center">24-03-2017</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":1,"page":1,"resultsPerPage":10,"details":[{"year":"2012","bench":"","crawledDate":"2022-03-28T21:19:21.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"Copy of Judgment","gfc_OrderType":"Judgement","orderDate":"12-12-2017","orderLink":"http://orders.getupforchange.com/getFile/b16eed2b1c6075a8b538c633222c34fb7e5cc7db291b0c34aa5fc13f519c6d836aed964677727d5072036adf8b114894ff848ea83cfd7a5141e3179b04e92f7b","elastic_id":"66f-onoBGJuRUP3q5w1u","index":"co11_dc_mh_all"},{"Order":"Order below Exh ------","gfc_OrderType":"Order","orderDate":"07-01-2017","orderLink":"http://orders.getupforchange.com/getFile/b16eed2b1c6075a8b538c633222c34fb7e5cc7db291b0c34aa5fc13f519c6d8319fb3015bc8ba8b74c335f5aa6fc439872c8c78a77719f2bc1bc8f19991a0208","elastic_id":"-qb-onoBGJuRUP3q5v3l","index":"co11_dc_mh_all"},{"Order":"Order below Exh ------","gfc_OrderType":"Order","orderDate":"24-05-2016","orderLink":"http://orders.getupforchange.com/getFile/3a50783db741b3bea7ca81dcdfe29b2ad9a8f60a4fcc8ff21327f1101a9bb1417c8fd9e8612f0f77b4c0f57f6dc943f86de464fef9cd8f940a37ee4f1540d3cf","elastic_id":"q6f-onoBGJuRUP3q5xKT","index":"co11_dc_mh_all"},{"Order":"Order below Exh ------","gfc_OrderType":"Order","orderDate":"29-04-2014","orderLink":"http://orders.getupforchange.com/getFile/4a9acccac853112643e715c9360ce1370aee849de28c1afa0bf61ad09db348487cf607e25b70e79e3505214efbda335ffe0a08a8ab7bf61c54f79bfb690f9422","elastic_id":"maf-onoBGJuRUP3q6CZF","index":"co11_dc_mh_all"},{"Order":"Order below Exh ------","gfc_OrderType":"Order","orderDate":"29-04-2014","orderLink":"http://orders.getupforchange.com/getFile/4a9acccac853112643e715c9360ce1370aee849de28c1afa0bf61ad09db348482086acb6b7ea3017fc5692b434b3662a5f2601063bfc22fbd6e62e269cb45999","elastic_id":"mKf-onoBGJuRUP3q6CZF","index":"co11_dc_mh_all"},{"Order":"Order Number 1","gfc_OrderType":"Order","orderDate":"23-12-2013","orderLink":"http://orders.getupforchange.com/getFile/d20dec9b633240ae899933e6eeaa401b06981998950ccb53725828dd7df9d255107c1d4bb3c819ee9bbaea408d510482a9d5015dfcc383964c72208cc75860c1","elastic_id":"fKf-onoBGJuRUP3q6Duv","index":"co11_dc_mh_all"}],"original_caseFlow":"[[],[5100030/2012,Judge,24-08-2012,07-09-2012,Verification],[5100030/2012,Judge,07-09-2012,05-10-2012,Verification],[5100030/2012,Judge,05-10-2012,20-10-2012,Verification],[5100030/2012,Judge,20-10-2012,09-11-2012,Verification],[5100030/2012,Judge,09-11-2012,15-01-2013,Verification],[5100030/2012,Judge,15-01-2013,20-02-2013,Verification],[5100030/2012,Judge,20-02-2013,20-03-2013,Argument],[5100030/2012,Judge,20-03-2013,03-04-2013,Argument],[5100030/2012,Judge,03-04-2013,10-06-2013,Argument],[5100030/2012,Judge,10-06-2013,25-06-2013,Argument],[5100030/2012,Judge,25-06-2013,19-07-2013,Order],[5100030/2012,Judge,19-07-2013,05-09-2013,Order],[5100030/2012,Judge,05-09-2013,27-09-2013,Order],[5100030/2012,Judge,27-09-2013,28-10-2013,Order],[5100030/2012,Judge,28-10-2013,13-11-2013,Order],[5100030/2012,Judge,13-11-2013,23-12-2013,Order],[5100030/2012,Judge,23-12-2013,04-02-2014,Order],[5100030/2012,Judge,04-02-2014,29-03-2014,R  P Sent],[5100030/2012,Judge,29-03-2014,19-04-2014,R  P Sent],[5100030/2012,Judge,19-04-2014,25-04-2014,R  P Sent],[5100030/2012,Judge,25-04-2014,29-04-2014,Hearing],[5100030/2012,Judge,29-04-2014,09-05-2014,Hearing],[5100030/2012,Judge,09-05-2014,11-06-2014,Hearing],[5100030/2012,Judge,11-06-2014,30-07-2014,R  P Sent],[5100030/2012,Judge,30-07-2014,11-08-2014,R  P Sent],[5100030/2012,Judge,11-08-2014,20-08-2014,Hearing],[5100030/2012,Judge,20-08-2014,27-08-2014,Hearing],[5100030/2012,Judge,27-08-2014,18-09-2014,Hearing],[5100030/2012,Judge,18-09-2014,29-11-2014,Hearing],[5100030/2012,Judge,29-11-2014,08-12-2014,Hearing],[5100030/2012,Judge,08-12-2014,09-01-2015,Hearing],[5100030/2012,,09-01-2015,25-02-2015,Hearing],[5100030/2012,,25-02-2015,12-03-2015,Hearing],[5100030/2012,,12-03-2015,16-03-2015,Hearing],[5100030/2012,,16-03-2015,17-03-2015,Hearing],[5100030/2012,,17-03-2015,24-03-2015,Hearing],[5100030/2012,,24-03-2015,07-04-2015,Hearing],[5100030/2012,,07-04-2015,21-04-2015,Hearing],[5100030/2012,,21-04-2015,19-06-2015,Hearing],[5100030/2012,I.C.Judge,19-06-2015,24-06-2015,Hearing],[5100030/2012,I.C.Judge,24-06-2015,29-07-2015,Hearing],[5100030/2012,I.C.Judge,29-07-2015,26-08-2015,Hearing],[5100030/2012,I.C.Judge,26-08-2015,19-09-2015,Hearing],[5100030/2012,I.C.Judge,19-09-2015,17-10-2015,Hearing],[5100030/2012,I.C.Judge,17-10-2015,23-10-2015,Hearing],[5100030/2012,I.C.Judge,23-10-2015,06-11-2015,Hearing],[5100030/2012,I.C.Judge,06-11-2015,26-11-2015,Hearing],[5100030/2012,I.C.Judge,26-11-2015,02-12-2015,Hearing],[5100030/2012,I.C.Judge,02-12-2015,19-12-2015,Hearing],[5100030/2012,I.C.Judge,19-12-2015,22-12-2015,Hearing],[5100030/2012,I.C.Judge,22-12-2015,06-01-2016,Hearing],[5100030/2012,I.C.Judge,06-01-2016,11-01-2016,Hearing],[5100030/2012,I.C.Judge,11-01-2016,13-01-2016,Hearing],[5100030/2012,I.C.Judge,13-01-2016,14-01-2016,Hearing],[5100030/2012,I.C.Judge,14-01-2016,19-01-2016,Hearing],[5100030/2012,I.C.Judge,19-01-2016,05-02-2016,Hearing],[5100030/2012,I.C.Judge,05-02-2016,10-02-2016,Argument],[5100030/2012,I.C.Judge,10-02-2016,12-02-2016,Argument],[5100030/2012,I.C.Judge,12-02-2016,18-02-2016,Argument],[5100030/2012,I.C.Judge,18-02-2016,29-02-2016,Argument],[5100030/2012,I.C.Judge,29-02-2016,16-03-2016,Argument],[5100030/2012,I.C.Judge,16-03-2016,30-03-2016,Argument],[5100030/2012,I.C.Judge,30-03-2016,22-04-2016,Argument],[5100030/2012,I.C.Judge,22-04-2016,06-05-2016,Argument],[5100030/2012,I.C.Judge,06-05-2016,20-05-2016,Argument],[5100030/2012,I.C.Judge,20-05-2016,24-05-2016,Argument],[5100030/2012,I.C.Judge,24-05-2016,17-06-2016,Argument],[5100030/2012,I.C.Judge,17-06-2016,01-07-2016,Argument],[5100030/2012,I.C.Judge,01-07-2016,08-07-2016,Argument],[5100030/2012,I.C.Judge,08-07-2016,22-07-2016,Argument],[5100030/2012,I.C.Judge,22-07-2016,06-08-2016,Argument],[5100030/2012,I.C.Judge,06-08-2016,16-08-2016,Argument],[5100030/2012,I.C.Judge,16-08-2016,14-09-2016,Argument],[5100030/2012,Judge,14-09-2016,24-09-2016,Argument],[5100030/2012,Judge,24-09-2016,30-09-2016,Argument],[5100030/2012,Judge,30-09-2016,11-11-2016,Argument],[5100030/2012,Judge,11-11-2016,15-11-2016,Argument],[5100030/2012,Judge,15-11-2016,03-12-2016,Argument],[5100030/2012,Judge,03-12-2016,09-12-2016,Argument],[5100030/2012,Judge,09-12-2016,23-12-2016,Argument],[5100030/2012,Judge,23-12-2016,07-01-2017,Argument],[5100030/2012,Judge,07-01-2017,03-02-2017,Argument],[5100030/2012,Judge,03-02-2017,16-02-2017,Argument],[5100030/2012,Judge,16-02-2017,27-02-2017,Order],[5100030/2012,Judge,27-02-2017,24-03-2017,Order],[Orders],[Order Number,Order Date,Order Details],[1,23-12-2013,Order Number 1],[2,29-04-2014,Order below Exh ------],[3,29-04-2014,Order below Exh ------],[4,24-05-2016,Order below Exh ------],[5,07-01-2017,Order below Exh ------]]","orderFlow":"","petitioner":"Rohit Agarwal","stateCode":"1","distCode":"40","courtNumber":"5","regNumber":"5100030/2012","filingNumber":"","filingDate":"22-05-2012","hearingDate":"24th August 2012","courtNumberAndJudge":"2-Judge","score":35.323223,"id":"2848152","respondent":"MS.International Gemological Institute pvt.ltd.,","caseName":"MCC ULP/5100030/2012","caseTypeName":"MCC ULP","caseTypeNumber":"357","courtName":"Labour, Mumbai","caseStatus":"Disposed","caseNo":"235751000302012","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Maharashtra","courtType":"District Court","district":"Maharashtra Industrial And Lab","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"20th June 2022","cinNumber":"MHLC010007422012","caseRegDate":"22-05-2012","petitionerAddress":"1) Rohit Agarwal    Address  - Mumbai","respondentAddress":"1) MS.International Gemological Institute pvt.ltd.,    Address - Mumbai    Advocate - S. Pillai","underAct":"N/A","underSection":"","natureOfDisposal":"","elasticId":"2848152","gfc_respondents":[{"name":"MS.International Gemological Institute pvt.ltd.,","address":"Mumbai"}],"gfc_petitioners":[{"name":"Rohit Agarwal","address":"Mumbai"}],"gfc_uniqueid":"DC_1_40_5_357_235751000302012_MHLC010007422012_2012","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=27667c66eb321e1fd6966f1656a5501977b6d4f9e4eb7308215ee81ca8c6c6335e383d266f60f0e069abd3e223d584fd0336b9160663169e88c2d897b2cf7e97","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[{"districtname":"","statename":"","pincode":"","subdistname":"","address":"","age":"","name":"Revn. Appl. of and of Honble Industrial Court dtd. Th February In","localityname":"","lastname":"","id":"1"},{"districtname":"","statename":"","pincode":"","subdistname":"","address":"","age":"","name":"In Original Complaint ULP of Honble Ic. Nd Labour Court dtd. Th February th","localityname":"","lastname":"","id":"2"}],"respondents":[{"districtname":"","statename":"","pincode":"","subdistname":"","address":"","age":"","name":"Honble 2 Labour Court Order dtd. 10Th August 2007 nd","localityname":"","lastname":"","id":"1"}]},"caseType":"Criminal","position":1,"caseStatusFromStage3":"Disposed","natureOfDisposalFromStage3":"Contested--JUDGMENT","decisionDate":"12th December 2017","matchingAddressRespondent":"1) <strong>Name: </strong>MS.<em>International</em> <em>Gemological</em> <em>Institute</em> <em>pvt</em>.<em>ltd</em>.,<br><strong>Address: </strong><mem>Mumbai</mem><br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var caseStatusFromStage3 = result.caseStatusFromStage3 || result.caseStatus;
+	if(caseStatusFromStage3 == null || caseStatusFromStage3 == 'undefined'){
+		caseStatusFromStage3 = '';
+	}
+	var natureOfDisposal = result.natureOfDisposalFromStage3 || result.natureOfDisposal;
+	if(natureOfDisposal == null || natureOfDisposal == 'undefined'){
+		natureOfDisposal = '';
+	}
+	var firPoliceStation = result.firPoliceStationFromStage3 || result.policestation;
+	if(firPoliceStation == null || firPoliceStation == 'undefined'){
+		firPoliceStation = '';
+	}
+	var firNumber = result.firNumberFromStage3 || result.firnumber;
+	if(firNumber == null || firNumber == 'undefined'){
+		firNumber = '';
+	}
+	var firYear = result.firYearFromStage3 || result.year;
+	if(firYear == null || firYear == 'undefined'){
+		firYear = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcaseStatusFromStage3').empty().append(': '+caseStatusFromStage3);
+	$('.dnatureOfDisposal').empty().append(': '+natureOfDisposal);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	if (result.decisionDate) {
+		$('.ddecisionDate').text(': '+ result.decisionDate);
+	} else if (result.dismissedDate) {
+		$('.ddecisionDate').text(': '+ result.dismissedDate);
+		$('.dDecisionDateHeader').text('Dismissed Date');
+	} else {
+		$('.ddecisionDateTr').hide();
+	}
+	$('.dfirPoliceStation').empty().append(': '+ firPoliceStation);
+	$('.dfirNumber').empty().append(': '+ firNumber);
+	$('.dfirYear').empty().append(': '+ firYear);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

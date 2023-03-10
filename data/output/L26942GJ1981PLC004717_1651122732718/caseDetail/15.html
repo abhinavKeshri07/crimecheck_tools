@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" href="/stylesheets/bootstrap.min.css"><link rel="stylesheet" href="/stylesheets/style.css"><script src="/javascripts/jquery-1.9.1.min.js"> </script><script src="/javascripts/state.js"></script><script src="/javascripts/jquery.mark.min.js"> </script><script src="/javascripts/bootstrap-paginator.min.js"></script><script src="/javascripts/underscore-min.js"></script><script src="/javascripts/jquery.mark.min.js"></script><script src="/javascripts/moment.min.js"></script><script src="/javascripts/sweetalert2.all.js"></script><script src="/javascripts/json-viewer.js"></script><script src="/javascripts/config.js"></script><style>.deprecate-warning {
+  font-weight: bold;
+  text-align: center;
+}</style></head><body><div role="alert" class="alert alert-warning deprecate-warning" style="display: none;">This dashboard is being deprecated. Please use the new <a href="https://search.crimecheck.in/">Case Search Dashboard</a> instead.</div><style>body{
+	background: white !important;
+	font-family: Arial,Helvetica,sans-serif;		
+	color: black;	
+}
+p{
+	font-weight: 700;
+	color:black;
+}
+p.title{
+	font-size: 12px;	
+	margin-bottom:0px !important;		
+}
+.topPadding{
+	margin-top:30px;
+}
+.caseDetailsTable{
+	background: #f9fdf1;
+}
+.caseHistoryTable{
+	background: #f6fbe9;
+}
+.caseStatusTable{
+	background: #fbf6d9;
+	color:#ea3f33;
+}
+.table-bordered td{
+	border-left:0px !important;
+	font-size: 12px;
+}
+.table-bordered {
+	border: 1px solid #000;
+	border-bottom: 0px solid #000;
+	border-radius:0px !important;
+}
+.table th, .table td{
+	padding: 0px;
+	padding-left:10px;			
+}
+.table tr td{
+	border-bottom: 1px solid #000 !important;
+}
+table.petitionerTable{
+	background:#f3fafe;
+}
+table.respondentTable{
+	background:#f5f1fc;
+}
+th {
+	font-size: 11px;
+	border: 1px solid black;
+}
+.caseHistoryTable th, .caseHistoryTable td{
+	border:0px !important;
+	text-align: center !important;
+}
+.caseHistoryTable th{
+	border-bottom:1px solid black !important;
+	border-right:1px solid black !important;
+}
+.caseHistoryTable td{
+	border-right:1px solid black !important;
+}
+.caseHistoryTable th:last-child, .caseHistoryTable td:last-child{
+	border-right:0px !important;
+}
+.actsTable th,.actsTable td{
+	text-align: center !important;
+}</style><div class="topPadding"></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCourtName title">Civil Judge Senior Division, Rupnagar, Punjab</p><p class="dCaseDetails title">Case Details</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseDetailsTable"><tbody><tr><td>Case Type</td><td class="dCaseType">: Cs - CIVIL SUIT</td><td></td><td></td></tr><tr><td>Filing Number</td><td class="dfilingNumber">: 8423/2013</td><td>Filing Date</td><td class="dFilingDate">: 29-05-2013</td></tr><tr><td>Registration Number</td><td class="dRegistrationNumber">: 59686/2013</td><td>Registration Date</td><td class="dRegistrationDate">: 29-05-2013</td></tr><tr><td class="cnrTitle">CNR Number</td><td class="dCnrNumber">: PBRO020004972013</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">Case Status</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseStatusTable"><tbody><tr><td>First Hearing Date</td><td class="dfirstHearingDate">: 06th July 2013</td><td></td><td></td></tr><tr><td>Court Number and Judge</td><td class="dcourtNumberAndJudge">: &nbsp;16-Civil Judge (Senior Division)</td><td></td><td></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Petitioner and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table petitionerTable"><tbody><tr><td class="dPetitioner">1) Daljit Bahia aged about 56 years<br><span style="margin-left:10px">130 Wolverhampton road Oldbury west Midlands B 68 OLW England</span><br><br><b>Per Order / Judgement</b><br>1) 1. Daljit Bahia,<br><span style="margin-left:10px">son of Kundan Singh.</span><br>2) 2. Sukhvinder Singh,<br><span style="margin-left:10px">son of Kundan Singh.</span><br>3) 3. Kundan Singh,<br><span style="margin-left:10px">Residents of wolverhampton road oldbury west midlands b olw england second address vpo kuker pind tehsil jalandhar punjab</span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Respondent and Advocate</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table respondentTable"><tbody><tr><td class="dRespondent">1) Ambuja Cements Ltd<br><span style="margin-left:10px">office at Ambuja Nagar PO Ambuja Nagar Taluka Kodinar Distt Junagarh Gujarat</span><br><br><b> Per Order / Judgement</b><br>1) 1. Ambuja Cements Ltd., having its registered office at Ambuja Nagar, PO Ambuja Nagar TalukaKodinar, District Junagarh, Gujarat362715, through its Managing Director. Also at Nuhon Colony, PO Ghanauli, District Rupnagar, Punjab<br><span style="margin-left:10px"></span><br>2) 2. Hardeep Singh son of Pargat Singh, Village Nuhon, Tehsil &amp; District Rupnagar, Punjab.<br><span style="margin-left:10px"></span><br></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dPetitionerDetails title">Acts</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table actsTable"><tbody><tr><th>Under Act(s)</th><th>Under Section(s) </th></tr><tr><td class="underact">NA</td><td class="undersection"></td></tr></tbody></table></div></div><div class="row-fluid"><div class="span8 offset2 pagination-centered"><p class="dCaseStatusDetails title">History of Case Hearing</p></div></div><div class="row-fluid"><div class="span6 offset3"><table class="table-bordered table caseHistoryTable"><tbody><tr><th>Registration Number</th><th>Judge</th><th>Business On Date</th><th>Hearing Date</th><th>Purpose of hearing	</th></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">06-07-2013</td><td <span="" style="text-align:center">27-08-2013</td><td <span="" style="text-align:center">Appearance</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">27-08-2013</td><td <span="" style="text-align:center">20-09-2013</td><td <span="" style="text-align:center">Appearance</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">20-09-2013</td><td <span="" style="text-align:center">07-12-2013</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">07-12-2013</td><td <span="" style="text-align:center">05-02-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">05-02-2014</td><td <span="" style="text-align:center">22-02-2014</td><td <span="" style="text-align:center">Written Statement</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">22-02-2014</td><td <span="" style="text-align:center">11-04-2014</td><td <span="" style="text-align:center">Replica</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">11-04-2014</td><td <span="" style="text-align:center">03-05-2014</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">03-05-2014</td><td <span="" style="text-align:center">26-05-2014</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">26-05-2014</td><td <span="" style="text-align:center">12-09-2014</td><td <span="" style="text-align:center">Plantiff Evidence</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">12-09-2014</td><td <span="" style="text-align:center">06-12-2014</td><td <span="" style="text-align:center">Plantiff Evidence</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">06-12-2014</td><td <span="" style="text-align:center">24-02-2015</td><td <span="" style="text-align:center">Plantiff Evidence</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Additional Civil Judge (Senior Division)</td><td <span="" style="text-align:center">24-02-2015</td><td <span="" style="text-align:center">20-04-2015</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">20-04-2015</td><td <span="" style="text-align:center">26-04-2015</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center"></td><td <span="" style="text-align:center">26-04-2015</td><td <span="" style="text-align:center">21-05-2015</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">21-05-2015</td><td <span="" style="text-align:center">18-08-2015</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">18-08-2015</td><td <span="" style="text-align:center">24-09-2015</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">24-09-2015</td><td <span="" style="text-align:center">19-10-2015</td><td <span="" style="text-align:center">Further Order</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">19-10-2015</td><td <span="" style="text-align:center">21-10-2015</td><td <span="" style="text-align:center">Further Order</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">21-10-2015</td><td <span="" style="text-align:center">04-12-2015</td><td <span="" style="text-align:center">Further Order</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">04-12-2015</td><td <span="" style="text-align:center">21-01-2016</td><td <span="" style="text-align:center">Further Order</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">21-01-2016</td><td <span="" style="text-align:center">29-04-2016</td><td <span="" style="text-align:center">Further Order</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">29-04-2016</td><td <span="" style="text-align:center">25-05-2016</td><td <span="" style="text-align:center">Further Order</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">25-05-2016</td><td <span="" style="text-align:center">12-07-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">12-07-2016</td><td <span="" style="text-align:center">20-07-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">20-07-2016</td><td <span="" style="text-align:center">01-08-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Junior Division)</td><td <span="" style="text-align:center">01-08-2016</td><td <span="" style="text-align:center">12-09-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">12-09-2016</td><td <span="" style="text-align:center">27-09-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">27-09-2016</td><td <span="" style="text-align:center">28-09-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">28-09-2016</td><td <span="" style="text-align:center">29-09-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">29-09-2016</td><td <span="" style="text-align:center">26-10-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">26-10-2016</td><td <span="" style="text-align:center">21-11-2016</td><td <span="" style="text-align:center">CONSIDERATION</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">21-11-2016</td><td <span="" style="text-align:center">07-01-2017</td><td <span="" style="text-align:center">Plantiff Evidence</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">07-01-2017</td><td <span="" style="text-align:center">18-02-2017</td><td <span="" style="text-align:center">Plantiff Evidence</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">18-02-2017</td><td <span="" style="text-align:center">18-03-2017</td><td <span="" style="text-align:center">Plantiff Evidence</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">18-03-2017</td><td <span="" style="text-align:center">03-04-2017</td><td <span="" style="text-align:center">Reply</td></tr><tr><td <span="" style="text-align:center">59686/2013</td><td <span="" style="text-align:center">Civil Judge (Senior Division)</td><td <span="" style="text-align:center">03-04-2017</td><td <span="" style="text-align:center">05-05-2017</td><td <span="" style="text-align:center">Disposed</td></tr></tbody></table></div></div><script>(function(){
+	$('.deprecate-warning').hide();
+	var result = {"status":"OK","searchTerm":"","searchType":"","matchType":"","totalResult":1,"totalHits":2,"page":1,"resultsPerPage":10,"details":[{"year":"2013","bench":"","crawledDate":"2017-02-20T00:20:21.000Z","judgementDate":"","judgementDescription":"","caseFlow":[{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2019-05-21","orderLink":"","elastic_id":"hvycV3sB7nuTtk1VWGUv","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2019-04-18","orderLink":"","elastic_id":"_PycV3sB7nuTtk1VViDJ","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-11-13","orderLink":"","elastic_id":"ls6RV3sB7nuTtk1V-8sP","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-10-10","orderLink":"","elastic_id":"GreNV3sB7nuTtk1VE9mE","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-07-30","orderLink":"","elastic_id":"c7aMV3sB7nuTtk1Vx_Qt","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-07-04","orderLink":"","elastic_id":"JreMV3sB7nuTtk1VxwmX","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-05-21","orderLink":"","elastic_id":"SraMV3sB7nuTtk1VxJbp","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-03-22","orderLink":"","elastic_id":"lraMV3sB7nuTtk1VwhAQ","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-03-07","orderLink":"","elastic_id":"iLaMV3sB7nuTtk1VwhpV","index":"co11_dc_pb_all"},{"Order":"Copy of order","gfc_OrderType":"Order","orderDate":"2018-02-28","orderLink":"","elastic_id":"ZLWMV3sB7nuTtk1VesaO","index":"co11_dc_pb_all"}],"original_caseFlow":"[[],[59686/2013,,06-07-2013,27-08-2013,Appearance],[59686/2013,,27-08-2013,20-09-2013,Appearance],[59686/2013,Additional Civil Judge (Senior Division),20-09-2013,07-12-2013,Written Statement],[59686/2013,Additional Civil Judge (Senior Division),07-12-2013,05-02-2014,Written Statement],[59686/2013,Additional Civil Judge (Senior Division),05-02-2014,22-02-2014,Written Statement],[59686/2013,Additional Civil Judge (Senior Division),22-02-2014,11-04-2014,Replica],[59686/2013,Additional Civil Judge (Senior Division),11-04-2014,03-05-2014,CONSIDERATION],[59686/2013,Additional Civil Judge (Senior Division),03-05-2014,26-05-2014,CONSIDERATION],[59686/2013,Additional Civil Judge (Senior Division),26-05-2014,12-09-2014,Plantiff Evidence],[59686/2013,Additional Civil Judge (Senior Division),12-09-2014,06-12-2014,Plantiff Evidence],[59686/2013,Additional Civil Judge (Senior Division),06-12-2014,24-02-2015,Plantiff Evidence],[59686/2013,Additional Civil Judge (Senior Division),24-02-2015,20-04-2015,Reply],[59686/2013,,20-04-2015,26-04-2015,Reply],[59686/2013,,26-04-2015,21-05-2015,Reply],[59686/2013,Civil Judge (Senior Division),21-05-2015,18-08-2015,Reply],[59686/2013,Civil Judge (Junior Division),18-08-2015,24-09-2015,CONSIDERATION],[59686/2013,Civil Judge (Junior Division),24-09-2015,19-10-2015,Further Order],[59686/2013,Civil Judge (Junior Division),19-10-2015,21-10-2015,Further Order],[59686/2013,Civil Judge (Senior Division),21-10-2015,04-12-2015,Further Order],[59686/2013,Civil Judge (Senior Division),04-12-2015,21-01-2016,Further Order],[59686/2013,Civil Judge (Senior Division),21-01-2016,29-04-2016,Further Order],[59686/2013,Civil Judge (Senior Division),29-04-2016,25-05-2016,Further Order],[59686/2013,Civil Judge (Junior Division),25-05-2016,12-07-2016,CONSIDERATION],[59686/2013,Civil Judge (Junior Division),12-07-2016,20-07-2016,CONSIDERATION],[59686/2013,Civil Judge (Junior Division),20-07-2016,01-08-2016,CONSIDERATION],[59686/2013,Civil Judge (Junior Division),01-08-2016,12-09-2016,CONSIDERATION],[59686/2013,Civil Judge (Senior Division),12-09-2016,27-09-2016,CONSIDERATION],[59686/2013,Civil Judge (Senior Division),27-09-2016,28-09-2016,CONSIDERATION],[59686/2013,Civil Judge (Senior Division),28-09-2016,29-09-2016,CONSIDERATION],[59686/2013,Civil Judge (Senior Division),29-09-2016,26-10-2016,CONSIDERATION],[59686/2013,Civil Judge (Senior Division),26-10-2016,21-11-2016,CONSIDERATION],[59686/2013,Civil Judge (Senior Division),21-11-2016,07-01-2017,Plantiff Evidence],[59686/2013,Civil Judge (Senior Division),07-01-2017,18-02-2017,Plantiff Evidence],[59686/2013,Civil Judge (Senior Division),18-02-2017,18-03-2017,Plantiff Evidence],[59686/2013,Civil Judge (Senior Division),18-03-2017,03-04-2017,Reply],[59686/2013,Civil Judge (Senior Division),03-04-2017,05-05-2017,Plantiff Evidence],[Orders],[Order Number,Order Date,Order Details],[1,20-09-2013,Copy of order],[2,05-02-2014,Copy of order],[3,11-04-2014,Copy of order],[4,03-05-2014,Copy of order],[5,24-02-2015,Copy of order],[6,18-08-2015,Copy of order],[7,24-09-2015,Copy of order],[8,21-10-2015,Copy of order],[9,04-12-2015,Copy of order],[10,21-01-2016,Copy of order],[11,29-04-2016,Copy of order],[12,25-05-2016,Copy of order],[13,12-07-2016,Copy of order],[14,20-07-2016,Copy of order],[15,29-09-2016,Copy of order],[16,27-09-2016,Copy of order],[17,28-09-2016,Copy of order],[18,12-09-2016,Copy of order],[19,26-10-2016,Copy of order],[20,21-11-2016,Copy of order],[21,07-01-2017,Copy of order],[22,18-02-2017,Copy of order],[23,18-03-2017,Copy of order],[24,03-04-2017,Copy of order]]","orderFlow":"","petitioner":"Daljit Bahia aged about 56 years","stateCode":"22","distCode":"3","courtNumber":"8","regNumber":"59686/2013","filingNumber":"8423/2013","filingDate":"29-05-2013","hearingDate":"06th July 2013","courtNumberAndJudge":" 16-Civil Judge (Senior Division)","score":35.84559,"id":"AWK7k-1naQi7HkqiAw4s","respondent":"Ambuja Cements Ltd","caseName":"Cs/59686/2013","caseTypeName":"Cs - CIVIL SUIT","caseTypeNumber":"4","courtName":"Civil Judge Senior Division, Rupnagar","caseStatus":"Disposed","caseNo":"200400596862013","firnumber":"","firlink":"","dist":"","policestation":"","circle":"","state":"Punjab","courtType":"District Court","district":"Rupnagar","caseLink":"https://services.ecourts.gov.in/ecourtindia_v6/","gfc_updated_at":"8th February 2022","cinNumber":"PBRO020004972013","caseRegDate":"29-05-2013","petitionerAddress":"1) Daljit Bahia aged about 56 years    Address  - 130 Wolverhampton road Oldbury west Midlands B 68 OLW England    Advocate- Sh.Jatinder Ratta","respondentAddress":"1) Ambuja Cements Ltd    Address - office at Ambuja Nagar PO Ambuja Nagar Taluka Kodinar Distt Junagarh Gujarat","underAct":"NA","underSection":"","natureOfDisposal":"","elasticId":"AWK7k-1naQi7HkqiAw4s","gfc_respondents":[{"name":"Ambuja Cements Ltd","address":"office at Ambuja Nagar PO Ambuja Nagar Taluka Kodinar Distt Junagarh Gujarat"}],"gfc_petitioners":[{"name":"Daljit Bahia aged about 56 years","address":"130 Wolverhampton road Oldbury west Midlands B 68 OLW England"}],"gfc_uniqueid":"DC_22_3_8_4_200400596862013_PBRO020004972013_2013","caseDetailsLink":"http://crime.getupforchange.com/getDetails?gfcId=9a486604202d80b0608fc93dbfb949cc263327158386422ec5bd6cf561611e8dc22765d60f3b0e5789ffa6997e02c7424056469d7226c304021cb053e89ff718","gfc_fir_number_court":"","gfc_fir_year_court":"","gfc_fir_policestation_court":"","gfc_orders_data":{"petitioners":[{"pincode":"","localityname":"","address":"son of Kundan Singh.","subdistname":"SONBHADRA BANSHI SURYAPUR","statename":"BIHAR","lastname":"","districtname":"ARWAL","name":"1. Daljit Bahia,","id":1,"age":"61"},{"pincode":"","localityname":"","address":"son of Kundan Singh.","subdistname":"SONBHADRA BANSHI SURYAPUR","statename":"BIHAR","lastname":"singh","districtname":"ARWAL","name":"2. Sukhvinder Singh,","id":2,"age":"53"},{"pincode":"144302","localityname":"jaffal jhingar beas pind","address":"Residents of wolverhampton road oldbury west midlands b olw england second address vpo kuker pind tehsil jalandhar punjab","subdistname":"JALANDHAR -II","statename":"PUNJAB","lastname":"singh","districtname":"JALANDHAR","name":"3. Kundan Singh,","id":3,"age":"86"}],"respondents":[{"pincode":"","localityname":"","address":"","subdistname":"","statename":"","lastname":"","districtname":"","name":"1. Ambuja Cements Ltd., having its registered office at Ambuja Nagar, PO Ambuja Nagar TalukaKodinar, District Junagarh, Gujarat362715, through its Managing Director. Also at Nuhon Colony, PO Ghanauli, District Rupnagar, Punjab","id":1,"age":""},{"pincode":"","localityname":"","address":"","subdistname":"","statename":"","lastname":"","districtname":"","name":"2. Hardeep Singh son of Pargat Singh, Village Nuhon, Tehsil & District Rupnagar, Punjab.","id":2,"age":""}]},"caseType":"Civil","position":1,"caseStatusFromStage3":"Disposed","matchingAddressRespondent":"1) <strong>Name: </strong><em>Ambuja</em> <em>Cements</em> <em>Ltd</em><br><strong>Address: </strong>office at <mem><mem><mem>Ambuja</mem></mem></mem> <mem><mem>Nagar</mem></mem> PO <mem><mem><mem>Ambuja</mem></mem></mem> <mem><mem>Nagar</mem></mem> <mem>Taluka</mem> <mem>Kodinar</mem> Distt Junagarh <mem>Gujarat</mem><br>","addressIndexRespondent":0,"matchField":"Respondent"}]};
+	result = result.details[0];
+	var state = getStateName(result.stateCode);
+	if (state) {
+		state = ', ' + state;
+	} else {
+		state = '';
+	}
+	$('.dCourtName').empty().append(result.courtName + state);
+	var caseType = result.caseTypeName;
+	var filingNumber = result.filingNumber;
+	var underAct = result.underAct;
+	var underSection = result.underSection;
+
+	if(filingNumber == null){
+		filingNumber = '';
+	}
+	var filingDate = result.filingDate || result.filedDate || '';
+	if(filingDate == null){
+		filingDate = '';
+	}
+	var registrationNumber = result.regNumber;
+	if(registrationNumber == null){
+		registrationNumber = '';
+	}
+	var registrationDate = result.caseRegDate;
+	if(registrationDate == null){
+		registrationDate = '';
+	}
+	var cnrNumber = result.cinNumber || '';
+	if(!cnrNumber){
+		$('.cnrTitle').empty().append('Case No')
+		cnrNumber  = result.caseNo || '';
+	}
+	if(result.diaryNo){
+		$('.cnrTitle').empty().append('Diary Number')
+		cnrNumber  = result.diaryNo;
+	}
+	var firstHearing = result.hearingDate;
+	if(firstHearing == null || firstHearing == 'undefined'){
+		firstHearing = '';
+	}
+	var courtnumberandjudge = result.courtNumberAndJudge;
+	if(courtnumberandjudge == null|| courtnumberandjudge == undefined || courtnumberandjudge == 'undefined'){
+		courtnumberandjudge = '';
+	}
+	if(underAct == null || underAct == undefined || underAct == 'undefined'){
+		underAct = '-';
+	}
+	if(underSection == null || underSection == undefined || underSection == 'undefined'){
+		underSection = '-';
+	}
+	$('.dCaseType').empty().append(': '+ caseType);
+	$('.dfilingNumber').empty().append(': '+filingNumber);
+	$('.dFilingDate').empty().append(': '+filingDate);
+	$('.dRegistrationNumber').empty().append(': '+registrationNumber);
+	$('.dRegistrationDate').empty().append(': '+registrationDate);
+	$('.dCnrNumber').empty().append(': '+cnrNumber);
+	$('.dfirstHearingDate').empty().append(': '+firstHearing);
+	$('.dcourtNumberAndJudge').empty().append(': '+ courtnumberandjudge);
+	$('.underact').empty().append(underAct);
+	$('.undersection').empty().append(underSection);
+
+	try {
+		var doc = new DOMParser().parseFromString(result.matchingAddressRespondent, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressRespondent = '';
+		}
+		doc = new DOMParser().parseFromString(result.matchingAddressPetitioner, "text/html");
+		if (Array.from(doc.body.childNodes).some(node => node.nodeType === 1)) {
+			result.matchingAddressPetitioner = '';
+		}
+	} catch (err) {
+		console.error(err);
+	}
+
+	var gfc_petitioners = result.gfc_petitioners;
+	var gfc_respondents = result.gfc_respondents;
+
+	$('.dPetitioner').empty();
+	if(gfc_petitioners != undefined){
+		for(var i=0; i<gfc_petitioners.length;i++){
+			var address = gfc_petitioners[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexPetitioner
+			&& result.matchingAddressPetitioner) {
+			  address = result.matchingAddressPetitioner;
+			}
+			$('.dPetitioner').append((i+1) +') '+ gfc_petitioners[i].name +'<br><span style=margin-left:10px>'+address + '</span><br>');	
+		}
+		if(gfc_petitioners.length == 0){
+			$('.dPetitioner').append(result.petitioner);
+		}
+	}else{
+		let petitioner = result.petitioner;
+		if (result.matchingAddressPetitioner) {
+			petitioner += '<br>'+ result.matchingAddressPetitioner;
+		}
+		$('.dPetitioner').append(petitioner);
+	}
+
+	$('.dRespondent').empty();
+	if(gfc_respondents != undefined){
+		for(var i=0; i<gfc_respondents.length;i++){
+			var address = gfc_respondents[i].address;
+			if(address == undefined){
+				address = ''
+			}
+			if (!address && i === result.addressIndexRespondent
+			&& result.matchingAddressRespondent) {
+			  address = result.matchingAddressRespondent;
+			}
+			$('.dRespondent').append((i+1) +') '+ gfc_respondents[i].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}else{
+		let respondent = result.respondent;
+		if (result.matchingAddressRespondent) {
+			respondent += '<br>'+ result.matchingAddressRespondent;
+		}
+		$('.dRespondent').append(respondent);
+	}
+
+	const gfcOrdersData = result.gfc_orders_data || {};
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.petitioners)
+		&& gfcOrdersData.petitioners.length > 0) {
+		$('.dPetitioner').append('<br><b>Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.petitioners.length; idx += 1){
+			let address = gfcOrdersData.petitioners[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dPetitioner').append((idx + 1) +') '+ gfcOrdersData.petitioners[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dPetitioner').append(result.respondent);
+		}
+	}
+
+	if (gfcOrdersData && Array.isArray(gfcOrdersData.respondents)
+		&& gfcOrdersData.respondents.length > 0) {
+		$('.dRespondent').append('<br><b> Per Order / Judgement</b><br>');
+		for(let idx = 0; idx < gfcOrdersData.respondents.length; idx += 1){
+			let address = gfcOrdersData.respondents[idx].address;
+			if(address == undefined){
+				address = ''
+			}
+			$('.dRespondent').append((idx + 1) +') '+ gfcOrdersData.respondents[idx].name +'<br><span style=margin-left:10px>'+ address + '</span><br>');	
+		}
+		if(gfc_respondents.length == 0){
+			$('.dRespondent').append(result.respondent);
+		}
+	}
+	
+	let emptyCaseHearingStr = '';
+	emptyCaseHearingStr += '<tr><td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += '<td <span style=text-align:center>-</span></td>';
+	emptyCaseHearingStr += `<td <span style=text-align:center>${result.caseStatusFromStage3 || '-'}</span></td></tr>`;
+	if(result.original_caseFlow != null){
+	var history = result.original_caseFlow.split('],');
+	var str = ''
+
+	for (let i = 0; i < history.length; i += 1) {
+		let hist = history[i].split(']').join('');
+		hist = hist.split('[').join('');
+		hist = hist.split(',,').join(',');
+		if (hist != '') {
+			const h = hist.split(',');
+			if(h.length < 4) {
+				const index = history.indexOf(history[i]);
+				if (index > -1) {
+				  	history.splice(index, 1);
+					i -= 1;
+				}
+			}
+		} else {
+			const index = history.indexOf(history[i]);
+			if (index > -1) {
+				history.splice(index, 1);
+				i -= 1;
+			}
+		}
+	}
+	for(var i=0; i<history.length;i++){
+		var hist = history[i].split(']').join('')
+		hist = hist.split('[').join('')
+		hist = hist.split(',,').join(',')
+		str = str + '<tr>';
+		if(hist != ''){
+			var h = hist.split(',');
+			if(h.length == 5){
+				for(var j=0; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}else if(h.length ==4){
+				str = str + '<td <span style=text-align:center>'+ h[0] +'</span></td>';
+				str = str + '<td <span style=text-align:center>'+ "" +'</span></td>';
+				for(var j=1; j<h.length;j++){
+					let data = h[j];
+					if (result.caseStatusFromStage3
+						&& i === (history.length - 1)
+						&& j === (h.length - 1)) {
+							data = result.caseStatusFromStage3;
+						}
+					str = str + '<td <span style=text-align:center>'+ data +'</span></td>';
+				}
+			}	
+		}
+		str = str + '</tr>';
+	}
+	if (history.length === 0) {
+		str = emptyCaseHearingStr;
+	}
+	$('.caseHistoryTable').append(str);
+	} else {
+		$('.caseHistoryTable').append(emptyCaseHearingStr);
+	}
+})();</script></body></html>

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": "1651143851471",
+  "requestTime": "28/04/2022 04:34 pm",
+  "responseTime": "29/04/2022 08:17 am",
+  "searchTerm": [
+    {
+      "name": "Rakesh Chawla",
+      "fatherName": "Chaman Lal Chawla",
+      "dob": "",
+      "address": "385, KOHAT ENCLAVE, PITAM PURA, DELHI 110034"
+    }
+  ],
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1651143851471/a52f69a5d721fa6f1e48b38988bf04cb",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 21 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

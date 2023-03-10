@@ -1,0 +1,1379 @@
+{
+  "status": "OK",
+  "requestId": 1681110999256,
+  "requestTime": "27/01/2023 05:32 pm",
+  "responseTime": "30/01/2023 08:51 am",
+  "searchTerm": [
+    {
+      "companyName": "Goel Ganga Constructions And Real Estate Private Limited",
+      "cinnumber": "U45209PN2018PTC178645",
+      "address": "3RD FLOOR, SAN MAHU COMMERCIAL COMPLEX, 5 BUND GARDEN ROAD, OPP. POONA CLUB, PUNE MAHARASHTRA 411001"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681110999256/8d6a2a6d8190e58b246200b5ff2134a5",
+  "riskType": "High Risk",
+  "riskSummary": "Goel Ganga Constructions And Real Estate Private Limited has 24 cases registered, We are providing summary of top 20 cases:   1 ITAT case, 4 civil matters and 1 Criminal case in the High Court, 13 civil suits and 1 civil matters in the Supreme Court. ",
+  "numberOfCases": 20,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "Goel Ganga Construction,, Pune",
+      "respondent": "Income-tax Officer, Ward - 7(3),, Pune",
+      "cinNumber": "ITA 2138/PUN/2017",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 2138/PUN/2017",
+      "caseNo": "ITA 2138/PUN/2017",
+      "caseYear": "2017",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "https://www.itat.gov.in/files/uploads/categoryImage/1647230751-2138%20of%202017.pdf",
+      "caseFlow": [],
+      "gfc_uniqueid": "TC_0_0_ITA_PUNE_NA_INCOMETAXAPPEAL_ITA2138_PUN_2017_2017",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=NTg0Mjc0",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "In the result, the appeal filed by the assessee stands dismissed. \n",
+      "caseRegDate": "12/09/2017",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "Goel Ganga Construction,, Pune\n\n",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=2c9891f654061c083662e095dab41f00b78983b6e463b12d940fddddad3afcad2d01b2eb4f7e46f12879b06a90e76ed3c8c9a19cfc5713f31a277c3f9f1c9995"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "GOEL GANGA CONSTRUCTION",
+      "respondent": "THE INCOME TAX APPELLATE TRIBUNAL PUNE",
+      "cinNumber": "ITXAL/27633/2022",
+      "caseTypeName": "INCOME TAX APPEAL",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: GOEL GANGA CONSTRUCTION ",
+      "respondentAddress": "1) Name: THE INCOME TAX APPELLATE TRIBUNAL PUNE ",
+      "caseNumber": "ITXAL/27633/2022",
+      "caseNo": "ITXAL/27633/2022",
+      "caseYear": "2020",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORGINAL_INCOMETAXAPPEAL_ITXAL_27633_2022_NA_2020_GOELGANGACO_THEINCOMETA",
+      "caseLink": "http://bombayhighcourt.nic.in/case_query.php",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a pending case filed by the subject,the case is filed for Income tax appeal in the High court of Bombay",
+      "severity": " Income tax appeal - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "THE INCOME TAX APPELLATE TRIBUNAL PUNE "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>GOEL</em> <em>GANGA</em> <em>CONSTRUCTION</em> "
+        }
+      ],
+      "matchingAddress": "1) Name: GOEL GANGA CONSTRUCTION ",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcf6955d53c83a33cc6c0c28a105cb8a6358cd75461a5914df68f1da31cc50f805dc59cce16768c8b412ce361f55dfd8588a1390af7c3466e674d2038f265fcadda7210a0c140d35d59ca20280f83bbc51b"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "GOEL GANGA CONSTURCTIONS, THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR.",
+      "respondent": "MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.",
+      "cinNumber": "FA/754/2014",
+      "caseTypeName": "First Appeal",
+      "hearingDate": "31st March 2021",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name:  GOEL GANGA CONSTURCTIONS Address: , THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. ----------------------------2) Name:  SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS) ----------------------------",
+      "respondentAddress": "1) Name:  MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.  ----------------------------2) Name:  COMMISSIONER Address: , MUNICIPAL CORPORATION FOR PIMPRI ----------------------------3) Name:  CHINCHWAD Address: ,----------------------------",
+      "caseNumber": "FA/754/2014",
+      "caseNo": "FA/754/2014",
+      "caseYear": "2014",
+      "underAct": "Mah. Muncipalties Act",
+      "section": "U/s order 43,",
+      "underSection": "U/s order 43,",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "https://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+      "caseFlow": [
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2019-11-21",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc956b82227717b214147d4350915475b5b16edf9ca46e0f554a0157d60650879b",
+          "elastic_id": "oEERCH0BI5CBVdmq1WnI",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2019-05-02",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc02b1efc8f8bebe069a8729af23d2cb77be45b1ff5c2c07f05af1f1afc2a8b56d",
+          "elastic_id": "2DgRCH0BI5CBVdmqBFaI",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-12-03",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+          "elastic_id": "Ff8NCH0BI5CBVdmqNitc",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-11-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+          "elastic_id": "ZP8NCH0BI5CBVdmqNilI",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-09-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+          "elastic_id": "vf8NCH0BI5CBVdmqN1yo",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-08-19",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+          "elastic_id": "NQENCH0BI5CBVdmqW34B",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-07-15",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+          "elastic_id": "bv8NCH0BI5CBVdmqNj3V",
+          "index": "co12_hc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_CIVIL_FIRSTAPPEAL_FA_754_2014_NA_2014_GOELGANGACO_MUNICIPALCO",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for First Appeal in the High Court of Bombay",
+      "severity": "First Appeal - HC ",
+      "judgementSummary": "The pending case order attached",
+      "caseRegDate": "03/07/2014",
+      "regNumber": "327/2019",
+      "filingDate": "09/05/2014",
+      "filingNumber": "6658/2019",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "name": "1.shri. Atul Jaiparakash Goel And Anr.",
+            "pincode": "",
+            "statename": "",
+            "localityname": "",
+            "districtname": "",
+            "lastname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "id": 1
+          }
+        ],
+        "respondents": [
+          {
+            "name": "Municipal Corporation For Pimpri Chinchwad",
+            "pincode": "",
+            "statename": "",
+            "localityname": "",
+            "districtname": "",
+            "lastname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "id": 1
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": " MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.  "
+        },
+        {
+          "name": " COMMISSIONER ",
+          "address": ", MUNICIPAL CORPORATION FOR PIMPRI "
+        },
+        {
+          "name": " CHINCHWAD ",
+          "address": ","
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": " <em>GOEL</em> <em>GANGA</em> CONSTURCTIONS ",
+          "address": ", THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. "
+        },
+        {
+          "name": " SHRI AMIT JAIPRAKASH <em>GOEL</em> (PARTNERS OF <em>GOEL</em> <em>GANGA</em> <em>CONSTRUCTIONS</em>) "
+        }
+      ],
+      "matchingAddress": "1) Name:  GOEL GANGA CONSTURCTIONS Address: , THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. ----------------------------2) Name:  SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS) ----------------------------",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=ad70a8793021c0550046e6a72a9eca59ee3a04db20f9ad69f8b3b371756b694f14f2d8c04e8f7c60da0980dbefc82e6792258062addccc0787669497fc38d6b0b95e8b00d92cbe882a3f1b698dca87ed"
+    },
+    {
+      "slNo": 4,
+      "petitioner": "Pune Municipal Corporation Through  City Engineer (Road Dept.)",
+      "respondent": "Goel Ganga Construction Through Atul Jaiprakash Goel",
+      "cinNumber": "MHPU010009382020",
+      "caseTypeName": "M.C.A.",
+      "hearingDate": "04th March 2023",
+      "courtNumberAndJudge": "111-ADHOC DIST JUDGE-5 AND ASST. SESSIONS JUDGE PUNE",
+      "courtName": "District and Session Court ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Pune Municipal Corporation Through  City Engineer (Road Dept.)",
+      "respondentAddress": "1) Name: Goel Ganga Construction Through Atul Jaiprakash Goel",
+      "caseNumber": "200200000292020",
+      "caseNo": "200200000292020",
+      "caseYear": "2020",
+      "underAct": "CPC",
+      "section": "O-43",
+      "underSection": "O-43",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_1_2_200200000292020_MHPU010009382020_2020",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed against the subject,the case is filed for Civil appeal.\n",
+      "severity": "Civil appeal.\n",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "23-01-2020",
+      "regNumber": "29/2020",
+      "filingDate": "16-01-2020",
+      "filingNumber": "572/2020",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em> Through Atul Jaiprakash <em>Goel</em>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Pune Municipal Corporation Through  City Engineer (Road Dept.)"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Construction Through Atul Jaiprakash Goel",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=a07858b810802e59a0dea8cd64f7ecb586177cc24b9c843038b3b56f00bfc76733a23521e59b0263ad3671f2f578c9581c96577e3a0915a77659cbeb1a2bf840"
+    },
+    {
+      "slNo": 5,
+      "petitioner": "Federation of Swarganga Co-op Society Ltd.D.M. Kulkarni, O. Jokhare etc",
+      "respondent": "Goel Ganga foundation, H. R. Rai",
+      "cinNumber": "MHPU010132762019",
+      "caseTypeName": "M.C.A.",
+      "hearingDate": "31st March 2021",
+      "courtNumberAndJudge": "114-DISTRICT JUDGE -8 AND  ADDL. SESSIONS JUDGE PUNE",
+      "courtName": "District and Session Court ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Federation of Swarganga Co-op Society Ltd.D.M. Kulkarni, O. Jokhare etc(Legal Heir)----------------------------2) Name: Swarganga A1 Sahakari, V.C. Wabale, O. Kejariwal----------------------------3) Name: Swarganga A2 Sahakari Gruharachana Sansth, V. Garje, A. Nichat----------------------------4) Name: Swarganga A3 Sahakari Gruharachana Sanstha K. K. Kukade, U. Pujari.----------------------------5) Name: Swarganga A4 Sahakari Gruharachana Sanstha, S. Patil, N. Meshram----------------------------6) Name: Swarganga A5 Sahakari Gruharachana Sanstha, S. U. Dhavade, R. Shinde----------------------------7) Name: Swarganga A6 Sahakari Gruharachana Sanstha, K. Karnik, R. Patil----------------------------8) Name: Swarganga A7 Sahakari Gruharachana Sanstha, S. Baride, A. Iraj----------------------------9) Name: Swarganga A8 Sahakari Gruharachana Sanstha, V. Soni, A. GuhaAddress: 1----------------------------10) Name: Swarganga B1 Sahakari Gruharachana Sanstha, P. Jawali, C. Borkar----------------------------11) Name: Swarganga B2 Sahakari Gruharachana Sanstha, S. Bhatia, P. Sharma----------------------------12) Name: Swarganga B3 Sahakari Gruharachana Sanstha, D.M. Kulkarni, M L. Mascarehnas----------------------------13) Name: Swarganga Commercial Sahakari Sansth, M. Chaudhari, P. Moorsani----------------------------",
+      "respondentAddress": "1) Name: Goel Ganga foundation, H. R. Rai----------------------------2) Name: Goel Ganga Constructions, A. J. Goel----------------------------",
+      "caseNumber": "200200003272019",
+      "caseNo": "200200003272019",
+      "caseYear": "2019",
+      "underAct": "CODE OF CIVIL PROCEDURE",
+      "section": "U/s order 43,",
+      "underSection": "U/s order 43,",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_1_2_200200003272019_MHPU010132762019_2019",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Contested--ALLOWED / GRANTED AFTER FULL HEARING",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed  for civil appeal ",
+      "severity": "Civil appeal ",
+      "judgementSummary": "Nature of Disposal is : The case is dismissed in favour of petitioner",
+      "caseRegDate": "05-10-2019",
+      "regNumber": "327/2019",
+      "filingDate": "11-09-2019",
+      "filingNumber": "6658/2019",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> foundation, H. R. Rai"
+        },
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>, A. J. <em>Goel</em>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Federation of Swarganga Co-op Society Ltd.D.M. Kulkarni, O. Jokhare etc(Legal Heir)"
+        },
+        {
+          "name": "Swarganga A1 Sahakari, V.C. Wabale, O. Kejariwal"
+        },
+        {
+          "name": "Swarganga A2 Sahakari Gruharachana Sansth, V. Garje, A. Nichat"
+        },
+        {
+          "name": "Swarganga A3 Sahakari Gruharachana Sanstha K. K. Kukade, U. Pujari."
+        },
+        {
+          "name": "Swarganga A4 Sahakari Gruharachana Sanstha, S. Patil, N. Meshram"
+        },
+        {
+          "name": "Swarganga A5 Sahakari Gruharachana Sanstha, S. U. Dhavade, R. Shinde"
+        },
+        {
+          "name": "Swarganga A6 Sahakari Gruharachana Sanstha, K. Karnik, R. Patil"
+        },
+        {
+          "name": "Swarganga A7 Sahakari Gruharachana Sanstha, S. Baride, A. Iraj"
+        },
+        {
+          "name": "Swarganga A8 Sahakari Gruharachana Sanstha, V. Soni, A. Guha",
+          "address": "1"
+        },
+        {
+          "name": "Swarganga B1 Sahakari Gruharachana Sanstha, P. Jawali, C. Borkar"
+        },
+        {
+          "name": "Swarganga B2 Sahakari Gruharachana Sanstha, S. Bhatia, P. Sharma"
+        },
+        {
+          "name": "Swarganga B3 Sahakari Gruharachana Sanstha, D.M. Kulkarni, M L. Mascarehnas"
+        },
+        {
+          "name": "Swarganga Commercial Sahakari Sansth, M. Chaudhari, P. Moorsani"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga foundation, H. R. Rai----------------------------2) Name: Goel Ganga Constructions, A. J. Goel----------------------------",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=a07858b810802e59a0dea8cd64f7ecb54bc56e92041f0333bbc229459a5b1e9966c461ab0d4d4b4d0da7789409a50344889f0d8872950fb02fc9e265e997666d"
+    },
+    {
+      "slNo": 6,
+      "petitioner": "MAHARASHTRA KRISHNA VALLEY DEVELOPMENT CORPORATION THR.ITS EXE. ENGINEER PIMPALGAON JOGE PROJECT",
+      "respondent": "TUKARAM PUNAJI GAWARI AND ORS",
+      "cinNumber": "FA/754/2014",
+      "caseTypeName": "First Appeal",
+      "hearingDate": "31st March 2021",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name:  GOEL GANGA CONSTURCTIONS Address: , THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. ----------------------------2) Name:  SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS) ----------------------------",
+      "respondentAddress": "1) Name:  MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.  ----------------------------2) Name:  COMMISSIONER Address: , MUNICIPAL CORPORATION FOR PIMPRI ----------------------------3) Name:  CHINCHWAD Address: ,----------------------------",
+      "caseNumber": "FA/754/2014",
+      "caseNo": "FA/754/2014",
+      "caseYear": "2014",
+      "underAct": "Mah. Muncipalties Act",
+      "section": "U/s order 43,",
+      "underSection": "U/s order 43,",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "https://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_CIVIL_FIRSTAPPEAL_FA_754_2014_NA_2014_MAHARASHTRA_TUKARAMPUNA",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for First Appeal in the High Court of Bombay",
+      "severity": "First Appeal - HC ",
+      "judgementSummary": "The pending case order attached",
+      "caseRegDate": "03/07/2014",
+      "regNumber": "",
+      "filingDate": "09/05/2014",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": " MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.  "
+        },
+        {
+          "name": " COMMISSIONER ",
+          "address": ", MUNICIPAL CORPORATION FOR PIMPRI "
+        },
+        {
+          "name": " CHINCHWAD ",
+          "address": ","
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": " <em>GOEL</em> <em>GANGA</em> CONSTURCTIONS ",
+          "address": ", THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. "
+        },
+        {
+          "name": " SHRI AMIT JAIPRAKASH <em>GOEL</em> (PARTNERS OF <em>GOEL</em> <em>GANGA</em> <em>CONSTRUCTIONS</em>) "
+        }
+      ],
+      "matchingAddress": "1) Name:  GOEL GANGA CONSTURCTIONS Address: , THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR. ----------------------------2) Name:  SHRI AMIT JAIPRAKASH GOEL (PARTNERS OF GOEL GANGA CONSTRUCTIONS) ----------------------------",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=ad70a8793021c0550046e6a72a9eca59ee3a04db20f9ad69f8b3b371756b694f14f2d8c04e8f7c60da0980dbefc82e670837cfbbb1853bbbfdcc0f9fa906b7df4716ba952a4e04e9bfcfafd7af143320"
+    },
+    {
+      "slNo": 7,
+      "petitioner": "Goel Ganga Construction",
+      "respondent": "Vandana Vijay Wabale etc 1",
+      "cinNumber": "MHPU010036012018",
+      "caseTypeName": "R.C.A.",
+      "hearingDate": "14th February 2023",
+      "courtNumberAndJudge": ": 70-DISTRICT JUDGE -5 AND  ADDL. SESSIONS JUDGE PUNE",
+      "courtName": "District and Session Court ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga ConstructionAddress: Advocate- Bhalerao Sachin Sopanrao",
+      "respondentAddress": "1) Name: Vandana Vijay Wabale etc 1----------------------------2) Name: Vijay Chimanrao WableAddress: Flat No. 101, Society Ltd. Pimpri Pune----------------------------",
+      "caseNumber": "200100001512018",
+      "caseNo": "200100001512018",
+      "caseYear": "2018",
+      "underAct": "CODE OF CIVIL PROCEDURE",
+      "section": "U/s 41Rule1",
+      "underSection": "U/s 41Rule1",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_1_1_200100001512018_MHPU010036012018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for civil appeal ",
+      "severity": "Civil appeal ",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "26-03-2018",
+      "regNumber": "151/2018",
+      "filingDate": "21-03-2018",
+      "filingNumber": "1784/2018",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Vandana Vijay Wabale etc 1"
+        },
+        {
+          "name": "Vijay Chimanrao Wable",
+          "address": "Flat No. 101, Society Ltd. Pimpri <mem>Pune</mem>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em>",
+          "address": "Advocate- Bhalerao Sachin Sopanrao"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga ConstructionAddress: Advocate- Bhalerao Sachin Sopanrao",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=03b9a8c02531876a4cfe1dd5d1b092c4114b042683a39df1c8f7571dbad44bdb2a7858e9a96b420a05daafdc7a22a637025db5458150970be71cc6a735998a60"
+    },
+    {
+      "slNo": 8,
+      "petitioner": "Goel Ganga Construction",
+      "respondent": "Minin Louis Mascarehnas etc 1",
+      "cinNumber": "MHPU010036002018",
+      "caseTypeName": "R.C.A.",
+      "hearingDate": "14th February 2023",
+      "courtNumberAndJudge": ": 70-DISTRICT JUDGE -5 AND  ADDL. SESSIONS JUDGE PUNE",
+      "courtName": "District and Session Court ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga ConstructionAddress: Advocate- Bhalerao Sachin Sopanrao",
+      "respondentAddress": "1) Name: Minin Louis Mascarehnas etc 1----------------------------2) Name: Fatima Minim MescarenhasAddress: B3, Flat 402, Sawaranga Co-op. HSG Soci. Pimpri Pune----------------------------",
+      "caseNumber": "200100001522018",
+      "caseNo": "200100001522018",
+      "caseYear": "2018",
+      "underAct": "CODE OF CIVIL PROCEDURE",
+      "section": "41Rule1",
+      "underSection": "41Rule1",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_1_1_200100001522018_MHPU010036002018_2018",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for civil appeal ",
+      "severity": "Civil appeal ",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "26-03-2018",
+      "regNumber": "152/2018",
+      "filingDate": "21-03-2018",
+      "filingNumber": "1783/2018",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Minin Louis Mascarehnas etc 1"
+        },
+        {
+          "name": "Fatima Minim Mescarenhas",
+          "address": "B3, Flat 402, Sawaranga Co-op. HSG Soci. Pimpri <mem>Pune</mem>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em>",
+          "address": "Advocate- Bhalerao Sachin Sopanrao"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga ConstructionAddress: Advocate- Bhalerao Sachin Sopanrao",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=03b9a8c02531876a4cfe1dd5d1b092c495249660b803f6a6b678af153aca51ec631df18a39ac1e3ebb65987c82eb955e2077181f4a8fd7dbe9e7bdbde7b90646"
+    },
+    {
+      "slNo": 9,
+      "petitioner": "GOEL GANGA CONSTURCTIONS, THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR.",
+      "respondent": "MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR.",
+      "cinNumber": "FA/754/2014",
+      "caseTypeName": "Civil Application in FA",
+      "hearingDate": "31st March 2021",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name:  GOEL GANGA CONSTURCTIONS Address: , THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR.",
+      "respondentAddress": "1) Name:  MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR. ",
+      "caseNumber": "CAF/2247/2014",
+      "caseNo": "CAF/2247/2014",
+      "caseYear": "2014",
+      "underAct": "Mah. Muncipalties Act",
+      "section": "U/s order 43,",
+      "underSection": "U/s order 43,",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "https://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836cc47e16252f3ec551fea224700dc0be95bba186572b7df44592eee7a734c44dce6",
+      "caseFlow": [
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-09-05",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836ccdcb5ae90428f6e4e49e460371d84c7a63a800fe45d80d41159bd58df0223283a",
+          "elastic_id": "vP8NCH0BI5CBVdmqN1yo",
+          "index": "co12_hc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_CIVIL_CIVILAPPLICATIONINFA_CAF_2247_2014_NA_2014_GOELGANGACO_MUNICIPALCO",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for First Appeal in the High Court of Bombay",
+      "severity": "First Appeal - HC ",
+      "judgementSummary": "The pending case order attached",
+      "caseRegDate": "03/07/2014",
+      "regNumber": "",
+      "filingDate": "20/06/2014",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "name": "8FA754.14",
+            "pincode": "",
+            "statename": "",
+            "localityname": "",
+            "districtname": "",
+            "lastname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "id": 1
+          }
+        ],
+        "respondents": [
+          {
+            "name": "Municipal Corporation for Pimpri Chinchwad & Anr.",
+            "pincode": "",
+            "statename": "",
+            "localityname": "",
+            "districtname": "",
+            "lastname": "",
+            "subdistname": "",
+            "age": "",
+            "address": "",
+            "id": 1
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": " MUNICIPAL CORPORATION FOR PIMPRI CHINCHWAD AND ANR. "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": " <em>GOEL</em> <em>GANGA</em> <em>CONSTURCTIONS</em> ",
+          "address": ", THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR."
+        }
+      ],
+      "matchingAddress": "1) Name:  GOEL GANGA CONSTURCTIONS Address: , THROUGH ITS PARTNERS: 1.SHRI. ATUL JAIPARAKASH GOEL AND ANR.",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=ad70a8793021c0550046e6a72a9eca59040d184eac6638e1a9019bc04a717cf44467b599ba434a109f14405d3208a3cbb175519721af0513457b00ed63a29ebb4828cb46ff99f9514f873cfbfa6a162c5931ad9ba3bbef956aabff1e77fe5e5a"
+    },
+    {
+      "slNo": 10,
+      "petitioner": "1 GANGA SKIES COMPLEX COOPERATIVE HOUSING SOCIETY LTD SECRETARY  SECRETARY SURVEY NO 174/A, 176/A, 177/A SANT TUKARAM NAGAR , Pune          , MAHARASHTRA",
+      "respondent": "1 UNION OF INDIA MINISTRY OF ENVIRONMENT, FOREST AND CLIMATE CHANGE SECRETARY  SECRETARY CGO COMPLEX, LODHI ROAD , New Delhi         , DELHI            2 THE PRINCIPAL SECRETARY ENVIRONMENT DEPARTMENT  GOVT. OF MAHARASHTRA,15 TH FLOOR, NEW ADMINISTRATIVE BUILDING,MANTRALAYA , Mumbai          , MAHARASHTRA            3 STATE LEVEL ENVIRONMENT IMPACT ASSESSMENT AUTHORITY THR. ITS MEMBER SECRETARY  15TH FLOOR,NEW ADMINISTRATIVE BUILDING,MANTRALAYA , Mumbai          , MAHARASHTRA            4 MAHARASHTRA POLLUTION CONTROL BOARD THR. ITS MEMBER SECRETARY  KALPTARU POINT , 3RD FLOOR,NEAR SION CIRCLE,OPP. CINE PLANET CINEMA , Mumbai          , MAHARASHTRA            5 \tMAHARASHTRA POLLUTION CONTROL BOARD  THR.ITS REGIONAL OFFICER  SRO JOG CENTRE,3RD FLOOR,MUMBAI - PUNEROAD , Pune          , MAHARASHTRA            6 PIMPRI CHINCHWAD MUNICIPAL COMMISSIONER  PIMPRI CHINCHWAD MUNICIPAL CORPORATION , Pune          , MAHARASHTRA            7 SHRI MAHAVIR THALIYAPPA KAMBE, CITY ENGINEER4  PIMPRI CHINCHWAD MUNICIPAL CORPORATION  PIMPRI , Pune          , MAHARASHTRA            8 DISTRICT COLLECTOR PUNE  PRESIDENT OF DISTRICT ENVIRONMENT COMMITTEE, HAVING ITS OFFICE OPP. SASSON HOSPITAL,STATION ROAD , Pune          , MAHARASHTRA            9 SHRI. SHASHANK PHADAKE  ARCHITECH AND AUTHORISED PERSON OF SOLE SPACE 1 2, SOLE SPACE 1 2,BULDING NO.7,SHRADDHA HERITAGE , Pune          , MAHARASHTRA            10 M/S. GOEL GANGA CONSTRUCTION  THR. ITS PARTNERS MR. ATUL JAYPRAKASH GOEL AND MR.AMIT JAYPRAKASH GOEL  3RD FLOOR,SAN MAHU COMPLEX,OPP. POONA CLUB.5. BUND GARDEN , Pune          , MAHARASHTRA            11 FEDERATION OF SWAR GANGA COOPERATIVE HOUSING SOCIETY LTD. THR. ITS SECRETARY  SURVEY NO. 174/A,176/A,177/A SANT TUKARAM NAGAR , Pune          , MAHARASHTRA            12 MR.YOGESH MANGLASEN BEHAL  VRUNDAVAN BUNGALOW, NEAR VIRANGULA CENTRE,SURVEY NO. 147/A, 176/A,177/A SANT TUKARAM NAGAR , Pune          , MAHARASHTRA            13 MR.TANAJI BALASAHEB GAMBHIRE  FLAT NO. 16,CTS-296,LAXMI APARTMENT,NEAR SHIVAJI MARATHA HIGH SCHOOL,WHITE HOUSE LANE, SHUKRAWAR PETH , Pune          , MAHARASHTRA",
+      "cinNumber": "C.A. No. 001258 -/ 2018",
+      "caseTypeName": "CIVIL APPEAL",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Supreme Court of India",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "C.A. No. 001258 -/ 2018",
+      "caseNo": "C.A. No. 001258 -/ 2018",
+      "caseYear": "2018",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "http://orders.getupforchange.com/getFile/d5ce3cce9a7dec324b6a49b7fbb46f9cdc33359e158deed76c98346a01749bd16ac62a6a6dda45578b72d0f5fc4449bb7cca4d60a2f203b38776f4a53b4b3d9b20135f101d3f5aeac0e439848fb6c04e",
+      "caseFlow": [
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2020-01-06",
+          "orderLink": "http://orders.getupforchange.com/getFile/d5ce3cce9a7dec324b6a49b7fbb46f9cdc33359e158deed76c98346a01749bd16ac62a6a6dda45578b72d0f5fc4449bb7cca4d60a2f203b38776f4a53b4b3d9b20135f101d3f5aeac0e439848fb6c04e",
+          "elastic_id": "t7IBOnsB7nuTtk1V78fX",
+          "index": "co11_sc_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2019-12-18",
+          "orderLink": "http://orders.getupforchange.com/getFile/d5ce3cce9a7dec324b6a49b7fbb46f9cdc33359e158deed76c98346a01749bd10d13a2005f687b7fc90100e255ca7eb1159f7d36c28d1d5f0b99bc3ce0d26e953266d58c648cb42ba4e91f0ebc258d4c",
+          "elastic_id": "SrIBOnsB7nuTtk1V7XmQ",
+          "index": "co11_sc_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2019-05-06",
+          "orderLink": "http://orders.getupforchange.com/getFile/d5ce3cce9a7dec324b6a49b7fbb46f9cdc33359e158deed76c98346a01749bd1769840481bde7eb6f4aec6abd413c8b096637f673f33a5ee12e9a85ec9ccbecd",
+          "elastic_id": "0rEBOnsB7nuTtk1V5JmF",
+          "index": "co11_sc_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-04-27",
+          "orderLink": "http://orders.getupforchange.com/getFile/d5ce3cce9a7dec324b6a49b7fbb46f9cdc33359e158deed76c98346a01749bd11fbed23b7d927c1fcecc0cc307cb7f7e5ebd69123140a83407c9fdadc8bfe9f4",
+          "elastic_id": "Tq8BOnsB7nuTtk1V0Ui-",
+          "index": "co11_sc_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-02-16",
+          "orderLink": "http://orders.getupforchange.com/getFile/d5ce3cce9a7dec324b6a49b7fbb46f9cdc33359e158deed76c98346a01749bd100d7c2e4f0a7618b42393d08c73dbe7b0c4e49b4db511a0effe97278cbb0e8a0",
+          "elastic_id": "Ka4BOnsB7nuTtk1VztsM",
+          "index": "co11_sc_all"
+        }
+      ],
+      "gfc_uniqueid": "SC_0_0_CIVIL_APPEAL_2871_2018_2018",
+      "caseLink": "https://main.sci.gov.in/case-status",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed against the subject, the case is filed for Civil Appeal in Supreme Court of India",
+      "severity": "Civil Appeal -SC",
+      "judgementSummary": "Respondent No.10 prays for and is allowed four weeks’ time to\nfile counter affidavit.\nTwo weeks’ time is granted to file rejoinder affidavit.\nList the matters after six weeks.\n",
+      "caseRegDate": "29-01-2018",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Supreme Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "GOEL GANGA CONSTRUCTION THR. ITS PARTNERS MR. ATUL JAYPRAKASH GOEL AND MR.AMIT JAYPRAKASH GOEL  3RD FLOOR,SAN MAHU COMPLEX,OPP. POONA CLUB.5. BUND GARDEN , Pune , MAHARASHTRA   ",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=550e7ae362ae7c614bc7c0ee8ff01bea23399973118472e0f8ae24ea27b7c75253c8512be63f669755a6e4999b71e3f2"
+    },
+    {
+      "slNo": 11,
+      "petitioner": "Goel Ganga Constructions",
+      "respondent": "Pune Municipal Corporation",
+      "cinNumber": "MHPU020045852014",
+      "caseTypeName": "R.C.S.",
+      "hearingDate": "06th March 2023",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga ConstructionsAddress: San Mahu Commercial Complex, 3rd Floor, 5 Bund Garden Road, Pune- 01.",
+      "respondentAddress": "1) Name: Pune Municipal CorporationAddress: PMC Building, Shivajinagar, Pune- 05.",
+      "caseNumber": "202702014192014",
+      "caseNo": "202702014192014",
+      "caseYear": "2014",
+      "underAct": "Specific Relief Act",
+      "section": "34,38",
+      "underSection": "34,38",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "https://orders.getupforchange.com/getFile/424dfa207b97727274e521181a1667b62bc423a030a503a9d3d42ac60355ede9e636fe581f2cf3c8f11ffe99646bf2b6498c20a7cdbdcbef496c84c810d9ac67",
+      "caseFlow": [
+        {
+          "Order": "Order on T.I.",
+          "gfc_OrderType": "Order",
+          "orderDate": "2019-10-07",
+          "orderLink": "http://orders.getupforchange.com/getFile/424dfa207b97727274e521181a1667b62bc423a030a503a9d3d42ac60355ede9e636fe581f2cf3c8f11ffe99646bf2b6498c20a7cdbdcbef496c84c810d9ac67",
+          "elastic_id": "2tAEo3oBGJuRUP3qUtFY",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_25_2_27_202702014192014_MHPU020045852014_2014",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for Specific relief in a civil matter.\n",
+      "severity": "Specific relief - civil ",
+      "judgementSummary": "Application is allowed.\n2. Defendant   is   temporarily   restrained   from   taking   any   action   in\nresponse   to   letters   dated   15/05/2014   and   06/08/2014   by\nappointing any new agency against the work order till final decision\nof suit. \n3. Suit being 5 year old is hereby expedited. ",
+      "caseRegDate": "02-09-2014",
+      "regNumber": "201419/2014",
+      "filingDate": "30-08-2014",
+      "filingNumber": "204983/2014",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "",
+            "localityname": "",
+            "address": "",
+            "subdistname": "",
+            "statename": "",
+            "lastname": "",
+            "districtname": "",
+            "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>",
+            "id": "1",
+            "age": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "",
+            "localityname": "",
+            "address": "",
+            "subdistname": "",
+            "statename": "",
+            "lastname": "",
+            "districtname": "",
+            "name": "Pune Municipal Corporation .",
+            "id": "1",
+            "age": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "Pune Municipal Corporation",
+          "address": "PMC Building, Shivajinagar, <mem><mem>Pune</mem></mem>- 05."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>",
+          "address": "<mem>San</mem> <mem>Mahu</mem> <mem>Commercial</mem> <mem>Complex</mem>, <mem>3rd</mem> <mem>Floor</mem>, 5 <mem>Bund</mem> <mem>Garden</mem> <mem>Road</mem>, <mem>Pune</mem>- 01."
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga ConstructionsAddress: San Mahu Commercial Complex, 3rd Floor, 5 Bund Garden Road, Pune- 01.",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=d6d7c9028c49946bf7c99e2380350ebf665e52f6c3dd4108540f394843eeba6cf0a0f7820a76a2340b256061cf9b0404a4942edc967b15023aab9fc6ad09c29d"
+    },
+    {
+      "slNo": 12,
+      "petitioner": "Goel Ganga Constructions",
+      "respondent": "Pimpri Chinchwad Municipal Corporation etc 1",
+      "cinNumber": "MHPU020045872013",
+      "caseTypeName": "Spl.C.S.",
+      "hearingDate": "31st December 2013",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga ConstructionsAddress: 3rd Floor, San Mahu Complex, 5 Bund Garden Road, Pune 1.",
+      "respondentAddress": "1) Name: Pimpri Chinchwad Municipal Corporation etc 1Address: Pimpri, Pune 18.",
+      "caseNumber": "202902011262013",
+      "caseNo": "202902011262013",
+      "caseYear": "2013",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_2_29_202902011262013_MHPU020045872013_2013",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Contested--DISPOSED OF OTHERWISE",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as a civil suit and is either filed for recovery of money,claim over any property, rights or titles.\n",
+      "severity": "Civil suit ",
+      "judgementSummary": "Nature of Disposal - The order has been passed by the court and case is dismissed ",
+      "caseRegDate": "27-08-2013",
+      "regNumber": "201126/2013",
+      "filingDate": "26-08-2013",
+      "filingNumber": "205036/2013",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Pimpri Chinchwad Municipal Corporation etc 1",
+          "address": "Pimpri, <mem>Pune</mem> 18."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>",
+          "address": "<mem>3rd</mem> <mem>Floor</mem>, <mem>San</mem> <mem>Mahu</mem> <mem>Complex</mem>, 5 <mem>Bund</mem> <mem>Garden</mem> <mem>Road</mem>, <mem>Pune</mem> 1."
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga ConstructionsAddress: 3rd Floor, San Mahu Complex, 5 Bund Garden Road, Pune 1.",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0e438908cc6a4d73c42ed0c9b0d4ebf27c2b1b30a54a79e0d49041d493769d137a65e369b4534ed7d8ee51006539c54403cc35e0a8e3362abed985642cf1f5d5"
+    },
+    {
+      "slNo": 13,
+      "petitioner": "Goel Ganga Construction",
+      "respondent": "Pune Municipal Corporation",
+      "cinNumber": "MHPU020056272014",
+      "caseTypeName": "Spl.C.S.",
+      "hearingDate": "19th October 2022",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga Construction Represented by Power Of Attorney - Atul Jaiprakash GoelAddress: At San Mahu Commercial Complex, 3rd Floor, 5-Bund Garden Road, Pune 411 001.",
+      "respondentAddress": "1) Name: Pune Municipal CorporationAddress: At PMC Building, Shivajinagar, Pune 411 005.",
+      "caseNumber": "202902014832014",
+      "caseNo": "202902014832014",
+      "caseYear": "2014",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_2_29_202902014832014_MHPU020056272014_2014",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": " Uncontested--BY TRANSFER",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject,the case is filed as a civil suit and is either filed for recovery of money,claim over any property, rights or titles.\n",
+      "severity": "Civil suit",
+      "judgementSummary": "Nature of Disposal is : The case is transferred from jurisdictional limits of one court to another court ",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Pune Municipal Corporation",
+          "address": "At PMC Building, Shivajinagar, <mem><mem>Pune</mem></mem> 411 005."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em> Represented by Power Of Attorney - Atul Jaiprakash <em>Goel</em>",
+          "address": "At <mem>San</mem> <mem>Mahu</mem> <mem>Commercial</mem> <mem>Complex</mem>, <mem>3rd</mem> <mem>Floor</mem>, 5-<mem>Bund</mem> <mem>Garden</mem> <mem>Road</mem>, <mem>Pune</mem> 411 001."
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Construction Represented by Power Of Attorney - Atul Jaiprakash GoelAddress: At San Mahu Commercial Complex, 3rd Floor, 5-Bund Garden Road, Pune 411 001.",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0e438908cc6a4d73c42ed0c9b0d4ebf217d33e114c22ccfe5245b24156be8b508b15dd1a92bb71e4018c98e6e1d24f8e9a29f3eda343187d32bc45a1985ed302"
+    },
+    {
+      "slNo": 14,
+      "petitioner": "Goel Ganga Constructions",
+      "respondent": "Ranchod Nagindas Nagar",
+      "cinNumber": "MHPU020008412013",
+      "caseTypeName": "Reg.Sum.Suit",
+      "hearingDate": "04th February 2023",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga Constructions",
+      "respondentAddress": "1) Name: Ranchod Nagindas Nagar",
+      "caseNumber": "208302000182013",
+      "caseNo": "208302000182013",
+      "caseYear": "2013",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_2_83_208302000182013_MHPU020008412013_2013",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed as a civil suit and is either filed for recovery of money, claim over any property, rights or titles.\n",
+      "severity": "Civil suit ",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "25-02-2013",
+      "regNumber": "200018/2013",
+      "filingDate": "18-02-2013",
+      "filingNumber": "201096/2013",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Ranchod Nagindas Nagar"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Constructions",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=b2b4b337117c0f68bbf2ad915826dc202705a12246d0262cbc814bb3b11c8ca7036936903df16455efb8b65972c5e5967f00733234af5dd2b38a65656ca82c6f"
+    },
+    {
+      "slNo": 15,
+      "petitioner": "Goel Ganga Constructions",
+      "respondent": "Minin Louis Mascarenhas etc 1",
+      "cinNumber": "MHPU020066702014",
+      "caseTypeName": "Spl.C.S.",
+      "hearingDate": "06th December 2017",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga Constructions",
+      "respondentAddress": "1) Name: Minin Louis Mascarenhas etc 1",
+      "caseNumber": "202902017222014",
+      "caseNo": "202902017222014",
+      "caseYear": "2014",
+      "underAct": "Specific Relief Act",
+      "section": "21",
+      "underSection": "21",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_2_29_202902017222014_MHPU020066702014_2014",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Uncontested--DISMISSED EX-PARTE",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Specific relief in a civil matter.\n",
+      "severity": "Specific relief in a civil matter.\n",
+      "judgementSummary": "Nature of Disposal - The order has been passed by the court and case is dismissed ",
+      "caseRegDate": "31-12-2014",
+      "regNumber": "201722/2014",
+      "filingDate": "19-12-2014",
+      "filingNumber": "207241/2014",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Minin Louis Mascarenhas etc 1"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Constructions",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0e438908cc6a4d73c42ed0c9b0d4ebf2aecb5a3beca5a95250d86029de3ce5e83f112b247a922aea0c2b31f9e2386c18fbbd4d7989b7afd9525a6aded045fbb5"
+    },
+    {
+      "slNo": 16,
+      "petitioner": "Goel Ganga Construction",
+      "respondent": "Vandana Vijay Wabale etc 1",
+      "cinNumber": "MHPU020066672014",
+      "caseTypeName": "Spl.C.S.",
+      "hearingDate": "06th December 2017",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court Senior Division ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga Construction",
+      "respondentAddress": "1) Name: Vandana Vijay Wabale etc 1",
+      "caseNumber": "202902017212014",
+      "caseNo": "202902017212014",
+      "caseYear": "2014",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_2_29_202902017212014_MHPU020066672014_2014",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Uncontested--DISMISSED EX-PARTE",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as a civil suit and is either filed for recovery of money, claim over any property, rights or titles.\n",
+      "severity": "Civil suit ",
+      "judgementSummary": "Nature of Disposal - The order has been passed by the court and case is dismissed ",
+      "caseRegDate": "31-12-2014",
+      "regNumber": "201721/2014",
+      "filingDate": "19-12-2014",
+      "filingNumber": "207240/2014",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Vandana Vijay Wabale etc 1"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em>"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Construction",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0e438908cc6a4d73c42ed0c9b0d4ebf28a08b681111f3da04fa6f3f3184f395bc759de92a43371b396baf2169d57367431df77cb7a4ed5912c08dcd595f552ee"
+    },
+    {
+      "slNo": 17,
+      "petitioner": "Goel Ganga Construction",
+      "respondent": "PMC",
+      "cinNumber": "MHPU270001792014",
+      "caseTypeName": "R.C.S.",
+      "hearingDate": "06th May 2019",
+      "courtNumberAndJudge": "",
+      "courtName": "Civil Court,PmcCivil",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga Construction",
+      "respondentAddress": "1) Name: PMC",
+      "caseNumber": "202702014192014",
+      "caseNo": "202702014192014",
+      "caseYear": "2014",
+      "underAct": "Specific Relief Act",
+      "section": "1",
+      "underSection": "1",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order on Exhibit",
+          "gfc_OrderType": "Order",
+          "orderDate": "2019-05-06",
+          "orderLink": "http://orders.getupforchange.com/getFile/424dfa207b97727274e521181a1667b687a48f34a96226223a87854117a7b44749ad3d9a02fc4f8475244f42ccf493179cf9025f90ef8b7b54b564be04efef03",
+          "elastic_id": "rcgDo3oBGJuRUP3qDYP5",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_25_19_27_202702014192014_MHPU270001792014_2014",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Uncontested--TRANSFERRED / MADE OVER",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Specific relief in a civil matter.\n",
+      "severity": "Specific relief in a civil matter.\n",
+      "judgementSummary": "Nature of Disposal is : The case is transferred from jurisdictional limits of one court to another court ",
+      "caseRegDate": "02-09-2014",
+      "regNumber": "201419/2014",
+      "filingDate": "02-09-2014",
+      "filingNumber": "201419/2014",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "PMC"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em>"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Construction",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=10706b1fddc9980a614b7dd323e9cf7631a9045fff4f223a4241cbef5e7f122ad0c7117792c8a00cef2a2a492132debd1b91b22067ef2e10c897e7ce70bac710"
+    },
+    {
+      "slNo": 18,
+      "petitioner": "Goel Ganga Constructions",
+      "respondent": "Pune Muncipal Corporation",
+      "cinNumber": "MHPU010014532017",
+      "caseTypeName": "Spl.C.S.",
+      "hearingDate": "23rd November 2017",
+      "courtNumberAndJudge": "",
+      "courtName": "District and Session Court ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga ConstructionsAddress: Advocate- Bhalerao Sachin Sopanrao",
+      "respondentAddress": "1) Name: Pune Muncipal Corporation",
+      "caseNumber": "202900000042017",
+      "caseNo": "202900000042017",
+      "caseYear": "2017",
+      "underAct": "Specific Relief Act",
+      "section": "15",
+      "underSection": "15",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_1_25_1_29_202900000042017_MHPU010014532017_2017",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Uncontested--TRANSFERRED / MADE OVER",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Specific relief in a civil matter.\n",
+      "severity": " Specific relief in a civil matter.\n",
+      "judgementSummary": "Nature of Disposal is : The case is transferred from jurisdictional limits of one court to another court ",
+      "caseRegDate": "06-02-2017",
+      "regNumber": ": 4/2017",
+      "filingDate": "31-01-2017",
+      "filingNumber": "768/2017",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Pune Muncipal Corporation"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Constructions</em>",
+          "address": "Advocate- Bhalerao Sachin Sopanrao"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga ConstructionsAddress: Advocate- Bhalerao Sachin Sopanrao",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=bcf70c028e001c238b36c8087097b8da61fd70b26eb437346848f69789b66ac8cad887e4ada6d787b70650b094db8cde02611f1a29c0ac7375188939917aa109"
+    },
+    {
+      "slNo": 19,
+      "petitioner": "Goel Ganga Construction Through  Authorised Partner Amit jaiprakash Goel",
+      "respondent": "Pune Muncipal Corporation Through its Additional City Engineer (Road Department)",
+      "cinNumber": "MHPU010057652019",
+      "caseTypeName": "Civil M.A.",
+      "hearingDate": " 17th April 2019",
+      "courtNumberAndJudge": "1-PRINCIPAL DISTRICT  AND SESSIONS JUDGE PUNE",
+      "courtName": "District and Session Court ,Pune",
+      "state": "Maharashtra",
+      "district": "Pune",
+      "petitionerAddress": "1) Name: Goel Ganga Construction Through  Authorised Partner Amit jaiprakash Goel",
+      "respondentAddress": "1) Name: Pune Muncipal Corporation Through its Additional City Engineer (Road Department)",
+      "caseNumber": "200300004492019",
+      "caseNo": "200300004492019",
+      "caseYear": "2019",
+      "underAct": "CODE OF CIVIL PROCEDURE",
+      "section": "U/s 24",
+      "underSection": "U/s 24",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "http://orders.getupforchange.com/getFile/424dfa207b97727274e521181a1667b6479d6fae83d5bffdd459d714aa9f4c7d9d5e36ee22497b21cb4c571a88025971f2db38484b83f9fb6ecfc8b6d049bf78",
+      "caseFlow": [
+        {
+          "Order": "Copy of Judgment",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2019-04-30",
+          "orderLink": "http://orders.getupforchange.com/getFile/424dfa207b97727274e521181a1667b6479d6fae83d5bffdd459d714aa9f4c7d9d5e36ee22497b21cb4c571a88025971f2db38484b83f9fb6ecfc8b6d049bf78",
+          "elastic_id": "UsgDo3oBGJuRUP3qCD4O",
+          "index": "co11_dc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "DC_1_25_1_3_200300004492019_MHPU010057652019_2019",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Contested--ALLOWED / GRANTED AFTER FULL HEARING",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as a civil suit and is either filed for recovery of money,claim over any property, rights or titles.\n",
+      "severity": "Civil suit",
+      "judgementSummary": "Application is allowed. \n  (b) Reg.   Civil   Suit   No.   1419   of   2014\npending in the Court of Pune Municipal\nCorporation Court, Pune, is transferred\nto the Court of 5th  Jt. Civil Judge Sr.\nDivision, Pune (Shri. V. M. Karhadkar)\nwhere   Special   Civil   Suit   No.1483   of\n2014, is pending.\n  \n  (c)  Application is accordingly disposed of. ",
+      "caseRegDate": "17-04-2019",
+      "regNumber": "449/2019",
+      "filingDate": "15-04-2019",
+      "filingNumber": "2943/2019",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "Pune Muncipal Corporation Through its Additional City Engineer (Road Department)"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>Goel</em> <em>Ganga</em> <em>Construction</em> Through  Authorised Partner Amit jaiprakash <em>Goel</em>"
+        }
+      ],
+      "matchingAddress": "1) Name: Goel Ganga Construction Through  Authorised Partner Amit jaiprakash Goel",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case ",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=aee516f7e8f57b929f57e00541bda8eb26d2205824421eef06e42f0399fd044ceda77ba087ceebd767c3fbb1f3cb5be367189624becc0cc54240b472e72efe94"
+    },
+    {
+      "slNo": 20,
+      "petitioner": "GOEL GANGA CONSTRUCTION",
+      "respondent": "THE INCOME TAX APPELLATE TRIBUNAL PUNE",
+      "cinNumber": "IAL/27639/2022",
+      "caseTypeName": "INTERIM APPLICATION",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: GOEL GANGA CONSTRUCTION ",
+      "respondentAddress": "1) Name: THE INCOME TAX APPELLATE TRIBUNAL PUNE ",
+      "caseNumber": "IAL/27639/2022",
+      "caseNo": "IAL/27639/2022",
+      "caseYear": "2020",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORGINAL_INTERIMAPPLICATION_IAL_27639_2022_NA_2020_GOELGANGACO_THEINCOMETA",
+      "caseLink": "http://bombayhighcourt.nic.in/case_query.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a pending case filed by the subject, \tthe case is filed for Interim Application in the High Court of Bombay.\n",
+      "severity": "Interim Application -HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "THE INCOME TAX APPELLATE TRIBUNAL PUNE "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>GOEL</em> <em>GANGA</em> <em>CONSTRUCTION</em> "
+        }
+      ],
+      "matchingAddress": "1) Name: GOEL GANGA CONSTRUCTION ",
+      "matchSummary": "100% match with Name partial match \nNote: The provided input is Goel Ganga Constructions And Real Estate Private Limited and found case on Goel Ganga Construction Hence  considering as possible match case \nDisclaimer: There are 4 more cases found against the subject",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcff5fde5b2dc5687352310f8e4e73d512e2340f61e99dd151c3947863f6689322823048457167ea224183ee0702b7102e200f6a330a164e35a6169e96b71f8f7ec0369f32fad1b46e1c411ded9e9f87d58"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}
