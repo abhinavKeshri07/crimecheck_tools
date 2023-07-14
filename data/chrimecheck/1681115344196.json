@@ -1,0 +1,154 @@
+{
+  "status": "OK",
+  "requestId": 1681115344196,
+  "requestTime": "12/07/2023 11:31 am",
+  "responseTime": "12/07/2023 12:58 pm",
+  "searchTerm": [
+    {
+      "companyName": "ELCOM SYSTEMS PRIVATE LIMITED",
+      "cinnumber": "U72300DL2006PTC154805",
+      "address": "M-41/4&5 SPEED BIRD HOUSE CONNAUGHT CIRCUS NEW DELHI Central Delhi 110001"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681115344196/6f7765c0038d229faa69e727c4e3c559",
+  "riskType": "Average Risk",
+  "riskSummary": "ELCOM SYSTEMS PRIVATE LIMITED has 2 civil cases registered",
+  "numberOfCases": 2,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "amount": "N/A",
+      "petitioner": "ELCOM SYSTEMS PVT LT",
+      "respondent": "BIPIN KUMAR SINGH",
+      "cinNumber": "DLND010038802023",
+      "caseTypeName": "CS",
+      "hearingDate": "09th August 2023",
+      "courtNumberAndJudge": "",
+      "courtName": "District and Sessions Judge,New Delhi, PHC",
+      "state": "Delhi",
+      "district": "New Delhi",
+      "petitionerAddress": "1) Name: ELCOM SYSTEMS PVT LT",
+      "respondentAddress": "1) Name: BIPIN KUMAR SINGH",
+      "caseNumber": "201700001622023",
+      "caseNo": "201700001622023",
+      "caseYear": "2023",
+      "underAct": "Permanent Injuction",
+      "section": "CPC",
+      "underSection": "CPC",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_26_7_1_17_201700001622023_DLND010038802023_2023",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a pending case filed by the subject,the case is filed as a civil suit and is either filed for recovery of money, a claim over any property, rights or titles.\n",
+      "severity": "civil suit ",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "25-04-2023",
+      "regNumber": "162/2023",
+      "filingDate": "24-04-2023",
+      "filingNumber": "2463/2023",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "BIPIN KUMAR SINGH"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>ELCOM</em> <em>SYSTEMS</em> <em>PVT</em> LT"
+        }
+      ],
+      "matchingAddress": "1) Name: ELCOM SYSTEMS PVT LT",
+      "matchSummary": "100% match, with one or more entities’ name (Full/Partial) match based on court/judgement/fir records as per one or more of the input entities’",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=421e82cdf0f38d6201bb575a1a571cd86e087816b2db94e06725bd6a5b1ad7a705074f17366e758d948ee60619921366a63ee0dde0ba5983f7b72ca6030d4c94"
+    },
+    {
+      "slNo": 2,
+      "amount": "N/A",
+      "petitioner": "Harchand Singh",
+      "respondent": "ELCOM System Pvt Ltd",
+      "cinNumber": "PBSA020003112014",
+      "caseTypeName": "CS",
+      "hearingDate": "16th May 2014",
+      "courtNumberAndJudge": "10-Civil Judge (Junior Division)",
+      "courtName": "Civil Judge Senior Division, SAS Nagar, Mohali",
+      "state": "Punjab",
+      "district": "Mohali",
+      "petitionerAddress": "1) Name: Harchand SinghAddress: HOUSE NO 132314 PHASE 11 MOHALI",
+      "respondentAddress": "1) Name: ELCOM System Pvt LtdAddress: B-53 phase 6 Industrial Area  Mohali through its Director V.Siva Kumar----------------------------2) Name: Elcom System Pvt LtdAddress: B-53, Phase 6, Indust Area Mohali through its Chairman S.Laxminarayanan So Narayanan Subramaniam, 33-Pachmi Marg, First Floor, Basant Vihar, New Delhi----------------------------",
+      "caseNumber": "200400001682014",
+      "caseNo": "200400001682014",
+      "caseYear": "2014",
+      "underAct": "Code of Civil Procedure",
+      "section": "34",
+      "underSection": "34",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Copy of order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-05-16",
+          "orderLink": "",
+          "elastic_id": "1Wh-V3sB7nuTtk1Vk5yp",
+          "index": "co11_dc_pb_all"
+        },
+        {
+          "Order": "Copy of order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2014-05-16",
+          "orderLink": "",
+          "elastic_id": "vuZ-Fn8B8z647ArrbFUn",
+          "index": "co12_dc_pb"
+        }
+      ],
+      "gfc_uniqueid": "DC_22_24_2_4_200400001682014_PBSA020003112014_2014",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "the case was resolved without any trial or hearing, as the parties involved have reached an agreement, and the plaintiff has withdrawn the case after receiving full satisfaction.",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject,the case is filed as a civil suit and is either filed for recovery of money, a claim over any property, rights or titles.\n",
+      "severity": "civil suit ",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "11-04-2014",
+      "regNumber": "168/2014",
+      "filingDate": "12-03-2014",
+      "filingNumber": "245/2014",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>ELCOM</em> <em><span class=redText>System</span></em> <em>Pvt</em> <em>Ltd</em>",
+          "address": "B-53 phase 6 Industrial Area  Mohali through its Director V.Siva Kumar"
+        },
+        {
+          "name": "<em>Elcom</em> <em><span class=redText>System</span></em> <em>Pvt</em> <em>Ltd</em>",
+          "address": "B-53, Phase 6, Indust Area Mohali through its Chairman S.Laxminarayanan So Narayanan Subramaniam, 33-Pachmi Marg, First Floor, Basant Vihar, <mem>New</mem> <mem>Delhi</mem>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Harchand Singh",
+          "address": "<mem>HOUSE</mem> NO 132314 PHASE 11 MOHALI"
+        }
+      ],
+      "matchingAddress": "1) Name: ELCOM System Pvt LtdAddress: B-53 phase 6 Industrial Area  Mohali through its Director V.Siva Kumar----------------------------2) Name: Elcom System Pvt LtdAddress: B-53, Phase 6, Indust Area Mohali through its Chairman S.Laxminarayanan So Narayanan Subramaniam, 33-Pachmi Marg, First Floor, Basant Vihar, New Delhi----------------------------",
+      "matchSummary": "100% match, with one or more entities’ name (Full/Partial) match based on court/judgement/fir records as per one or more of the input entities’",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=fd473bb08b88c97fa8590cd608491d4d3e2b723bdbc76291af93d4ab2352cc17c338b8b69328a1243dfcc8a358654c6972f1fe2108e020c694ff4b148120c578"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

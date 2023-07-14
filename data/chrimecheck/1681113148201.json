@@ -1,0 +1,230 @@
+{
+  "status": "OK",
+  "requestId": 1681113148201,
+  "requestTime": "08/05/2023 01:46 pm",
+  "responseTime": "08/05/2023 03:57 pm",
+  "searchTerm": [
+    {
+      "companyName": "VVDN TECHNOLOGIES PRIVATE LIMITED",
+      "cinnumber": "U72200DL2007PTC162619",
+      "address": "Global Innovation Park, Plot No. CP-07, Sector 8, IMT Manesar Gurugram Haryana 122050"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681113148201/f40c99397696f9a3b7f4f39c78b3cf2f",
+  "riskType": "High Risk",
+  "riskSummary": "VVDN TECHNOLOGIES PRIVATE LIMITED  has 4 cases registered, 2 civil case, 1 civil matter in Supreme Court and 1 case in ITAT",
+  "numberOfCases": 4,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "VVDN Technologies (P) Ltd., New Delhi",
+      "respondent": "Circle-25(1), New Delhi",
+      "cinNumber": "ITA 109/DEL/2022",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 109/DEL/2022",
+      "caseNo": "ITA 109/DEL/2022",
+      "caseYear": "2022",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "TC_0_0_ITA_DELHI_NA_INCOMETAXAPPEAL_ITA109_DEL_2022_NA",
+      "caseLink": "https://www.itat.gov.in/judicial/casestatus",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=255955375f51c9208389c72ec5d2a107a93765ed83af800dec86ccce7f420e64ef164424cdf660c1b6450b35ef4f961f2d561fab619d6cd6110902846145829e"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "1 HANDHELD GROUP AB  REGISTERED OFFICE AT  STRANDGATAN 40,SE-53130, LIDKOPING, SWEDEN",
+      "respondent": "1 VVDN TECHNOLOGIES PRIVATE LIMITED  REGISTERED OFFICE AT 12/10 EAST PATEL NAGAR  , DISTRICT: NEW DELHI ,NEW DELHI         , DELHI",
+      "cinNumber": "ARBIT.CASE(C) No. 000040 -  / 2020",
+      "caseTypeName": "ARBITRATION PETITION",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Supreme Court of India",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ARBIT.CASE(C) No. 000040 -  / 2020",
+      "caseNo": "ARBIT.CASE(C) No. 000040 -  / 2020",
+      "caseYear": "2020",
+      "underAct": "",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2020-12-16",
+          "orderLink": "http://orders.getupforchange.com/getFile/4a292baacb263218c981cfec837c2a7e17c83a6b6b17885b2dd318f40c18ae7cd8641540a8cb81618a03f097080b746851ad5273b3d606cbb81a3eab6b3f8f99eb78b8b7a2fc2e85cbd5eb16c1c9f8aa",
+          "elastic_id": "ArMBOnsB7nuTtk1V9Frx",
+          "index": "co11_sc_all"
+        }
+      ],
+      "gfc_uniqueid": "SC_0_0_ARBITRATION_PETITION_24997_2020_2020",
+      "caseLink": "https://www.sci.gov.in/case-status",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed against the subject,the case is filed for Arbitration Petition in the Supreme Court of India.",
+      "severity": " Arbitration Petition- SC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "01-12-2020",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Supreme Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9c1740dceaefc046989835ed2a1e8ba501ec694e8ebd9d4b49d7251970eea33e2193d3b569f782b310b16ab1da7ddf2e"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "STATE OF HARYANA",
+      "respondent": "VVDN TECHNOLOGIES PVT LTD HR26EG3928",
+      "cinNumber": "HRFB030137622021",
+      "caseTypeName": "TRF",
+      "hearingDate": "02nd August 2022",
+      "courtNumberAndJudge": "9-PMJJB-cum-JMIC",
+      "courtName": "Chief Judicial Magistrate, Faridabad",
+      "state": "Haryana",
+      "district": "Faridabad",
+      "petitionerAddress": "1) Name: STATE OF HARYANA",
+      "respondentAddress": "1) Name: VVDN TECHNOLOGIES PVT LTD HR26EG3928",
+      "caseNumber": "204200078802021",
+      "caseNo": "204200078802021",
+      "caseYear": "2021",
+      "underAct": "Motor Vehicles Act",
+      "section": "U/s 28",
+      "underSection": "U/s 28",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_14_5_3_42_204200078802021_HRFB030137622021_2021",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject,the case is filed for Compensation in road traffic accident.",
+      "severity": "Compensation in road traffic accident.",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "08-04-2021",
+      "regNumber": "7880/2021",
+      "filingDate": "24-03-2021",
+      "filingNumber": "13762/2021",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>VVDN</em> <em>TECHNOLOGIES</em> <em>PVT</em> <em>LTD</em> HR26EG3928"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "STATE OF HARYANA"
+        }
+      ],
+      "matchingAddress": "1) Name: VVDN TECHNOLOGIES PVT LTD HR26EG3928",
+      "matchSummary": "100% match with Name full match + Address state match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=4d8d51fd05177f8e8a552edfa887f386d64c68795b05434fdd6e08aeee19accd3853bcaef7d9c6486436d11456b14e044f6515a35bbc3440ef6d106af8de0589"
+    },
+    {
+      "slNo": 4,
+      "petitioner": "VVDN TECHNOLOGIES PVT LTD",
+      "respondent": "M/S AKARSH INFOTECH AND INFRASTRUCTURE",
+      "cinNumber": "KABC170002152021",
+      "caseTypeName": "Com.A.A.",
+      "hearingDate": "",
+      "courtNumberAndJudge": "1390-CCH-84 LXXXIII ADDL CITY CIVIL AND SESSIONS JUDGE",
+      "courtName": "COMMERCIAL COURT,BENGALURU",
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "petitionerAddress": "1) Name: VVDN TECHNOLOGIES PVT LTD",
+      "respondentAddress": "1) Name: M/S AKARSH INFOTECH AND INFRASTRUCTURE",
+      "caseNumber": "200300000272021",
+      "caseNo": "200300000272021",
+      "caseYear": "2021",
+      "underAct": "ARBITRATION AND CONCILIATION ACT",
+      "section": "U/s sec.9",
+      "underSection": "U/s sec.9",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_3_20_22_3_200300000272021_KABC170002152021_2021",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "The case has been withdrawn by the petitioner from the court",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed by the subject,the case is filed for Arbitration appeal case",
+      "severity": "Arbitration appeal case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "27-01-2021",
+      "regNumber": "27/2021",
+      "filingDate": "25-01-2021",
+      "filingNumber": "25/2021",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/S AKARSH INFOTECH AND INFRASTRUCTURE"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>VVDN</em> <em>TECHNOLOGIES</em> <em>PVT</em> <em>LTD</em>"
+        }
+      ],
+      "matchingAddress": "1) Name: VVDN TECHNOLOGIES PVT LTD",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=845150ba5c4669aeadb7ca9eb080299772ff9d549a86ccb510205ad27f9de1f61fa8496d556a1c52cce1065728af819b3a3c6b7956707cd99e233e7195544691"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

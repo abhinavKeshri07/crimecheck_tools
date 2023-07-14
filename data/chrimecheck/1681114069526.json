@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681114069526,
+  "requestTime": "03/06/2023 05:09 pm",
+  "responseTime": "05/06/2023 03:33 am",
+  "searchTerm": [
+    {
+      "companyName": "L3 Enterprises Private Limited",
+      "cinnumber": "U51909TN2020PTC138078",
+      "address": "AURAS CORPORATE CENTRE, V FLOOR, 98-A DR. RADHAKRISHNAN SALAI, MYLAPORE CHENNAI Tamil Nadu 600004"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681114069526/6d8be0e1f25f820bde05cc2c108e5386",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

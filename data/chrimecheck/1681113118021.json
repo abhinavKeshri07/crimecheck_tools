@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681113118021,
+  "requestTime": "05/05/2023 06:27 pm",
+  "responseTime": "05/05/2023 06:34 pm",
+  "searchTerm": [
+    {
+      "companyName": "KAIROS PROPERTY MANAGERS PRIVATE LIMITED",
+      "cinnumber": "U74999MH2017PTC292512",
+      "address": "401&402, 4th floor, Delphi A, Orchard Avenue Powai Mumbai City Maharashtra 400076"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681113118021/b58696a757f4030e7b12870cfbe79365",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

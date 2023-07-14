@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681111633758,
+  "requestTime": "18/03/2023 06:08 am",
+  "responseTime": "18/03/2023 06:09 am",
+  "searchTerm": [
+    {
+      "companyName": "ELEANOR REALTY HOLDINGS INDIA PRIVATE LIMITED",
+      "cinnumber": "U70200DL2017PTC314477",
+      "address": "Flat No-588, Pocket -4, Sector-11, Dwarka New Delhi South West Delhi 110075"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111633758/03428f03294b7f45cade7a545885c1b5",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

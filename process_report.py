@@ -207,6 +207,7 @@ if __name__ == "__main__":
             name = name[0:-1]
             filename = report_id + ".json"
             path = f"{settings.base_data_path}/chrimecheck"
+
             print(report_id, name)
             download(path, filename, report_id)
             process(report_id, name)

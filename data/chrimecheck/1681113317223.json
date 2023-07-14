@@ -1,0 +1,370 @@
+{
+  "status": "OK",
+  "requestId": 1681113317223,
+  "requestTime": "24/05/2023 02:25 pm",
+  "responseTime": "24/05/2023 03:39 pm",
+  "searchTerm": [
+    {
+      "companyName": "ESI SOFTWARE (INDIA) PRIVATE LIMITED",
+      "cinnumber": "U72200KA2004PTC033353",
+      "address": "No. 42, 6th Floor, Unit 601, Block-B, Brigade Software Park-1, 27th Cross, Industrial Layout, Banashankari II Stage, Bangalore South Karnataka 560070 India"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681113317223/5c3af9cfe73574d76bffe251c366479f",
+  "riskType": "High Risk",
+  "riskSummary": " ESI SOFTWARE (INDIA) PRIVATE LIMITED has registered 6 cases. 1 ITAT Case, 1 CESTAT Case, 2 civil matters(civil court), and 2 civil matters in the High court\n",
+  "numberOfCases": 6,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "M/s. ESI Software (India) Private Limited, Bangalore",
+      "respondent": "The Commissioner Of Income Tax (Appeals)- 2, Bangalore",
+      "cinNumber": "ITA 34/BANG/2020",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 34/BANG/2020",
+      "caseNo": "ITA 34/BANG/2020",
+      "caseYear": "2020",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "TC_0_0_ITA_BANGALORE_NA_INCOMETAXAPPEAL_ITA34_BANG_2020_2020",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=NzIyOTgw",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "10/01/2020",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "M/s. ESI Software (India) Private Limited, Bangalore.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=e0996435498ad482559b4bc95f1d837150082d58cc7da33b521db1ba284d0783a025cb9e1645e3993cb2a3ec727de402684b3eb2f04f08fcee8fbb2b67129afd"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "ESI SOFTWARE INDIA PVT LTD",
+      "respondent": "COMMISSIONER OF CENTRAL TAX, BANGALORE NORTH WEST COMMISSIONERATE",
+      "cinNumber": "ST/20201/2018",
+      "caseTypeName": "",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Customs, Excise and Service Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ST/20201/2018",
+      "caseNo": "ST/20201/2018",
+      "caseYear": "2018",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Not Available",
+          "gfc_OrderType": "Order",
+          "orderDate": "2020-09-29",
+          "orderLink": "http://orders.getupforchange.com/getFile/3b24af0ac528dfe1637a63ee06eceed2c747aa6a91f01046ee30f316abf0cf55477a8efa826286ae7cf19b642057bbea8047f705369863640f613298bcdac3e3",
+          "elastic_id": "fiC3PXsB7nuTtk1VB39D",
+          "index": "co11_tc_cestat_all"
+        },
+        {
+          "Order": "Not Available",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2020-09-29",
+          "orderLink": "http://orders.getupforchange.com/getFile/3b24af0ac528dfe1637a63ee06eceed278923c6f062769bd0347f4ee0bcbb6fa1a238df6c74fe722a761e27aedca96aa68e99a45019db71ff810b19b492e99e0",
+          "elastic_id": "oB6rPXsB7nuTtk1VJfaC",
+          "index": "co11_tc_cestat_all"
+        },
+        {
+          "Order": "Not Available",
+          "gfc_OrderType": "Order",
+          "orderDate": "2018-04-20",
+          "orderLink": "http://orders.getupforchange.com/getFile/3b24af0ac528dfe1637a63ee06eceed2c747aa6a91f01046ee30f316abf0cf551a58d32a46aac2da380acd5f853917ea94d442ac9f6aa8aa9c2d18ed6be2c9a6",
+          "elastic_id": "zB-1PXsB7nuTtk1VUvzH",
+          "index": "co11_tc_cestat_all"
+        }
+      ],
+      "gfc_uniqueid": "TC_0_0_CESTAT_BANGLORE_NA_ST_20201_2018_2018",
+      "caseLink": "https://cestatnew.gov.in/",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Service Tax violations under CESTAT\n",
+      "severity": " CESTAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "cestat",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "ESI SOFTWARE INDIA PVT LTD",
+      "matchSummary": "100% match with Name full match.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=320c1319bae08cf6d873eca340be03bf76d24114d5d526f581da674f544ebba23f354cf993fb0c68ad0655b6083f40b6"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "Rani",
+      "respondent": "ESI Software India Pvt Ltd",
+      "cinNumber": "TNTI200001542021",
+      "caseTypeName": "MCOP",
+      "hearingDate": "19th December 2022",
+      "courtNumberAndJudge": "15-Presiding Officer Exclusive Motor Accident Claims Tribunal Tiruppur",
+      "courtName": "Special District Court to deal with MCOP Cases, Tiruppur",
+      "state": "Tamil Nadu",
+      "district": "Tiruppur",
+      "petitionerAddress": "1) Name: Rani----------------------------2) Name: Deepa----------------------------3) Name: A.Vijayakumar----------------------------",
+      "respondentAddress": "1) Name: ESI Software India Pvt Ltd----------------------------2) Name: Reliance General Insurance Company Limited----------------------------",
+      "caseNumber": "231500000342021",
+      "caseNo": "231500000342021",
+      "caseYear": "2021",
+      "underAct": "MOTOR VEHICLES ACT, 1988",
+      "section": "166",
+      "underSection": "166",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_10_33_26_315_231500000342021_TNTI200001542021_2021",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "Contested--Allowed",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for compensation in road traffic accident.\n",
+      "severity": "compensation in road traffic accident.",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "21-01-2021",
+      "regNumber": "34/2021",
+      "filingDate": "20-01-2021",
+      "filingNumber": "154/2021",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>ESI</em> <em>Software</em> <em>India</em> <em>Pvt</em> <em>Ltd</em>"
+        },
+        {
+          "name": "Reliance General Insurance Company <em>Limited</em>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rani"
+        },
+        {
+          "name": "Deepa"
+        },
+        {
+          "name": "A.Vijayakumar"
+        }
+      ],
+      "matchingAddress": "1) Name: ESI Software India Pvt Ltd----------------------------",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=71825671ca368fd6c82dfeb4393764ff54267d29a4b79b752e1c769ae0fb84c604c3e2846b9848a06b1b7a5a1bc42ed42cba6f83900a93fc16b7514b0b1bb784"
+    },
+    {
+      "slNo": 4,
+      "petitioner": "Rani",
+      "respondent": "ESI Software India Limited",
+      "cinNumber": "TNTI200001192021",
+      "caseTypeName": "MCOP",
+      "hearingDate": "12th June 2023",
+      "courtNumberAndJudge": "15-Presiding Officer Exclusive Motor Accident Claims Tribunal Tiruppur",
+      "courtName": "Special District Court to deal with MCOP Cases, Tiruppur",
+      "state": "Tamil Nadu",
+      "district": "Tiruppur",
+      "petitionerAddress": "1) Name: Rani",
+      "respondentAddress": "1) Name: ESI Software India Limited----------------------------2) Name: Reliance General Insurance Company Limited----------------------------",
+      "caseNumber": "231500000202021",
+      "caseNo": "231500000202021",
+      "caseYear": "2021",
+      "underAct": "MOTOR VEHICLES ACT, 1988",
+      "section": "166",
+      "underSection": "166",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_10_33_26_315_231500000202021_TNTI200001192021_2021",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a pending case filed against the subject, the case is filed for compensation in road traffic accident.\n",
+      "severity": "compensation in road traffic accident.",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "20-01-2021",
+      "regNumber": "20/2021",
+      "filingDate": "20-01-2021",
+      "filingNumber": "119/2021",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>ESI</em> <em>Software</em> <em>India</em> <em>Limited</em>"
+        },
+        {
+          "name": "Reliance General Insurance Company <em>Limited</em>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "Rani"
+        }
+      ],
+      "matchingAddress": "1) Name: ESI Software India Limited----------------------------",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=71825671ca368fd6c82dfeb4393764ff702407b4a04ec3fa6983f0e0430ba1c40caa61ef114f804c05f585f679d1e5f98e87f256fff2aa640152760c213c492c"
+    },
+    {
+      "slNo": 5,
+      "petitioner": "ESI SOFTWARE (INDIA) PRIVATE LIMITED",
+      "respondent": "NILL",
+      "cinNumber": "CA/429/2015",
+      "caseTypeName": "CA (Company Application Matte)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Karnataka",
+      "state": "Karnataka",
+      "district": "",
+      "petitionerAddress": "1) Name: ESI SOFTWARE (INDIA) PRIVATE LIMITED #24-25Address: 27TH CROSS INDUSTRIAL LAYOUT BANASHANKARI 2ND STAGE BENGALURU 560 070 Bengaluru City",
+      "respondentAddress": "1) Name: NILLAddress: No DIST Name",
+      "caseNumber": "CA/429/2015",
+      "caseNo": "CA/429/2015",
+      "caseYear": "2015",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_3_0_BANGALORE_CACOMPANYAPPLICATIONMATTE_CA_429_2015_NA_2015",
+      "caseLink": "https://karnatakajudiciary.kar.nic.in/case_status.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Company Application in the High Court of Karnataka",
+      "severity": "Company Application - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "04/06/2015",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "NILL",
+          "address": "No DIST Name"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>ESI</em> <em>SOFTWARE</em> (<em>INDIA</em>) <em>PRIVATE</em> <em>LIMITED</em> #24-25",
+          "address": "<mem>27TH</mem> <mem>CROSS</mem> <mem>INDUSTRIAL</mem> <mem>LAYOUT</mem> <mem>BANASHANKARI</mem> 2ND <mem>STAGE</mem> BENGALURU 560 070 Bengaluru City"
+        }
+      ],
+      "matchingAddress": "1) Name: ESI SOFTWARE (INDIA) PRIVATE LIMITED #24-25Address: 27TH CROSS INDUSTRIAL LAYOUT BANASHANKARI 2ND STAGE BENGALURU 560 070 Bengaluru City",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9b6a2d0f041fef92a01c2b633da3751ca4973e068d0fa8604f9ecca1ab2843fdbc399c51a975dfd9772f9eba1707c47709e851d5a92f30e4ff6f685a1af4e18e"
+    },
+    {
+      "slNo": 6,
+      "petitioner": "ESI SOFTWARE (INDIA)PRIVATE LIMITED",
+      "respondent": "NIL",
+      "cinNumber": "COP/149/2015",
+      "caseTypeName": "COP (Company Petition)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Karnataka",
+      "state": "Karnataka",
+      "district": "",
+      "petitionerAddress": "1) Name: ESI SOFTWARE (INDIA)PRIVATE LIMITEDAddress: NO.24-25, 27TH CROSS, INDUSTRIAL LAYOUT, BANASHANKARI, 2ND STAGE, BENGALURU-560 070 KARNATAKA Bengaluru City",
+      "respondentAddress": "1) Name: NILAddress: No DIST Name",
+      "caseNumber": "COP/149/2015",
+      "caseNo": "COP/149/2015",
+      "caseYear": "2015",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_3_0_BANGALORE_COPCOMPANYPETITION_COP_149_2015_NA_2015",
+      "caseLink": "https://karnatakajudiciary.kar.nic.in/case_status.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Company Petition in the High Court of Karnataka",
+      "severity": "Company Petition - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "23/06/2015",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "NIL",
+          "address": "No DIST Name"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>ESI</em> <em>SOFTWARE</em> (<em>INDIA</em>)<em>PRIVATE</em> <em>LIMITED</em>",
+          "address": "NO.24-25, <mem>27TH</mem> <mem>CROSS</mem>, <mem>INDUSTRIAL</mem> <mem>LAYOUT</mem>, <mem>BANASHANKARI</mem>, 2ND <mem>STAGE</mem>, BENGALURU-560 070 KARNATAKA Bengaluru City"
+        }
+      ],
+      "matchingAddress": "1) Name: ESI SOFTWARE (INDIA)PRIVATE LIMITEDAddress: NO.24-25, 27TH CROSS, INDUSTRIAL LAYOUT, BANASHANKARI, 2ND STAGE, BENGALURU-560 070 KARNATAKA Bengaluru City",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9b6a2d0f041fef92a01c2b633da3751ce5326ff08664b93dd6ad1bddfad6f26852dfd40d832c6995b84428d6b9ae8ac4052ce0dc8f08bee334c8ae1a5ecabb3b"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

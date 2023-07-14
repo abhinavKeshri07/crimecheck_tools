@@ -1,0 +1,591 @@
+{
+  "status": "OK",
+  "requestId": 1681115224565,
+  "requestTime": "06/07/2023 01:39 pm",
+  "responseTime": "06/07/2023 04:08 pm",
+  "searchTerm": [
+    {
+      "companyName": "DYNASTY HOLDINGS PRIVATE LIMITED",
+      "cinnumber": "U85110KA1994PTC016008",
+      "address": "IST FLOOR, EMBASSY POINT, 150, INFANTRY ROAD, BANGALORE KARNATAKA 560001"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681115224565/d12efbac543c5820c06dd29752ac1888",
+  "riskType": "Average Risk",
+  "riskSummary": "DYNASTY HOLDINGS PRIVATE LIMITED has 8 cases registered: 4 civil matters in the High Court of Karnataka and 4 civil suits",
+  "numberOfCases": 8,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "amount": "N/A",
+      "petitioner": "VIJAYA BANK",
+      "respondent": "M/S DYNASTY HOLDINGS (P) LTD",
+      "cinNumber": "RFA/1438/2007",
+      "caseTypeName": "RFA (Regular First Appeal)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Karnataka",
+      "state": "Karnataka",
+      "district": "",
+      "petitionerAddress": "1) Name: VIJAYA BANKRESIDENCY ROAD BRANCHAddress: NO.134/1, RESIDENCY ROADBANGALORE-25 Bengaluru City",
+      "respondentAddress": "1) Name: M/S DYNASTY HOLDINGS (P) LTDOFFICE AT IST FLOORAddress: EMBASSY POINT150, INFANTRY ROAD, BANGALORE-01REP HEREBY ITS MANAGERMR.A.T. GOPINATH Bengaluru City",
+      "caseNumber": "RFA/1438/2007",
+      "caseNo": "RFA/1438/2007",
+      "caseYear": "2007",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "http://orders.getupforchange.com/getFile/6797e7c417fa625cf2087906a54115a415a1a20c52aed53d22d0c6b9be9b8e32dcd424b892375eb7789ea0d9a68f2f34",
+      "caseFlow": [
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2008-11-12",
+          "orderLink": "http://orders.getupforchange.com/getFile/6797e7c417fa625cf2087906a54115a415a1a20c52aed53d22d0c6b9be9b8e32dcd424b892375eb7789ea0d9a68f2f34",
+          "elastic_id": "rciPbXUBtnDbjTrl0O7M",
+          "index": "co11_hc_ka_all"
+        },
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2008-11-12",
+          "orderLink": "http://orders.getupforchange.com/getFile/6797e7c417fa625cf2087906a54115a415a1a20c52aed53d22d0c6b9be9b8e32dcd424b892375eb7789ea0d9a68f2f34",
+          "elastic_id": "GC6zDH8BLcxjg63GCpLr",
+          "index": "co12_hc_ka_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_3_0_BANGALORE_RFAREGULARFIRSTAPPEAL_RFA_1438_2007_NA_2007",
+      "caseLink": "https://karnatakajudiciary.kar.nic.in/case_status.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Regular First Appeal in the High Court of Karnataka",
+      "severity": "Regular First Appeal - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "20/06/2007",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/S <em>DYNASTY</em> <em>HOLDINGS</em> (P) LTDOFFICE AT IST FLOOR",
+          "address": "<mem>EMBASSY</mem> POINT150, <mem>INFANTRY</mem> <mem>ROAD</mem>, <mem>BANGALORE</mem>-01REP HEREBY ITS MANAGERMR.A.T. GOPINATH Bengaluru City"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "VIJAYA BANKRESIDENCY ROAD BRANCH",
+          "address": "NO.134/1, RESIDENCY <mem>ROAD</mem>BANGALORE-25 Bengaluru City"
+        }
+      ],
+      "matchingAddress": "1) Name: M/S DYNASTY HOLDINGS (P) LTDOFFICE AT IST FLOORAddress: EMBASSY POINT150, INFANTRY ROAD, BANGALORE-01REP HEREBY ITS MANAGERMR.A.T. GOPINATH Bengaluru City",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address close match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9b6a2d0f041fef92a01c2b633da3751c72629bf0d2ecea6e52a83235ed73c37ec3b85e497a7caa98b85ad25d587910cd687f17fd35c2a7297537f51ae2581df6"
+    },
+    {
+      "slNo": 2,
+      "amount": "N/A",
+      "petitioner": "VIJAYA BANK",
+      "respondent": "M/S DYNASTY HOLDINGS (P) LTD",
+      "cinNumber": "MFA/6250/2001",
+      "caseTypeName": "MFA (Miscl. First Appeal)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Karnataka",
+      "state": "Karnataka",
+      "district": "",
+      "petitionerAddress": "1) Name: VIJAYA BANKRESIDENCY ROAD BRANCHNO 134/1 S/O K BHUJANGA HEGDE51 YRSAddress: RESIDENCY ROADBANGALORE, REP BY CHIEF MANAGERK J HEGDE, Bengaluru City",
+      "respondentAddress": "1) Name: M/S DYNASTY HOLDINGS (P) LTDOFFICE AT 1 FLOORAddress: EMBASSY POINT150, INFANTRY ROAD, BANGALOREREP BYITS PARTNER JITENDRA VIRWANI Bengaluru City",
+      "caseNumber": "MFA/6250/2001",
+      "caseNo": "MFA/6250/2001",
+      "caseYear": "2001",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "http://orders.getupforchange.com/getFile/a7f3c40e4f7cb7b6109e0f90b110335f76bb1ff38707ae13610d47a352659243a2a49126268e767b6c2aa9096ca5f4ef",
+      "caseFlow": [
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2001-11-26",
+          "orderLink": "http://orders.getupforchange.com/getFile/a7f3c40e4f7cb7b6109e0f90b110335f76bb1ff38707ae13610d47a352659243a2a49126268e767b6c2aa9096ca5f4ef",
+          "elastic_id": "0s2PbXUBtnDbjTrl8PtK",
+          "index": "co11_hc_ka_all"
+        },
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2001-11-26",
+          "orderLink": "http://orders.getupforchange.com/getFile/a7f3c40e4f7cb7b6109e0f90b110335f76bb1ff38707ae13610d47a352659243a2a49126268e767b6c2aa9096ca5f4ef",
+          "elastic_id": "mjOzDH8BLcxjg63G5bP8",
+          "index": "co12_hc_ka_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_3_0_BANGALORE_MFAMISCLFIRSTAPPEAL_MFA_6250_2001_NA_2001",
+      "caseLink": "https://karnatakajudiciary.kar.nic.in/case_status.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Miscellaneous First Appeal in the High Court of Karnataka",
+      "severity": "Miscellaneous First Appeal - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "21/11/2001",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/S <em>DYNASTY</em> <em>HOLDINGS</em> (P) LTDOFFICE AT 1 FLOOR",
+          "address": "<mem>EMBASSY</mem> POINT150, <mem>INFANTRY</mem> <mem>ROAD</mem>, BANGALOREREP BYITS PARTNER JITENDRA VIRWANI Bengaluru City"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "VIJAYA BANKRESIDENCY ROAD BRANCHNO 134/1 S/O K BHUJANGA HEGDE51 YRS",
+          "address": "RESIDENCY <mem>ROAD</mem>BANGALORE, REP BY CHIEF MANAGERK J HEGDE, Bengaluru City"
+        }
+      ],
+      "matchingAddress": "1) Name: M/S DYNASTY HOLDINGS (P) LTDOFFICE AT 1 FLOORAddress: EMBASSY POINT150, INFANTRY ROAD, BANGALOREREP BYITS PARTNER JITENDRA VIRWANI Bengaluru City",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address close match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9b6a2d0f041fef92a01c2b633da3751c01349e14b8626f49e6f507f706baa965cf06ae77250af521dc295d43f87aa34a3fbc989eada092fa5a22cbe2dd7d2872"
+    },
+    {
+      "slNo": 3,
+      "amount": "N/A",
+      "petitioner": "VIJAYA BANK",
+      "respondent": "M/S DYNASTY HOLDINGS P LTD",
+      "cinNumber": "RFA/230/2008",
+      "caseTypeName": "RFA (Regular First Appeal)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Karnataka",
+      "state": "Karnataka",
+      "district": "",
+      "petitionerAddress": "1) Name: VIJAYA BANKRESIDENCY ROAD BRANCH# 134/1 RESIDENCY ROADBANGALORE-25REP BY ITSREP.ASST.GENERAL MANAGERAddress: Bengaluru City",
+      "respondentAddress": "1) Name: M/S DYNASTY HOLDINGS P LTDA COMPANY INCORPORATED UNDER THE COMPANIES ACT1956 & HAVING ITSAddress: REGISTERED OFFICE ATFIRST FLOOR EMBASSY POINT 150INFANTRY ROADBANGALORE-560001 REP BY ITS MANAGERMR A T GOPINATH Bengaluru City",
+      "caseNumber": "RFA/230/2008",
+      "caseNo": "RFA/230/2008",
+      "caseYear": "2008",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "http://orders.getupforchange.com/getFile/b8a8229ba6485b217693db743f6567090ed648aac40535e4b3fefe74fc36c9539e392828beabbb864642e478ccfc2673",
+      "caseFlow": [
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2012-10-17",
+          "orderLink": "http://orders.getupforchange.com/getFile/b8a8229ba6485b217693db743f6567090ed648aac40535e4b3fefe74fc36c9539e392828beabbb864642e478ccfc2673",
+          "elastic_id": "SsWPbXUBtnDbjTrlsSgD",
+          "index": "co11_hc_ka_all"
+        },
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2012-10-17",
+          "orderLink": "http://orders.getupforchange.com/getFile/b8a8229ba6485b217693db743f6567090ed648aac40535e4b3fefe74fc36c9539e392828beabbb864642e478ccfc2673",
+          "elastic_id": "UyqyDH8BLcxjg63GXsS8",
+          "index": "co12_hc_ka_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_3_0_BANGALORE_RFAREGULARFIRSTAPPEAL_RFA_230_2008_NA_2008",
+      "caseLink": "https://karnatakajudiciary.kar.nic.in/case_status.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject,the case is filed for Regular First Appeal in the High Court of Karnataka",
+      "severity": " Regular First Appeal - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "14/02/2008",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "560025",
+            "localityname": "",
+            "address": "Residency Road Branch No.134/1, Residency Road, Bangalore – 560 025",
+            "subdistname": "BANGALORE NORTH",
+            "statename": "KARNATAKA",
+            "lastname": "",
+            "districtname": "BANGALORE",
+            "name": "Vijaya Bank",
+            "id": 1,
+            "age": ""
+          },
+          {
+            "pincode": "",
+            "localityname": "",
+            "address": "",
+            "subdistname": "",
+            "statename": "",
+            "lastname": "",
+            "districtname": "",
+            "name": "Represented by its Asst. General Manager",
+            "id": 2,
+            "age": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "560001",
+            "localityname": "",
+            "address": "at First Floor, Embassy Point, 150, Infantry Road, Bangalore – 560 001",
+            "subdistname": "BANGALORE NORTH",
+            "statename": "KARNATAKA",
+            "lastname": "",
+            "districtname": "BANGALORE",
+            "name": "M/s. Dynasty Holdings (P) Ltd",
+            "id": 1,
+            "age": ""
+          },
+          {
+            "pincode": "",
+            "localityname": "",
+            "address": "",
+            "subdistname": "",
+            "statename": "",
+            "lastname": "",
+            "districtname": "",
+            "name": "Rep. by its Manager Mr.A.T. Gopinath",
+            "id": 2,
+            "age": "36"
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "M/S <em>DYNASTY</em> <em>HOLDINGS</em> P LTDA COMPANY INCORPORATED UNDER THE COMPANIES ACT1956 & HAVING ITS",
+          "address": "REGISTERED OFFICE ATFIRST <mem>FLOOR</mem> <mem>EMBASSY</mem> <mem>POINT</mem> 150INFANTRY ROADBANGALORE-<mem>560001</mem> REP BY ITS MANAGERMR A T GOPINATH Bengaluru City"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "VIJAYA BANKRESIDENCY ROAD BRANCH# 134/1 RESIDENCY ROADBANGALORE-25REP BY ITSREP.ASST.GENERAL MANAGER",
+          "address": "Bengaluru City"
+        }
+      ],
+      "matchingAddress": "1) Name: M/S DYNASTY HOLDINGS P LTDA COMPANY INCORPORATED UNDER THE COMPANIES ACT1956 & HAVING ITSAddress: REGISTERED OFFICE ATFIRST FLOOR EMBASSY POINT 150INFANTRY ROADBANGALORE-560001 REP BY ITS MANAGERMR A T GOPINATH Bengaluru City",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address close match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9b6a2d0f041fef92a01c2b633da3751c72629bf0d2ecea6e52a83235ed73c37e2b5b9c571c5284d101394e5024cc4174ac60860322cec0fe8b7aa969039b6bcc"
+    },
+    {
+      "slNo": 4,
+      "amount": "N/A",
+      "petitioner": "DYNASTY HOLDINGS (P) LTD",
+      "respondent": "K J HEGDE",
+      "cinNumber": "CCC/3109/2001",
+      "caseTypeName": "CCC (Civil Contempt Petition)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Karnataka",
+      "state": "Karnataka",
+      "district": "",
+      "petitionerAddress": "1) Name: DYNASTY HOLDINGS (P) LTDA COMPANY INCORPORATED UNDER THECOMPANIES ACTAddress: 1956 AND HAVING ITSREGISTERED OFFICE AT I FLOOREMBASSY POINT, 150, INFANTRY ROAD,BANGALORE 560 001.REP.BY ITS MANAGER A.T.GOPINATH. Bengaluru City",
+      "respondentAddress": "1) Name: K J HEGDECHIEF MANAGERM OF VIJAYA BANKRESIDENCY ROAD BRANCHAddress: NO.134/1, RESIDENCY RPAD,BANGALORE 560 025. Bengaluru City",
+      "caseNumber": "CCC/3109/2001",
+      "caseNo": "CCC/3109/2001",
+      "caseYear": "2001",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "http://orders.getupforchange.com/getFile/920d3cbd18d0117996bfe2b262f17e365be72ad8b6dafb77551881f3f35bb661594b0f4de77f7c6c4d8182720b9d2b98",
+      "caseFlow": [
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2002-02-26",
+          "orderLink": "http://orders.getupforchange.com/getFile/920d3cbd18d0117996bfe2b262f17e365be72ad8b6dafb77551881f3f35bb661594b0f4de77f7c6c4d8182720b9d2b98",
+          "elastic_id": "Zs2PbXUBtnDbjTrl785V",
+          "index": "co11_hc_ka_all"
+        },
+        {
+          "Order": "Judgement",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2002-02-26",
+          "orderLink": "http://orders.getupforchange.com/getFile/920d3cbd18d0117996bfe2b262f17e365be72ad8b6dafb77551881f3f35bb661594b0f4de77f7c6c4d8182720b9d2b98",
+          "elastic_id": "0DOzDH8BLcxjg63G1JQ3",
+          "index": "co12_hc_ka_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_3_0_BANGALORE_CCCCIVILCONTEMPTPETITION_CCC_3109_2001_NA_2001",
+      "caseLink": "https://karnatakajudiciary.kar.nic.in/case_status.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject,the case is filed for Civil Contempt Petition in the High Court of Karnataka",
+      "severity": " Civil Contempt Petition - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "22/12/2001",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "K J HEGDECHIEF MANAGERM OF VIJAYA BANKRESIDENCY ROAD BRANCH",
+          "address": "NO.134/1, RESIDENCY RPAD,<mem>BANGALORE</mem> 560 025. Bengaluru City"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>DYNASTY</em> <em>HOLDINGS</em> (P) LTDA COMPANY INCORPORATED UNDER THECOMPANIES ACT",
+          "address": "1956 AND HAVING ITSREGISTERED OFFICE AT I FLOOREMBASSY <mem>POINT</mem>, <mem>150</mem>, <mem>INFANTRY</mem> <mem>ROAD</mem>,<mem>BANGALORE</mem> 560 001.REP.BY ITS MANAGER A.T.GOPINATH. Bengaluru City"
+        }
+      ],
+      "matchingAddress": "1) Name: DYNASTY HOLDINGS (P) LTDA COMPANY INCORPORATED UNDER THECOMPANIES ACTAddress: 1956 AND HAVING ITSREGISTERED OFFICE AT I FLOOREMBASSY POINT, 150, INFANTRY ROAD,BANGALORE 560 001.REP.BY ITS MANAGER A.T.GOPINATH. Bengaluru City",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address exact match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=9b6a2d0f041fef92a01c2b633da3751cf00456c8ad8568571bf83934fd3f1ba465bd37749f8da83cea52d54062f3822850068d92c3184084996fc07ef06365e1"
+    },
+    {
+      "slNo": 5,
+      "amount": "N/A",
+      "petitioner": "DYNASTY HOLDINGS P LTD",
+      "respondent": "DHRUVA KUMAR K M",
+      "cinNumber": "KABC010156952000",
+      "caseTypeName": "O.S.",
+      "hearingDate": "",
+      "courtNumberAndJudge": "16-CCH3 XV ADDL. CITY CIVIL AND SESSIONS JUDGE",
+      "courtName": "CCH1 PRL. CITY CIVIL and SESSIONS JUDGE",
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "petitionerAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- VIVEK CHANDY AND ASSOCIATES",
+      "respondentAddress": "1) Name: DHRUVA KUMAR K M",
+      "caseNumber": "205200047282000",
+      "caseNo": "205200047282000",
+      "caseYear": "2000",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_3_20_3_52_205200047282000_KABC010156952000_2000",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "--REJECTED",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as civil suit either for recovery of money, claim over any property, rights or titles.",
+      "severity": "civil suit ",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "11-07-2000",
+      "regNumber": "4728/2000",
+      "filingDate": "11-07-2000",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "DHRUVA KUMAR K M"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>DYNASTY</em> <em>HOLDINGS</em> P <em>LTD</em>",
+          "address": "Advocate- VIVEK CHANDY AND ASSOCIATES"
+        }
+      ],
+      "matchingAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- VIVEK CHANDY AND ASSOCIATES",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address district match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f387dc93ff2936cd68596e6e977879fcd48437adad0ff55f9be70721f2cf6bc1a273f9bc30af6318787f6db352f9c9b4f73d00a976f7614852cb7879f3069ec"
+    },
+    {
+      "slNo": 6,
+      "amount": "N/A",
+      "petitioner": "DYNASTY HOLDINGS P LTD",
+      "respondent": "VIJAYA BANK",
+      "cinNumber": "KABC010156942000",
+      "caseTypeName": "O.S.",
+      "hearingDate": "",
+      "courtNumberAndJudge": "15-CCH28 XIV ADDL. CITY CIVIL AND SESSIONS JUDGE",
+      "courtName": "CCH1 PRL. CITY CIVIL and SESSIONS JUDGE",
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "petitionerAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- VIVEK CHANDY",
+      "respondentAddress": "1) Name: VIJAYA BANK",
+      "caseNumber": "205200047272000",
+      "caseNo": "205200047272000",
+      "caseYear": "2000",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_3_20_3_52_205200047272000_KABC010156942000_2000",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "--DECREED",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as civil suit either for recovery of money, claim over any property, rights or titles.",
+      "severity": " civil suit",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "11-07-2000",
+      "regNumber": "4727/2000",
+      "filingDate": "11-07-2000",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "VIJAYA BANK"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>DYNASTY</em> <em>HOLDINGS</em> P <em>LTD</em>",
+          "address": "Advocate- VIVEK CHANDY"
+        }
+      ],
+      "matchingAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- VIVEK CHANDY",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address close match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f387dc93ff2936cd68596e6e977879f965f3b3a0a5111e7183b72b7df3cc4b2194bcc3c0cff7c0da4a41ea9a24e7e748a8108e4e9429b0468797a4835d21779"
+    },
+    {
+      "slNo": 7,
+      "amount": "N/A",
+      "petitioner": "DYNASTY HOLDINGS P LTD",
+      "respondent": "MEDICAL RESEARCH LAB P LTD",
+      "cinNumber": "KABC010210172001",
+      "caseTypeName": "O.S.",
+      "hearingDate": "",
+      "courtNumberAndJudge": ": 15-CCH28 XIV ADDL. CITY CIVIL AND SESSIONS JUDGE",
+      "courtName": "CCH1 PRL. CITY CIVIL and SESSIONS JUDGE",
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "petitionerAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- PATTANSHETTI",
+      "respondentAddress": "1) Name: MEDICAL RESEARCH LAB P LTD",
+      "caseNumber": "205200083212001",
+      "caseNo": "205200083212001",
+      "caseYear": "2001",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_3_20_3_52_205200083212001_KABC010210172001_2001",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "--REJECTED",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as civil suit either for recovery of money, claim over any property, rights or titles.",
+      "severity": " civil suit",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "02-11-2001",
+      "regNumber": "8321/2001",
+      "filingDate": "02-11-2001",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "MEDICAL RESEARCH LAB P <em>LTD</em>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>DYNASTY</em> <em>HOLDINGS</em> P <em>LTD</em>",
+          "address": "Advocate- PATTANSHETTI"
+        }
+      ],
+      "matchingAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- PATTANSHETTI",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address close match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f387dc93ff2936cd68596e6e977879f9a1d0d69261c7568c6bd1b15a9ab3c5ac71362c93941193ad099e3c062b5063b7dad6b2b3eb9ebd1a4c121544df757f0"
+    },
+    {
+      "slNo": 8,
+      "amount": "N/A",
+      "petitioner": "DYNASTY HOLDINGS P LTD",
+      "respondent": "VIJAYA BANK",
+      "cinNumber": "KABC010111802002",
+      "caseTypeName": "O.S.",
+      "hearingDate": "",
+      "courtNumberAndJudge": ": 810-CCH40 XXXIX ADDL. CITY CIVIL & SESSIONS JUDGE",
+      "courtName": "CCH1 PRL. CITY CIVIL and SESSIONS JUDGE",
+      "state": "Karnataka",
+      "district": "Bengaluru",
+      "petitionerAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- PATTANSHETTI",
+      "respondentAddress": "1) Name: VIJAYA BANK",
+      "caseNumber": "205200001192002",
+      "caseNo": "205200001192002",
+      "caseYear": "2002",
+      "underAct": "N/A",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_3_20_3_52_205200001192002_KABC010111802002_2002",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "--REJECTED",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed as civil suit either for recovery of money, claim over any property, rights or titles.",
+      "severity": "civil suit",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "03-01-2002",
+      "regNumber": "119/2002",
+      "filingDate": "03-01-2002",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "VIJAYA BANK"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>DYNASTY</em> <em>HOLDINGS</em> P <em>LTD</em>",
+          "address": "Advocate- PATTANSHETTI"
+        }
+      ],
+      "matchingAddress": "1) Name: DYNASTY HOLDINGS P LTDAddress: Advocate- PATTANSHETTI",
+      "matchSummary": "100% match, with entity name  (Full/Partial) match + address close match based on court/judgement/fir records as per  the input entity.",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=8f387dc93ff2936cd68596e6e977879fd7cecac6cccbe921adde96c480f677bee3008df891c98d90f0e8907c55301d1700f89d662bac47ccd3e3c074c33073a0"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

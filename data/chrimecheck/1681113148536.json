@@ -1,0 +1,183 @@
+{
+  "status": "OK",
+  "requestId": 1681113148536,
+  "requestTime": "08/05/2023 01:47 pm",
+  "responseTime": "08/05/2023 04:00 pm",
+  "searchTerm": [
+    {
+      "companyName": "LYNKS LOGISTICS LIMITED",
+      "cinnumber": "U60200TN2015PLC103367",
+      "address": "AURAS CORPORATE CENTRE, 5TH FLOOR NO:98-A, DR.RADHAKRISHNAN ROAD, MYLAPORE CHENNAI TAMIL NADU 600004"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681113148536/393f6bc9d9aecac66238dc7fa894ca99",
+  "riskType": "Average Risk",
+  "riskSummary": "LYNKS LOGISTICS LIMITED has 3 civil cases registered ",
+  "numberOfCases": 3,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "RAGHVENDRASINH MAHAVIRSINH",
+      "respondent": "LYNKS LOGISTICS LTD.",
+      "cinNumber": "GJAH190028042022",
+      "caseTypeName": "PWAPP LC",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "LABOUR COURT, AHMEDABAD",
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "petitionerAddress": "1) Name: RAGHVENDRASINH MAHAVIRSINH",
+      "respondentAddress": "1) Name: LYNKS LOGISTICS LTD.",
+      "caseNumber": "232100003282022",
+      "caseNo": "232100003282022",
+      "caseYear": "2022",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_17_13_19_321_232100003282022_GJAH190028042022_2022",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a case filed against the subject the case is filed for Labour law matters.\n",
+      "severity": " Labour law matters.\n",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>LYNKS</em> <em>LOGISTICS</em> <em>LTD</em>."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "RAGHVENDRASINH MAHAVIRSINH"
+        }
+      ],
+      "matchingAddress": "1) Name: LYNKS LOGISTICS LTD.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=66cd7fe974f633bbd2bcc9b89c21f75de085128292bd26080814b033057450b3be2c53261ce2dab4324c4ec23c7c51c12d58d98094f0188a21564136c9d9f6fa"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "RAGHVENDRASINH MAHAVIRSINH",
+      "respondent": "LYNKS LOGISTICS LTD.",
+      "cinNumber": "GJAH190001002023",
+      "caseTypeName": "REFERENCE T LC",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "LABOUR COURT, AHMEDABAD",
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "petitionerAddress": "1) Name: RAGHVENDRASINH MAHAVIRSINH",
+      "respondentAddress": "1) Name: LYNKS LOGISTICS LTD.",
+      "caseNumber": "230600000222023",
+      "caseNo": "230600000222023",
+      "caseYear": "2023",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_17_13_19_306_230600000222023_GJAH190001002023_2023",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a case filed against the subject, the case is filed for Labour law matters.\n",
+      "severity": "Labour law matters.",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>LYNKS</em> <em>LOGISTICS</em> <em>LTD</em>."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "RAGHVENDRASINH MAHAVIRSINH"
+        }
+      ],
+      "matchingAddress": "1) Name: LYNKS LOGISTICS LTD.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=3b4267fa897c4522bfb606971705d8c51a9c7f5652298007d37d6880098368dc7c5b9ad133713652659ffc7c6f55b8b2db5c70792e2a4225527db6f018b35225"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "RAJAVISINH MAHAVIRSINH TOMAR",
+      "respondent": "LYNKS LOGISTICS",
+      "cinNumber": "GJAH190016752022",
+      "caseTypeName": "PWAPP LC",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "LABOUR COURT, AHMEDABAD",
+      "state": "Gujarat",
+      "district": "Ahmedabad",
+      "petitionerAddress": "1) Name: RAJAVISINH MAHAVIRSINH TOMAR",
+      "respondentAddress": "1) Name: LYNKS LOGISTICS",
+      "caseNumber": "232100001992022",
+      "caseNo": "232100001992022",
+      "caseYear": "2022",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Other",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_17_13_19_321_232100001992022_GJAH190016752022_2022",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a  case filed against the subject,  the case is filed for Labour law matters.\n",
+      "severity": "Labour law matters.",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>LYNKS</em> <em>LOGISTICS</em>"
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "RAJAVISINH MAHAVIRSINH TOMAR"
+        }
+      ],
+      "matchingAddress": "1) Name: LYNKS LOGISTICS",
+      "matchSummary": "90% match with Name partial match\nNote: We already found a 100% match case where RAJAVISINH MAHAVIRSINH TOMAR hence considering the case\n\n",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=66cd7fe974f633bbd2bcc9b89c21f75db6300d2db5e7178d59c691331015a7f052acfb82f833749654580547f545626ea747966d104a2c0efa49ce3f556489c9"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

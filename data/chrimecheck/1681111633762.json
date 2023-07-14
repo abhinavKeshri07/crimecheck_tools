@@ -1,0 +1,139 @@
+{
+  "status": "OK",
+  "requestId": 1681111633762,
+  "requestTime": "18/03/2023 06:11 am",
+  "responseTime": "20/03/2023 11:28 am",
+  "searchTerm": [
+    {
+      "companyName": "FUTURA TECHPARK PRIVATE LIMITED",
+      "cinnumber": "U45200TN2009PTC071311",
+      "address": "334, Old Mahabalipuram Road, Sholingallanur Chennai Tamil Nadu 600119"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111633762/8a623a467a0862e04c003e6dc7238e4f",
+  "riskType": "High Risk",
+  "riskSummary": "FUTURA TECHPARK PRIVATE LIMITED has 2 ITAT cases registered.",
+  "numberOfCases": 2,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "Futura Techpark Private Limited, CHENNAI",
+      "respondent": "DCIT, CHENNAI",
+      "cinNumber": "MA204/CHNY/2017",
+      "caseTypeName": "Miscellaneous Application",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "MA 204/CHNY/2017",
+      "caseNo": "MA 204/CHNY/2017",
+      "caseYear": "2017",
+      "underAct": "NA",
+      "section": "NA",
+      "underSection": "NA",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Final Tribunal Order",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2018-04-06",
+          "orderLink": "http://orders.getupforchange.com/getFile/68520324ac3a9cce0c66a8e954d700d2b97d2b80ca7ee01001a9ce8c5afc3b5d8fa7d4a06040dd0c802db60a74628864",
+          "elastic_id": "gtEUO3sB7nuTtk1V07oK",
+          "index": "co11_tc_ita_all"
+        }
+      ],
+      "gfc_uniqueid": "TC_0_0_ITA_CHENNAI_NA_MISCELLANEOUSAPPLICATION_MA204_CHNY_2017_2017",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=NjAyMDc2",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "20/07/2017",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "Futura Techpark Private Limited, CHENNAI",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0ba9cc03b084a214bfbb417cd4d00be296f1807f67ef1c4233c5a3d72f48989a555315e4d267ace8cf832929d8f1d94cdca9fecd1a9aa943446e8dabfc82b2c4d577ff2c98a6f0b6238e309a050f3604"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "Futura Techpark Private Limited, CHENNAI",
+      "respondent": "DCIT, CHENNAI",
+      "cinNumber": "ITA3366/CHNY/2016",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 3366/CHNY/2016",
+      "caseNo": "ITA 3366/CHNY/2016",
+      "caseYear": "2016",
+      "underAct": "NA",
+      "section": "NA",
+      "underSection": "NA",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Final Tribunal Order",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "",
+          "orderLink": "http://orders.getupforchange.com/getFile/68520324ac3a9cce0c66a8e954d700d2b97d2b80ca7ee01001a9ce8c5afc3b5d74117f03786a19d8164ee4caf98cf8fa",
+          "elastic_id": "yNEUO3sB7nuTtk1V0GRQ",
+          "index": "co11_tc_ita_all"
+        },
+        {
+          "Order": "Final Tribunal Order",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2019-02-26",
+          "orderLink": "http://orders.getupforchange.com/getFile/68520324ac3a9cce0c66a8e954d700d26af38dea60fe29dd2d4c6a3a5eb5f312cebc4b2cd88b11a29382fdfa0658ddb8",
+          "elastic_id": "wNUYO3sB7nuTtk1VpuOs",
+          "index": "co11_tc_ita_all"
+        }
+      ],
+      "gfc_uniqueid": "TC_0_0_ITA_CHENNAI_NA_INCOMETAXAPPEAL_ITA3366_CHNY_2016_2016",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=NDEzNTE4",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "15/12/2016",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "Futura Techpark Private Limited, CHENNAI",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=0ba9cc03b084a214bfbb417cd4d00be20632e00de7e5b081abcde2a149ada769d9212fbd5d0ea2f5f866924f8c1c6219209d903f9e7c4c6ffbf21aa74cee480c"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

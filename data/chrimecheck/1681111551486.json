@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681111551486,
+  "requestTime": "10/03/2023 10:50 pm",
+  "responseTime": "10/03/2023 10:51 pm",
+  "searchTerm": [
+    {
+      "companyName": "VELOTIO TECHNOLOGIES PRIVATE LIMITED",
+      "cinnumber": "U72100PN2016PTC164259",
+      "address": "C-504, KARAN CELISTA, SURVEY NO. 8 BALEWADI Pune Maharashtra 411045 India"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111551486/538f3b26bd9763c3da0e41cdcc3675e2",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

@@ -112,25 +112,10 @@ if __name__ == '__main__':
         #     ]
         # },
         {
-            "cin": "U70200HR2017PLC106791",
-            "companyName": "DLF INFO CITY HYDERABAD LIMITED",
-            "companyAddress": "2nd Floor, DLF Gateway Tower, R Block, DLF City Phase-III Gurugram Gurgaon Haryana 122002 India"
+            "cin": "U72300DL2006PTC154805",
+            "companyName": "ELCOM SYSTEMS PRIVATE LIMITED",
+            "companyAddress": "M-41/4&5 SPEED BIRD HOUSE CONNAUGHT CIRCUS NEW DELHI Central Delhi 110001"
         },
-        # {
-        #     "cin": "U70200DL2017PTC314477",
-        #     "companyName": "ELEANOR REALTY HOLDINGS INDIA PRIVATE LIMITED",
-        #     "companyAddress": "Flat No-588,Pocket -4,Sector-11, Dwarka New Delhi South West Delhi Delhi 110075"
-        # },
-        # {
-        #     "cin": "U70200MH2007PTC167590",
-        #     "companyName": "NV PROJECTS PRIVATE LIMITED",
-        #     "companyAddress": "GR/lst/FLR PRIM SAGAR CHSL, SAHANA ENCLAVE, PLOT 333/334, 21st ROAD BANDRA (W), MUMBAI Mumbai City Maharashtra 400050"
-        # },
-        # {
-        #     "cin": "U70200DL2011PTC228109",
-        #     "companyName": "NOIDA TOWERS PRIVATE LIMITED",
-        #     "companyAddress": "Flat No-588,Pocket -4,Sector-l 1, Dwarka New Delhi South West Delhi Delhi 110075"
-        # }
     ]
     for order in orders :
         report(cin=order['cin'],

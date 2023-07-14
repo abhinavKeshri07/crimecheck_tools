@@ -1,0 +1,342 @@
+{
+  "status": "OK",
+  "requestId": 1681111633760,
+  "requestTime": "18/03/2023 06:10 am",
+  "responseTime": "20/03/2023 11:31 am",
+  "searchTerm": [
+    {
+      "companyName": "NV PROJECTS PRIVATE LIMITED",
+      "cinnumber": "U70200MH2007PTC167590",
+      "address": "GR/1st/FLR PRIM SAGAR CHSL, SAHANA ENCLAVE, PLOT 333/334, 21st ROAD BANDRA (W), Mumbai City Maharashtra 400050"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111633760/02b872a061717b53b53d9cdef8d4bcec",
+  "riskType": "High Risk",
+  "riskSummary": "NV PROJECTS PRIVATE LIMITED has 5 cases registered- 2 ITAT case, 2 Civil matters and 1 Writ Petition in High Court of Bombay.",
+  "numberOfCases": 5,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "NV PROJECTS P.LTD, MUMBAI",
+      "respondent": "DCIT 5(2), MUMBAI",
+      "cinNumber": "ITA 3368/MUM/2016",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 3368/MUM/2016",
+      "caseNo": "ITA 3368/MUM/2016",
+      "caseYear": "2016",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Final Tribunal Order",
+          "gfc_OrderType": "Judgement",
+          "orderDate": "2016-07-27",
+          "orderLink": "http://orders.getupforchange.com/getFile/68520324ac3a9cce0c66a8e954d700d2b97d2b80ca7ee01001a9ce8c5afc3b5d11e530040a71224780fb207cac9362e2",
+          "elastic_id": "rNMUO3sB7nuTtk1V5bCW",
+          "index": "co11_tc_ita_all"
+        }
+      ],
+      "gfc_uniqueid": "TC_0_0_ITA_MUMBAI_NA_INCOMETAXAPPEAL_ITA3368_MUM_2016_2016",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=MTM1NzEy",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "13/05/2016",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": "NV PROJECTS P.LTD, MUMBAI\n\n",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=04279e0d4814985327d5b0100d49d5a73953ee7830d81a17c529c3507f2c8418f5b5a3fb8ecf2f3ac3995d5560fdf0340dad99a11035b2840db3120be589f8bd"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "NV PROJECTS PRIVATE LIMITED.",
+      "respondent": "-------------------------",
+      "cinNumber": "CSP/174/2013",
+      "caseTypeName": "COMPANY SCHEME PETITION",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name:  NV PROJECTS PRIVATE LIMITED. ",
+      "respondentAddress": "1) Name: ------------------------- ",
+      "caseNumber": "CSP/174/2013",
+      "caseNo": "CSP/174/2013",
+      "caseYear": "2013",
+      "underAct": "Companies Act & Rules  1956",
+      "section": "U/s 391 TO 394",
+      "underSection": "U/s 391 TO 394",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2013-05-10",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836ccece39fd20a7dbedc73be0dba95ebc257031462f3fa566f8f77725a37b7d0d935",
+          "elastic_id": "lwINCH0BI5CBVdmqaFz9",
+          "index": "co12_hc_mh_all"
+        },
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2013-03-01",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836ccece39fd20a7dbedc73be0dba95ebc257031462f3fa566f8f77725a37b7d0d935",
+          "elastic_id": "eAMNCH0BI5CBVdmqbhIW",
+          "index": "co12_hc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORIGINAL_COMPANYSCHEMEPETITION_CSP_174_2013_NA_2013_NVPROJECTSP_",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Company scheme Petition in the High Court of Bombay\n",
+      "severity": "Company scheme Petition - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [
+          {
+            "pincode": "",
+            "localityname": "",
+            "address": "",
+            "subdistname": "",
+            "statename": "",
+            "lastname": "",
+            "districtname": "",
+            "name": "<em>NV</em> <em>PROJECTS</em> <em>PRIVATE</em> <em>LIMITED</em>.",
+            "id": 1,
+            "age": ""
+          }
+        ],
+        "respondents": [
+          {
+            "pincode": "",
+            "localityname": "",
+            "address": "",
+            "subdistname": "",
+            "statename": "",
+            "lastname": "",
+            "districtname": "",
+            "name": "",
+            "id": 1,
+            "age": ""
+          }
+        ]
+      },
+      "gfc_respondents": [
+        {
+          "name": "------------------------- "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": " <em>NV</em> <em>PROJECTS</em> <em>PRIVATE</em> <em>LIMITED</em>. "
+        }
+      ],
+      "matchingAddress": "1) Name:  NV PROJECTS PRIVATE LIMITED. ",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcf8b2e9aa4c7aa8adc0292a6a0d5e4ff285f62f206fbedb3a46086a7f42d3a7af7c8301ae0b20e1ed068cc4ce774223cca2c6c24873b52229a8a76f67f25a4d9e8"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "NV PROJECTS PRIVATE LIMITED",
+      "respondent": "DEPUTY COMMISSIONER OF INCOME TAX CIRCLE 5(2)(1) AND 3 ORS.",
+      "cinNumber": "WPL/33640/2022",
+      "caseTypeName": "WRIT PETITION(OS)",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name: NV PROJECTS PRIVATE LIMITED ",
+      "respondentAddress": "1) Name: DEPUTY COMMISSIONER OF INCOME TAX CIRCLE 5( ----------------------------2) Name: ( ----------------------------3) Name:  AND 3 ORS. ----------------------------",
+      "caseNumber": "WPL/33640/2022",
+      "caseNo": "WPL/33640/2022",
+      "caseYear": "2020",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Pending",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORGINAL_WRITPETITIONOS_WPL_33640_2022_NA_2020_NVPROJECTSP_DEPUTYCOMMI",
+      "caseLink": "http://bombayhighcourt.nic.in/case_query.php",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a pending case filed by the subject, the case is filed for Writ petition in the High Court of Bombay",
+      "severity": "Writ petition -HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "DEPUTY COMMISSIONER OF INCOME TAX CIRCLE 5( "
+        },
+        {
+          "name": "( "
+        },
+        {
+          "name": " AND 3 ORS. "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "<em>NV</em> <em>PROJECTS</em> <em>PRIVATE</em> <em>LIMITED</em> "
+        }
+      ],
+      "matchingAddress": "1) Name: NV PROJECTS PRIVATE LIMITED ",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcfceee776422c3308dba69703ab8f5d4c8eafebb43c90c563a349e15c549dc1e08962f4eae25196c09db08b05d521038194798322509e966b7281f7f52e164602b018eb96162b3051b475cd2bd2a4ae305"
+    },
+    {
+      "slNo": 4,
+      "petitioner": "N.V. PROJECTS PVT. LTD., MUMBAI",
+      "respondent": "D.C.I.T. CIRCLE 5(2), MUMBAI",
+      "cinNumber": "ITA 4588/MUM/2012",
+      "caseTypeName": "Income Tax Appeal",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "Income Tax Appellate Tribunal",
+      "state": "Center",
+      "district": "",
+      "petitionerAddress": "",
+      "respondentAddress": "",
+      "caseNumber": "ITA 4588/MUM/2012",
+      "caseNo": "ITA 4588/MUM/2012",
+      "caseYear": "2012",
+      "underAct": "NA",
+      "section": "",
+      "underSection": "",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "TC_0_0_ITA_MUMBAI_NA_INCOMETAXAPPEAL_ITA4588_MUM_2012_2012",
+      "caseLink": "https://www.itat.gov.in/judicial/judicialdetail/?id=MTA0NjM4",
+      "caseType": "Criminal",
+      "natureOfDisposal": "",
+      "riskType": "High Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for Income tax violations in ITAT",
+      "severity": "ITAT case",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "06/07/2012",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "ITAT Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": "",
+      "gfc_petitioners": "",
+      "matchingAddress": " NV PROJECTS PRIVATE LIMITED.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=04279e0d4814985327d5b0100d49d5a73953ee7830d81a17c529c3507f2c8418a30718433bac9d1f74163b5836ab798d4b50f7ba5b7329db6ab9e6033595c7b3"
+    },
+    {
+      "slNo": 5,
+      "petitioner": "N.V.PROJECTS PVT.LTD.",
+      "respondent": "---",
+      "cinNumber": "CSD/175/2013",
+      "caseTypeName": "COMPANY SUMMONS FOR DIRECTION",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Bombay",
+      "state": "Maharashtra",
+      "district": "",
+      "petitionerAddress": "1) Name:  N.V.PROJECTS PVT.LTD. ",
+      "respondentAddress": "1) Name: --- ",
+      "caseNumber": "CSD/175/2013",
+      "caseNo": "CSD/175/2013",
+      "caseYear": "2013",
+      "underAct": "Companies Act & Rules1956",
+      "section": "U/s 391 TO 394",
+      "underSection": "U/s 391 TO 394",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [
+        {
+          "Order": "Order",
+          "gfc_OrderType": "Order",
+          "orderDate": "2013-02-15",
+          "orderLink": "http://orders.getupforchange.com/getFile/935e8f4bf15a5e0d706b79f4ee6836ccece39fd20a7dbedc73be0dba95ebc257143b5fedf7a42dea08f0b0b34fa1772d",
+          "elastic_id": "TwMNCH0BI5CBVdmqbQ__",
+          "index": "co12_hc_mh_all"
+        }
+      ],
+      "gfc_uniqueid": "HC_1_0_BOMBAY_ORIGINAL_COMPANYSUMMONSFORDIRECTION_CSD_175_2013_NA_2013_NVPROJECTSP_",
+      "caseLink": "https://bombayhighcourt.nic.in/index.php#",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "No Risk",
+      "riskSummary": "There is a disposed case filed by the subject, the case is filed for company summons for direction in the High Court of Bombay",
+      "severity": "company summons for direction - HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "--- "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": " N.V.<em>PROJECTS</em> <em>PVT</em>.<em>LTD</em>. "
+        }
+      ],
+      "matchingAddress": "1) Name:  N.V.PROJECTS PVT.LTD. ",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=5dcb3a2024dd700e6607c44d39262bcfc273abc342615fac6c2d404d2482f80c4ffff63a4ecfe3c49117e77b05c211d96894b32588f795330f81c283d0833849f467bede2a8f7bf5c6e0a26aa3bbe1ccfcb9e4952520bac225f618b5144b5e64"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

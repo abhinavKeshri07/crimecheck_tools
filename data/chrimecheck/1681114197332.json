@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681114197332,
+  "requestTime": "15/06/2023 11:49 am",
+  "responseTime": "15/06/2023 11:54 am",
+  "searchTerm": [
+    {
+      "companyName": "OPTEAMIX INDIA BUSINESS SOLUTIONS PRIVATE LIMITED",
+      "cinnumber": "U72200KA2012FTC064534",
+      "address": "Brigade Software Park, 2nd Floor, A Block,42, 27th Cross Rd, Banashankari Stage II, Bangalore Karnataka 560070"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681114197332/1a7284bac0269dc3bd1ba55a0039f052",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

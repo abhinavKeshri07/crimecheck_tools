@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "requestId": 1681115078926,
+  "requestTime": "03/07/2023 06:42 pm",
+  "responseTime": "04/07/2023 09:27 am",
+  "searchTerm": [
+    {
+      "companyName": "BOURGAULT ENTERPRISE SOLUTIONS LLP",
+      "cinnumber": "AAJ-2698",
+      "address": "Anurag, New No.15, Old No. 7A Murrays Gate Road, Alwarpet Chennai Tamil Nadu 600018"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681115078926/af8b992f08e5c96aea992119063129fd",
+  "riskType": "No Risk",
+  "riskSummary": "",
+  "numberOfCases": 0,
+  "caseDetails": [],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}

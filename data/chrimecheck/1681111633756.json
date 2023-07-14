@@ -1,0 +1,183 @@
+{
+  "status": "OK",
+  "requestId": 1681111633756,
+  "requestTime": "18/03/2023 06:00 am",
+  "responseTime": "20/03/2023 11:27 am",
+  "searchTerm": [
+    {
+      "companyName": "NOIDA TOWERS PRIVATE LIMITED",
+      "cinnumber": "U70200DL2011PTC228109",
+      "address": "Flat No-588, Pocket -4, Sector-11, Dwarka New Delhi South West Delhi 110075"
+    }
+  ],
+  "crimewatch": false,
+  "downloadLink": "https://crime.getupforchange.com/api/v3/downloadReport/1681111633756/68b90351a1f263d8406e4129c3dce911",
+  "riskType": "Average Risk",
+  "riskSummary": "NOIDA TOWERS PRIVATE LIMITED has 3 cases registered. 2 civil case and 1 civil case in High court of Delhi.",
+  "numberOfCases": 3,
+  "caseDetails": [
+    {
+      "slNo": 1,
+      "petitioner": "ETT Ltd.",
+      "respondent": "Noida Tower Pvt Ltd.",
+      "cinNumber": "UPGB050001472017",
+      "caseTypeName": "Caveat",
+      "hearingDate": "06th May 2017",
+      "courtNumberAndJudge": ": 3-Civil Judge (Sr. Div.)",
+      "courtName": "Civil Judge Senior Division",
+      "state": "Uttar Pradesh",
+      "district": "Gautam Buddha Nagar",
+      "petitionerAddress": "1) Name: ETT Ltd.",
+      "respondentAddress": "1) Name: Noida Tower Pvt Ltd.",
+      "caseNumber": "206100000112017",
+      "caseNo": "206100000112017",
+      "caseYear": "2017",
+      "underAct": "NA",
+      "section": "148A",
+      "underSection": "148A",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_13_20_3_61_206100000112017_UPGB050001472017_2017",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": " Uncontested--DISMISSED",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Caveat in a civil matter",
+      "severity": "Caveat in a civil matter",
+      "judgementSummary": "Nature of Disposal is : The case is dismissed in favour of respondent",
+      "caseRegDate": "06-02-2017",
+      "regNumber": "11/2017",
+      "filingDate": "06-02-2017",
+      "filingNumber": "145/2017",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>Noida</em> <em>Tower</em> <em>Pvt</em> <em>Ltd</em>."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "ETT <em>Ltd</em>."
+        }
+      ],
+      "matchingAddress": "1) Name: Noida Tower Pvt Ltd.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=7ee79bafed83a9390f6b310887a79394a07a5fee852de9ab942178204c10a7ad53e6178a86abb120e155f7dacf312de21e7cbfc75e51c60d0a0407852af845ec"
+    },
+    {
+      "slNo": 2,
+      "petitioner": "M/S ETT LTD",
+      "respondent": "NOIDA TOWERS PVT LTD & ORS",
+      "cinNumber": "O.M.P.  983/2012",
+      "caseTypeName": "O.M.P.",
+      "hearingDate": "",
+      "courtNumberAndJudge": "",
+      "courtName": "High Court of Delhi",
+      "state": "Delhi",
+      "district": "",
+      "petitionerAddress": "1) Name: M/S ETT LTD ",
+      "respondentAddress": "1) Name: NOIDA TOWERS PVT LTD & ORS ",
+      "caseNumber": "O.M.P.  983/2012",
+      "caseNo": "O.M.P.  983/2012",
+      "caseYear": "2012",
+      "underAct": "NA",
+      "section": "NA",
+      "underSection": "NA",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "HC_26_0_NA_NA_OMP983_2012_NA_2012_MSETTLTD_NOIDATOWERS",
+      "caseLink": "https://delhihighcourt.nic.in/case.asp",
+      "caseType": "Civil",
+      "natureOfDisposal": "",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Original Misc petition in the High Court of Delhi",
+      "severity": "Original Misc petition- HC",
+      "judgementSummary": "There are no judgement/order's provided in the court records",
+      "caseRegDate": "",
+      "regNumber": "",
+      "filingDate": "",
+      "filingNumber": "",
+      "courtType": "High Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>NOIDA</em> <em>TOWERS</em> <em>PVT</em> <em>LTD</em> & ORS "
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "M/S ETT <em>LTD</em> "
+        }
+      ],
+      "matchingAddress": "1) Name: NOIDA TOWERS PVT LTD & ORS ",
+      "matchSummary": "100% match with Name full match + Address state match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=e1aeaa0b628d29340ecc0a98385687ab3a2fbceac48762831f0d5a7b2201cd3b1421d292f031eccaba510c9a69952fa8fc40e60069a4303c9182b67cecfc23d9"
+    },
+    {
+      "slNo": 3,
+      "petitioner": "ETT Ltd.",
+      "respondent": "Noida Tower Pvt.Ltd.",
+      "cinNumber": "UPGB050001462017",
+      "caseTypeName": "Caveat",
+      "hearingDate": "06th May 2017",
+      "courtNumberAndJudge": ": 3-Civil Judge (Sr. Div.)",
+      "courtName": "Civil Judge Senior Division",
+      "state": "Uttar Pradesh",
+      "district": "Gautam Buddha Nagar",
+      "petitionerAddress": "1) Name: ETT Ltd.",
+      "respondentAddress": "1) Name: Noida Tower Pvt.Ltd.",
+      "caseNumber": "206100000102017",
+      "caseNo": "206100000102017",
+      "caseYear": "2017",
+      "underAct": "Code of Civil Procedure",
+      "section": "148A",
+      "underSection": "148A",
+      "caseStatus": "Disposed",
+      "firLink": "N/A",
+      "judgementLink": "",
+      "caseFlow": [],
+      "gfc_uniqueid": "DC_13_20_3_61_206100000102017_UPGB050001462017_2017",
+      "caseLink": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "caseType": "Civil",
+      "natureOfDisposal": " Uncontested--DISMISSED",
+      "riskType": "Average Risk",
+      "riskSummary": "There is a disposed case filed against the subject, the case is filed for Caveat in a civil matter",
+      "severity": " Caveat in a civil matter",
+      "judgementSummary": "Nature of Disposal is : The case is dismissed in favour of respondent",
+      "caseRegDate": "06-02-2017",
+      "regNumber": "10/2017",
+      "filingDate": "06-02-2017",
+      "filingNumber": "144/2017",
+      "courtType": "Civil Court",
+      "gfc_orders_data": {
+        "petitioners": [],
+        "respondents": []
+      },
+      "gfc_respondents": [
+        {
+          "name": "<em>Noida</em> <em>Tower</em> <em>Pvt</em>.<em>Ltd</em>."
+        }
+      ],
+      "gfc_petitioners": [
+        {
+          "name": "ETT <em>Ltd</em>."
+        }
+      ],
+      "matchingAddress": "1) Name: Noida Tower Pvt.Ltd.",
+      "matchSummary": "100% match with Name full match",
+      "caseDetailsLink": "https://crime.getupforchange.com/getDetails?gfcId=7ee79bafed83a9390f6b310887a79394251169cb25116a6962cb49e45931a6630503d73194c8f08c8cb59edb1c5dbb38f2a52993bd7175eb114b173377a00b0c"
+    }
+  ],
+  "disclaimer": "This report contains information about the Subject in question which has been compiled using data collected from the public domain. This report was generated from a database which contains 23 Crore crime records from all courts, Tribunals & Defaulters List across India. To that effect, the correctness, accuracy, and completeness of this report are directly related to the data available online in the public domain at the time of report generation. This report is not to be treated as an advice in any form and the users are advised to carry out necessary due diligence/ verification or to seek proper professional advice as may be necessary on the information provided in this report before taking any decision."
+}
